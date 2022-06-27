@@ -8,6 +8,7 @@ const newTokens = require("./dune/stolen_tokens_new.json");
 const linkers = require("./dune/linkers.json");
 
 const allTokens = [].concat(newTokens).map((_) => {
+  _.source_hackers =  _.receivers.map((_) => linkers[_.replace('0x', '\\x')]);
   const collection = allCollections.find((c) => {
     const contract =
       c.detail.assetContracts.edges &&
@@ -42,6 +43,8 @@ const allTokens = [].concat(newTokens).map((_) => {
 });
 
 
+
+
 function getCollection(offsetDay = 0) {
   const timeLimit = moment().subtract("day", offsetDay);
   const sumBySlug = allTokens.reduce((all, item) => {
@@ -51,10 +54,6 @@ function getCollection(offsetDay = 0) {
         : moment(item.first_time).toDate().getTime() >
           timeLimit.toDate().getTime(); 
 
-      console.log(
-        offsetDay,
-        isIn,
-      );
     if (isIn) {
        all[item.collection.slug] = all[item.collection.slug] || [];
        all[item.collection.slug].push(item);
@@ -203,10 +202,18 @@ async function fetchAssets(ids = [], asset_contract_address) {
       });
 
       const notExistsTokens = localAssets.filter((_) => _.raw === null);
+
+      if (notExistsTokens.length) {
+        await new Promise((resolve) => {
+          setTimeout(resolve, 2000);
+        });
+      }
       // console.log(
       //   "localAssets",
       //   localAssets.map((_) => _.raw)
       // );
+
+      const existsTokens = localAssets.filter((_) => _.raw).map((_) => _.raw);
       const fetchedAssets = notExistsTokens.length
         ? await fetchAssets(
             notExistsTokens.map((_) => _.tokenId),
@@ -214,11 +221,12 @@ async function fetchAssets(ids = [], asset_contract_address) {
           )
         : [];
     
-      const assets = [].concat(localAssets.filter(_ =>  _.raw).map(_ => _.raw), fetchedAssets);
-        // console.log({
-        //   fetchedAssets: fetchedAssets[0],
-        //   notExistsTokens: localAssets[0],
-        // });
+
+      const assets = [].concat(existsTokens, fetchedAssets);
+        console.log({
+          fetchedAssets: fetchedAssets.length,
+          existsTokens: existsTokens.length,
+        });
       assets.forEach((raw) => {
         tokensMeta.push({
           tokenId: raw.token_id,
@@ -240,9 +248,7 @@ async function fetchAssets(ids = [], asset_contract_address) {
         );
       });
 
-      await new Promise((resolve) => {
-        setTimeout(resolve, 2000);
-      });
+      
     }
 
     dataCollection.tokens = dataCollection.tokens.map((_) => {
@@ -253,11 +259,24 @@ async function fetchAssets(ids = [], asset_contract_address) {
       };
     });
 
-    console.log(dataCollection);
+    // console.log(dataCollection);
     fs.writeFileSync(
       `${allBaseDir}/collections/${collectionAddr}.json`,
       JSON.stringify(dataCollection)
     );
+
+    const recentTokens = allTokens.sort(
+      (a, b) =>
+        moment(b.first_time).toDate().getTime() -
+        moment(a.first_time).toDate().getTime()
+    );
+
+    fs.writeFileSync(
+      `${allBaseDir}/recentTokens.json`,
+      JSON.stringify(recentTokens.slice(0, 100))
+    );
+
+    console.log("recentTokens", recentTokens.slice(0, 100));
     //  await fetchAssets(
     //    [47258, 29984],
     //    "0x9378368ba6b85c1fba5b131b530f5f5bedf21a18"
@@ -266,3 +285,5 @@ async function fetchAssets(ids = [], asset_contract_address) {
   // 388436d3204b491abdff3751f3185c61
 })();
 // console.log(topCollections.slice(0, 100));
+
+

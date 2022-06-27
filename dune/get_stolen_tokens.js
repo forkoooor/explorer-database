@@ -51,7 +51,7 @@ async function getDetectHistory(host) {
   };
 }
 
-async function genReport(lastId = 39) {
+async function genReport(lastId = 1) {
   const newDomains = await getNewDomains(lastId);
   const allAttackers = [];
   for (let index = 0; index < newDomains.length; index++) {

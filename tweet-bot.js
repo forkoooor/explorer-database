@@ -94,7 +94,7 @@ async function getNeedPostTweet() {
   for (let index = 0; index < Infinity; index++) {
     const token = await getNeedPostTweet();
     if (token) {
-      // console.log("send", token);
+      console.log("send", token);
       // break;
       try {
         await sendPost(token.tweet, token.image);

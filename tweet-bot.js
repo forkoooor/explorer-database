@@ -15,7 +15,7 @@ function getTokens() {
       return _;
     })
     .filter((_) => {
-      return _.floorPrice > 0.4;
+      return _.floorPrice > 0.3;
     })
     .sort((a, b) => b.floorPrice - a.floorPrice)
     .map((_) => {

@@ -371,7 +371,7 @@ WHERE
   and contract_address in (
     COLLETION_LIST
 )
-and "evt_block_time" > now() - interval '30 days'
+-- and "evt_block_time" > now() - interval '30 days'
 group by
   1,
   2`;

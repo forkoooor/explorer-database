@@ -160,7 +160,7 @@ async function fetchAssets(ids = [], asset_contract_address) {
         });
       console.log("url", url);
       const res = await fetch(url, {
-        agent: require("proxy-agent")("http://127.0.0.1:9999"),
+        // agent: require("proxy-agent")("http://127.0.0.1:9999"),
         headers: {
           "x-api-key": OPENSEA_API,
         },

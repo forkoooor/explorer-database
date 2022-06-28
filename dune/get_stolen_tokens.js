@@ -84,6 +84,7 @@ async function genLinkerAddressList(lastId = 1) {
   listData.saveTime = Date.now();
   console.log("listData", listData);
   fs.writeFileSync(cacheFile, JSON.stringify(listData, null, 2));
+  return listData;
 }
 
 async function genReport(lastId = 1) {

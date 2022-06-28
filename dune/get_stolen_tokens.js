@@ -1,6 +1,7 @@
 const { getStolenTokensByLinkAddress, getLinkedAddress } = require("./index");
 const fs = require("fs");
 const {API} = require('../config.json')
+const fetch = require('node-fetch');
 
 async function getRemoteDatabase() {
   const req = await fetch(

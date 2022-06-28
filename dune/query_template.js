@@ -360,6 +360,7 @@ select
   contract_address,
   "tokenId"::TEXT,
   string_agg("to"::TEXT, ';;') as receivers,
+  string_agg("from"::TEXT, ';;') as senders,
   min(evt_block_time) as first_time
 from
   erc721."ERC721_evt_Transfer"

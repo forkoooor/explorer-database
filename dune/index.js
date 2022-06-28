@@ -39,6 +39,7 @@ async function lookupRecentTokens(receivers, query_id = 966061) {
     .map((_) => {
       _.contract_address = _.contract_address.replace("\\", "0");
       _.receivers = _.receivers.split(";;").map((c) => c.replace("\\", "0"));
+      _.senders = _.senders.split(";;").map((c) => c.replace("\\", "0"));
       return _;
     });
   // console.log(rows);
@@ -132,8 +133,7 @@ async function getLinkReceivers(attackerAddress, query_id = 968129) {
   return rows;
 }
 
-
-async function getStolenTokensByLinkAddress(linkAddressList) {
+async function getLinkedAddress(linkAddressList) {
   const allReceivers = new Set();
   const linkers = {};
   for (let index = 0; index < linkAddressList.length; index++) {
@@ -148,12 +148,20 @@ async function getStolenTokensByLinkAddress(linkAddressList) {
     });
     console.log(linkAddress, receivers);
   }
-  fs.writeFileSync("./linkers.json", JSON.stringify(linkers));
+  // fs.writeFileSync(__dirname + "/linkers.json", JSON.stringify(linkers));
   allExistReceivers.forEach((_) => {
     allReceivers.add(_);
   });
   console.log(Array.from(allReceivers).length, allExistReceivers.length);
-  const summary = await lookupRecentTokens(Array.from(allReceivers));
+  return {
+    linkers,
+    allReceivers: Array.from(allReceivers),
+  };
+}
+
+
+async function getStolenTokensByLinkAddress(allReceivers) {
+  const summary = await lookupRecentTokens(allReceivers);
   return summary;
 }
 
@@ -215,6 +223,7 @@ async function test() {
 
 
 module.exports = {
+  getLinkedAddress,
   getStolenTokensByLinkAddress,
   getReportByLinkAddress,
 };

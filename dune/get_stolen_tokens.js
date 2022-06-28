@@ -1,5 +1,6 @@
-const { getStolenTokensByLinkAddress } = require("./index");
+const { getStolenTokensByLinkAddress, getLinkedAddress } = require("./index");
 const fs = require("fs");
+const {API} = require('../config.json')
 
 async function getRemoteDatabase() {
   const req = await fetch(
@@ -10,9 +11,7 @@ async function getRemoteDatabase() {
 }
 
 async function getNewDomains(lastId = 39) {
-  const req = await fetch(
-    "https://api.scamsniffer.io/domainSummary?sort=-id&needReport=1"
-  );
+  const req = await fetch(`${API}/domainSummary?sort=-id&needReport=1`);
   const allDomains = await req.json();
   const newId = allDomains[0].id;
   return allDomains.filter((_) => _.id > lastId).map((_) => _.host);
@@ -20,7 +19,7 @@ async function getNewDomains(lastId = 39) {
 
 async function getDetectHistory(host) {
   const req = await fetch(
-    "https://api.scamsniffer.io/detectHistory?fields=actions,linkAddress&limit=100&host=" +
+    `${API}/detectHistory?fields=actions,linkAddress&limit=100&host=` +
       host
   );
   const list = await req.json();
@@ -51,7 +50,16 @@ async function getDetectHistory(host) {
   };
 }
 
-async function genReport(lastId = 1) {
+async function genLinkerAddressList(lastId = 1) {
+  const cacheFile = __dirname + "/address_list_cache.json";
+  if (fs.existsSync(cacheFile)) {
+    const cacheData = JSON.parse(fs.readFileSync(cacheFile, "utf-8"));
+    const isNotTimeout = Date.now() - cacheData.saveTime < 60 * 1000 * 20;
+    if (isNotTimeout) {
+      return cacheData;
+    }
+  }
+
   const newDomains = await getNewDomains(lastId);
   const allAttackers = [];
   for (let index = 0; index < newDomains.length; index++) {
@@ -70,15 +78,20 @@ async function genReport(lastId = 1) {
       return all;
     }, new Set())
   );
-  console.log("allList", allList);
-  const report = await getStolenTokensByLinkAddress(allList);
-//   report.allAttackers = allAttackers;
-//   const victims = report.victim.map((_) => [_.user, _.ens_name[0]]);
-//   console.log(victims);
-  fs.writeFileSync("./stolen_tokens_new.json", JSON.stringify(report, null, 2));
-  //   console.log(newDomains);
+
+  const listData = await getLinkedAddress(allList);
+  listData.saveTime = Date.now();
+  console.log("listData", listData);
+  fs.writeFileSync(cacheFile, JSON.stringify(listData, null, 2));
+}
+
+async function genReport(lastId = 1) {
+  const { linkers, allReceivers } = await genLinkerAddressList();
+  const linkerFile = __dirname + "/linkers.json";
+  const reportFile = __dirname + "/stolen_tokens_new.json";
+  fs.writeFileSync(linkerFile, JSON.stringify(linkers));
+  const report = await getStolenTokensByLinkAddress(allReceivers);
+  fs.writeFileSync(reportFile, JSON.stringify(report, null, 2));
 }
 
 genReport(2);
-
-// console.log(await getIssueTemplate());

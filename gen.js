@@ -6,6 +6,7 @@ const moment = require('moment');
 const allBaseDir = './data/v1';
 const newTokens = require("./dune/stolen_tokens_new.json");
 const linkers = require("./dune/linkers.json");
+const { OPENSEA_API } = require('./config.json');
 
 const allTokens = [].concat(newTokens).map((_) => {
   _.source_hackers =  _.receivers.map((_) => linkers[_.replace('0x', '\\x')]);
@@ -65,7 +66,6 @@ function getCollection(offsetDay = 0) {
 
 const sumBySlug = getCollection();
 
-
 function toSummary(sumBySlug, limit = 100) {
   return Object.keys(sumBySlug)
     .map((slug) => {
@@ -124,7 +124,8 @@ Object.keys(sumBySlug)
         tokenId: _.tokenId,
         firstTime: _.first_time,
         receivers: _.receivers,
-        source_hackers: _.receivers.map((_) => linkers[_.replace('0x', '\\x')]),
+        senders: _.senders,
+        source_hackers: _.receivers.map((_) => linkers[_.replace("0x", "\\x")]),
       })),
     });
     fs.writeFileSync(
@@ -135,6 +136,7 @@ Object.keys(sumBySlug)
           tokenId: _.tokenId,
           firstTime: _.first_time,
           receivers: _.receivers,
+          senders: _.senders,
           source_hackers: _.receivers.map(
             (_) => linkers[_.replace("0x", "\\x")]
           ),
@@ -160,8 +162,7 @@ async function fetchAssets(ids = [], asset_contract_address) {
       const res = await fetch(url, {
         agent: require("proxy-agent")("http://127.0.0.1:9999"),
         headers: {
-          // from phishing site
-          "x-api-key": "388436d3204b491abdff3751f3185c61",
+          "x-api-key": OPENSEA_API,
         },
       });
       const result = await res.json();
@@ -173,7 +174,16 @@ async function fetchAssets(ids = [], asset_contract_address) {
   return null
 }
 
-(async () => {
+function getTokenDetail(collectionAddr, tokenId) {
+  const fPath = `${allBaseDir}/collections/${collectionAddr}/${tokenId}.json`;
+  if (fs.existsSync(fPath)) {
+    return JSON.parse(fs.readFileSync(fPath, "utf-8"));
+  }
+  return null
+}
+
+;(async () => {
+     let totalNewTokens = 0;
   for (let index = 0; index < dataCollections.length; index++) {
     const dataCollection = dataCollections[index];
      dataCollection.tokens = dataCollection.tokens.filter((_) => _.tokenId[0] != "-");
@@ -182,6 +192,7 @@ async function fetchAssets(ids = [], asset_contract_address) {
     const items = _.chunk(tokenIds, 20);
     const tokensMeta = [];
     const collectionAddr = dataCollection.collection.contract_address;
+ 
     // if (collectionAddr != "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85")
     //   continue;
 
@@ -222,11 +233,13 @@ async function fetchAssets(ids = [], asset_contract_address) {
         : [];
     
 
+
+      totalNewTokens += fetchedAssets.length;
       const assets = [].concat(existsTokens, fetchedAssets);
-        console.log({
-          fetchedAssets: fetchedAssets.length,
-          existsTokens: existsTokens.length,
-        });
+        // console.log({
+        //   fetchedAssets: fetchedAssets.length,
+        //   existsTokens: existsTokens.length,
+        // });
       assets.forEach((raw) => {
         tokensMeta.push({
           tokenId: raw.token_id,
@@ -273,16 +286,13 @@ async function fetchAssets(ids = [], asset_contract_address) {
 
     fs.writeFileSync(
       `${allBaseDir}/recentTokens.json`,
-      JSON.stringify(recentTokens.slice(0, 100))
+      JSON.stringify(recentTokens.slice(0, 100).map(_ => {
+        _.detail = getTokenDetail(_.contract_address, _.tokenId);
+        return _;
+      }))
     );
-
-    console.log("recentTokens", recentTokens.slice(0, 100));
-    //  await fetchAssets(
-    //    [47258, 29984],
-    //    "0x9378368ba6b85c1fba5b131b530f5f5bedf21a18"
-    //  );
   }
-  // 388436d3204b491abdff3751f3185c61
+  console.log("done", { totalNewTokens });
 })();
 // console.log(topCollections.slice(0, 100));
 

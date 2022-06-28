@@ -94,7 +94,8 @@ async function getNeedPostTweet() {
   for (let index = 0; index < Infinity; index++) {
     const token = await getNeedPostTweet();
     if (token) {
-      console.log("send", token);
+      // console.log("send", token);
+      // break;
       try {
         await sendPost(token.tweet, token.image);
         posted.push(token.id);
@@ -102,7 +103,7 @@ async function getNeedPostTweet() {
       } catch(e) {
         console.log('failed', e)
       }
-      await wait(60 * 1000 * 60);
+      await wait(60 * 1000 * 30);
     }
     await wait(10 * 1000);
   }

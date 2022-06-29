@@ -70,10 +70,18 @@ async function genLinkerAddressList(lastId = 1) {
       console.log(historyWatch);
       allAttackers.push(historyWatch);
     }
+
+    if (historyWatch.transferETH.length) {
+      console.log(historyWatch);
+      allAttackers.push(historyWatch);
+    }
   }
   const allList = Array.from(
     allAttackers.reduce((all, item) => {
       item.approve.forEach((addr) => {
+        all.add(addr);
+      });
+      item.transferETH.forEach((addr) => {
         all.add(addr);
       });
       return all;

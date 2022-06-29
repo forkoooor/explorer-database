@@ -12,7 +12,7 @@ async function getRemoteDatabase() {
 }
 
 async function getNewDomains(lastId = 39) {
-  const req = await fetch(`${API}/domainSummary?sort=-id&needReport=1`);
+  const req = await fetch(`${API}/domainSummary?sort=-id&needReport=1&limit=1000`);
   const allDomains = await req.json();
   const newId = allDomains[0].id;
   return allDomains.filter((_) => _.id > lastId).map((_) => _.host);

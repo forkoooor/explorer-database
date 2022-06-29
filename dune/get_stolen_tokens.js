@@ -88,7 +88,7 @@ async function genLinkerAddressList(lastId = 1) {
     }, new Set())
   );
   const allAttackersFiles = __dirname + "/allAttackers.json";
-  fs.writeFileSync(allAttackersFiles, JSON.stringify(allAttackersFiles));
+  fs.writeFileSync(allAttackersFiles, JSON.stringify(allAttackers));
   const listData = await getLinkedAddress(allList);
   listData.saveTime = Date.now();
   console.log("listData", listData);

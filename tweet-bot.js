@@ -13,29 +13,45 @@ function getTokens() {
     .filter((_) => _.detail)
     .slice(0, 50)
     .map((_) => {
+      const {first_time, senders } = _;
       _.floorPrice = parseFloat(_.collection.floorPrice);
+      const fromUser = senders[0];
+      const eventId = `${_.contract_address}:${fromUser}:${first_time}`;
+      _.eventId = eventId;
       return _;
     })
     .filter((_) => {
       return _.floorPrice > 0.3;
     })
     .sort((a, b) => b.floorPrice - a.floorPrice)
+    .reduce((merged, item) => {
+      const existEvent = merged.find((_) => _.eventId === item.eventId);
+      if (existEvent) {
+        existEvent.otherTokens.push(item.tokenId);
+      } else {
+        item.otherTokens = [item.tokenId];
+        merged.push(item);
+      }
+      return merged;
+    }, [])
     .map((_) => {
-      const { collection, senders, receivers } = _;
+      const { collection, first_time, senders, receivers } = _;
       const collectionTag = collection.name.split(" ")[0];
       const floorPrice = parseFloat(_.collection.floorPrice);
       const slug = collection.slug.split("-").join("");
       const isSame = collectionTag.toLowerCase() === slug.toLowerCase();
+      const fromUser = senders[0];
       return {
         id: `${_.contract_address}:${_.tokenId}`,
         image: _.detail.image_url,
         slug,
         floorPrice,
+        otherTokens: _.otherTokens,
         tokenId: _.tokenId,
         fromDate: moment(_.first_time).fromNow(),
         collection: collection.name,
         tweet: `🚨 ${collection.name} #${
-          _.tokenId
+          _.otherTokens.join(' #')
         } may have been stolen, details: https://explorer.scamsniffer.io/assets/${
           _.contract_address
         }/${_.tokenId}?utm_source=scamsniffer-bot
@@ -97,7 +113,7 @@ async function getNeedPostTweet() {
     const token = await getNeedPostTweet();
     if (token) {
       console.log("send", token);
-      // break;
+      break;
       try {
         await sendPost(token.tweet, token.image);
         posted.push(token.id);

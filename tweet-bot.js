@@ -9,7 +9,9 @@ function getTokens() {
   const recentTokens = JSON.parse(
     fs.readFileSync("./data/v1/recentTokens.json", "utf-8")
   );
-  const tokens = recentTokens.slice(0, 50)
+  const tokens = recentTokens
+    .filter((_) => _.detail)
+    .slice(0, 50)
     .map((_) => {
       _.floorPrice = parseFloat(_.collection.floorPrice);
       return _;

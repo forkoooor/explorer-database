@@ -11,29 +11,32 @@ function getTokens() {
   );
   const tokens = recentTokens
     .filter((_) => _.detail)
-    .slice(0, 50)
+    .slice(0, 60)
     .map((_) => {
-      const {first_time, senders } = _;
+      const { first_time, senders } = _;
       _.floorPrice = parseFloat(_.collection.floorPrice);
       const fromUser = senders[0];
-      const eventId = `${_.contract_address}:${fromUser}:${first_time}`;
+      const eventId = `${_.contract_address}:${fromUser}`;
       _.eventId = eventId;
       return _;
-    })
-    .filter((_) => {
-      return _.floorPrice > 0.3;
     })
     .sort((a, b) => b.floorPrice - a.floorPrice)
     .reduce((merged, item) => {
       const existEvent = merged.find((_) => _.eventId === item.eventId);
       if (existEvent) {
         existEvent.otherTokens.push(item.tokenId);
+        existEvent.totalValue = (existEvent.otherTokens.length * item.floorPrice);
       } else {
         item.otherTokens = [item.tokenId];
+        item.totalValue = item.floorPrice;
         merged.push(item);
       }
       return merged;
     }, [])
+    .filter((_) => {
+      return _.totalValue > 2;
+    })
+    .sort((a, b) => b.totalValue - a.totalValue)
     .map((_) => {
       const { collection, first_time, senders, receivers } = _;
       const collectionTag = collection.name.split(" ")[0];
@@ -48,20 +51,21 @@ function getTokens() {
         floorPrice,
         otherTokens: _.otherTokens,
         tokenId: _.tokenId,
+        totalValue: _.totalValue,
         fromDate: moment(_.first_time).fromNow(),
         collection: collection.name,
-        tweet: `🚨 ${collection.name} #${
-          _.otherTokens.join(' #')
-        } may have been stolen, details: https://explorer.scamsniffer.io/assets/${
+        tweet: `🚨 ${collection.name} #${_.otherTokens.join(
+          " #"
+        )} worth ${_.totalValue.toFixed(
+          0
+        )}Ξ tokens may have been stolen, details: https://explorer.scamsniffer.io/assets/${
           _.contract_address
         }/${_.tokenId}?utm_source=scamsniffer-bot
-
 from: ${senders[0]}
 to: ${receivers[0]}
-
 #ScamAlert ${
           isSame ? `#${slug}` : `#${slug} #${collectionTag}`
-        } #NFT #NFTCommunity #ETH #NFTs #opensea #NFTProject #nftcollectors #NFTCollection`,
+        } #NFT #NFTCommunity #ETH #NFTs`,
       };
     });
 
@@ -112,9 +116,11 @@ async function getNeedPostTweet() {
   for (let index = 0; index < Infinity; index++) {
     try {
       const token = await getNeedPostTweet();
+      console.log("token", token);
       if (token) {
-        console.log("send", token);
-        // break;
+        //  posted.push(token.id);
+        // console.log("send", token);
+        // continue;
         try {
           await sendPost(token.tweet, token.image);
           posted.push(token.id);
@@ -122,10 +128,12 @@ async function getNeedPostTweet() {
         } catch(e) {
           console.log('failed', e)
         }
-        await wait(60 * 1000 * 20);
+        await wait(60 * 1000 * 60);
       }
     } catch(e) {
+      console.log('error', e)
     }
     await wait(10 * 1000);
   }
 })();
+

@@ -106,7 +106,7 @@ async function getNeedPostTweet() {
   for (let index = 0; index < tokens.length; index++) {
     const token = tokens[index];
     if (posted.indexOf(token.id) > -1) {
-      // continue;
+      continue;
     }
     lastToken = token;
     break;
@@ -123,7 +123,7 @@ async function getNeedPostTweet() {
         //  posted.push(token.id);
         // console.log("send", token);
         // continue;
-        break;
+        // break;
         try {
           await sendPost(token.tweet, token.image);
           posted.push(token.id);
@@ -131,7 +131,7 @@ async function getNeedPostTweet() {
         } catch(e) {
           console.log('failed', e)
         }
-        await wait(60 * 1000 * 100);
+        await wait(60 * 1000 * 60 * 6);
       }
     } catch(e) {
       console.log('error', e)

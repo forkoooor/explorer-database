@@ -110,18 +110,21 @@ async function getNeedPostTweet() {
 
 (async () => {
   for (let index = 0; index < Infinity; index++) {
-    const token = await getNeedPostTweet();
-    if (token) {
-      console.log("send", token);
-      // break;
-      try {
-        await sendPost(token.tweet, token.image);
-        posted.push(token.id);
-        fs.writeFileSync("./posted.json", JSON.stringify(posted));
-      } catch(e) {
-        console.log('failed', e)
+    try {
+      const token = await getNeedPostTweet();
+      if (token) {
+        console.log("send", token);
+        // break;
+        try {
+          await sendPost(token.tweet, token.image);
+          posted.push(token.id);
+          fs.writeFileSync("./posted.json", JSON.stringify(posted));
+        } catch(e) {
+          console.log('failed', e)
+        }
+        await wait(60 * 1000 * 20);
       }
-      await wait(60 * 1000 * 20);
+    } catch(e) {
     }
     await wait(10 * 1000);
   }

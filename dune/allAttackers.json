@@ -15,10 +15,10 @@
   },
   {
     "host": "ezekclub.net",
-    "transferETH": [
+    "transferETH": [],
+    "approve": [
       "0x3e29DD94f4a128C551Cd3750284A26ace7d56B80"
-    ],
-    "approve": []
+    ]
   },
   {
     "host": "game-otherside.io",
@@ -29,10 +29,10 @@
   },
   {
     "host": "moonrunnersofficial.com",
-    "transferETH": [
+    "transferETH": [],
+    "approve": [
       "0x8fbe8655315d6b9ee32fe507db41825ae5b1e770"
-    ],
-    "approve": []
+    ]
   },
   {
     "host": "doodles.plus",
@@ -51,17 +51,17 @@
   },
   {
     "host": "itsnothing.art",
-    "transferETH": [
+    "transferETH": [],
+    "approve": [
       "0x3ECD1dF0c3a85D8eF8cFD48f163306aE0A74B4d9"
-    ],
-    "approve": []
+    ]
   },
   {
     "host": "aikosvirtual.com",
-    "transferETH": [
+    "transferETH": [],
+    "approve": [
       "0x3ECD1dF0c3a85D8eF8cFD48f163306aE0A74B4d9"
-    ],
-    "approve": []
+    ]
   },
   {
     "host": "game-otherside.xyz",
@@ -108,19 +108,9 @@
   },
   {
     "host": "goblendawn.wtf",
-    "transferETH": [
-      "0xaa01c987952db328de3aee15a06f38c7981ae8fb"
-    ],
+    "transferETH": [],
     "approve": [
-      "0xAa01c987952Db328De3aEe15A06F38c7981aE8FB"
-    ]
-  },
-  {
-    "host": "goblendawn.wtf",
-    "transferETH": [
-      "0xaa01c987952db328de3aee15a06f38c7981ae8fb"
-    ],
-    "approve": [
+      "0xaa01c987952db328de3aee15a06f38c7981ae8fb",
       "0xAa01c987952Db328De3aEe15A06F38c7981aE8FB"
     ]
   },
@@ -133,18 +123,7 @@
   },
   {
     "host": "claimdoodles.app",
-    "transferETH": [
-      "0x3F47CbCCda187733B72ebC8B2a9D3d215f82aB78"
-    ],
-    "approve": [
-      "0x3F47CbCCda187733B72ebC8B2a9D3d215f82aB78"
-    ]
-  },
-  {
-    "host": "claimdoodles.app",
-    "transferETH": [
-      "0x3F47CbCCda187733B72ebC8B2a9D3d215f82aB78"
-    ],
+    "transferETH": [],
     "approve": [
       "0x3F47CbCCda187733B72ebC8B2a9D3d215f82aB78"
     ]
@@ -158,10 +137,10 @@
   },
   {
     "host": "pabloslol.wtf",
-    "transferETH": [
+    "transferETH": [],
+    "approve": [
       "0x8283f78db944e2970b7773c3411ccc6d728f1e70"
-    ],
-    "approve": []
+    ]
   },
   {
     "host": "nft-goblin.town",
@@ -254,26 +233,16 @@
   },
   {
     "host": "chimpersnft.art",
-    "transferETH": [
-      "0x3e29DD94f4a128C551Cd3750284A26ace7d56B80"
-    ],
-    "approve": []
-  },
-  {
-    "host": "qobllmtown.wtf",
-    "transferETH": [
-      "0xaa01c987952db328de3aee15a06f38c7981ae8fb"
-    ],
+    "transferETH": [],
     "approve": [
-      "0xAa01c987952Db328De3aEe15A06F38c7981aE8FB"
+      "0x3e29DD94f4a128C551Cd3750284A26ace7d56B80"
     ]
   },
   {
     "host": "qobllmtown.wtf",
-    "transferETH": [
-      "0xaa01c987952db328de3aee15a06f38c7981ae8fb"
-    ],
+    "transferETH": [],
     "approve": [
+      "0xaa01c987952db328de3aee15a06f38c7981ae8fb",
       "0xAa01c987952Db328De3aEe15A06F38c7981aE8FB"
     ]
   },
@@ -282,6 +251,13 @@
     "transferETH": [],
     "approve": [
       "0xd3ED4E39917805550A3fE4bFbC02455FEe945e9D"
+    ]
+  },
+  {
+    "host": "goblintown-drop.art",
+    "transferETH": [],
+    "approve": [
+      "0xFe1E5BEe1c157DaA26B89B424F150b117c37c858"
     ]
   },
   {
@@ -302,10 +278,10 @@
   },
   {
     "host": "weareallgoingtodie.wtf",
-    "transferETH": [
+    "transferETH": [],
+    "approve": [
       "0x4b21151888947f98f42c1c62de6632d830634182"
-    ],
-    "approve": []
+    ]
   },
   {
     "host": "get-goblin.town",
@@ -334,17 +310,24 @@
   },
   {
     "host": "premint.wtf",
-    "transferETH": [
+    "transferETH": [],
+    "approve": [
       "0x4b21151888947f98f42c1c62de6632d830634182"
-    ],
-    "approve": []
+    ]
   },
   {
     "host": "gobilintown.wtf",
-    "transferETH": [
+    "transferETH": [],
+    "approve": [
       "0x4b4cd4bc8a3a09f37b54585b2762c14325d00953"
-    ],
-    "approve": []
+    ]
+  },
+  {
+    "host": "burgers-goblintown.wtf",
+    "transferETH": [],
+    "approve": [
+      "0x013C72Cfa8Cd9F3291D683C579Df6cfEB397a7c4"
+    ]
   },
   {
     "host": "rektguy.art",
@@ -352,6 +335,20 @@
     "approve": [
       "0xD23E368689ad3FaBa1817D220A56068e9527B600",
       "0xA31573be292BD03d36DB137B6C2AB6eAA3d5e572"
+    ]
+  },
+  {
+    "host": "adidas-capsule.art",
+    "transferETH": [],
+    "approve": [
+      "0x42b168eA09BA9f1657b5334ec1Ce0f3B7D1b7dE6"
+    ]
+  },
+  {
+    "host": "burger-goblintown.wtf",
+    "transferETH": [],
+    "approve": [
+      "0x013C72Cfa8Cd9F3291D683C579Df6cfEB397a7c4"
     ]
   },
   {
@@ -380,6 +377,14 @@
     ]
   },
   {
+    "host": "boki-nft.live",
+    "transferETH": [],
+    "approve": [
+      "0x97Ee8829546b083b21EB47b10a9C8d440361693B",
+      "0x9307D0730Bbe0e2DF8F747E3F693772AD83dEbcb"
+    ]
+  },
+  {
     "host": "app-apecoin.com",
     "transferETH": [],
     "approve": [
@@ -402,20 +407,10 @@
   },
   {
     "host": "adidas.claims",
-    "transferETH": [
-      "0x9ce67dc9856c9f887ef5a80ae2178d5903864155"
-    ],
+    "transferETH": [],
     "approve": [
-      "0x9Ce67dC9856C9F887Ef5a80ae2178D5903864155"
-    ]
-  },
-  {
-    "host": "adidas.claims",
-    "transferETH": [
+      "0x9Ce67dC9856C9F887Ef5a80ae2178D5903864155",
       "0x9ce67dc9856c9f887ef5a80ae2178d5903864155"
-    ],
-    "approve": [
-      "0x9Ce67dC9856C9F887Ef5a80ae2178D5903864155"
     ]
   },
   {
@@ -427,19 +422,9 @@
   },
   {
     "host": "adidas-metaverse.io",
-    "transferETH": [
-      "0x9ce67dc9856c9f887ef5a80ae2178d5903864155"
-    ],
+    "transferETH": [],
     "approve": [
-      "0x9Ce67dC9856C9F887Ef5a80ae2178D5903864155"
-    ]
-  },
-  {
-    "host": "adidas-metaverse.io",
-    "transferETH": [
-      "0x9ce67dc9856c9f887ef5a80ae2178d5903864155"
-    ],
-    "approve": [
+      "0x9ce67dc9856c9f887ef5a80ae2178d5903864155",
       "0x9Ce67dC9856C9F887Ef5a80ae2178D5903864155"
     ]
   }

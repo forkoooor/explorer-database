@@ -1,5 +1,12 @@
 [
   {
+    "host": "genesisbox-doodles.app",
+    "transferETH": [],
+    "approve": [
+      "0xD23E368689ad3FaBa1817D220A56068e9527B600"
+    ]
+  },
+  {
     "host": "ezekclub.net",
     "transferETH": [
       "0x3e29DD94f4a128C551Cd3750284A26ace7d56B80"

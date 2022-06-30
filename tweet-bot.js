@@ -60,9 +60,7 @@ function getTokens() {
           _.otherTokens.length
         } tokens worth ${_.totalValue.toFixed(
           0
-        )}Ξ, may have been stolen, details: https://explorer.scamsniffer.io/assets/${
-          _.contract_address
-        }/${_.tokenId}?utm_source=scamsniffer-bot
+        )}Ξ, may have been stolen
         
 from: ${senders[0]}
 to: ${receivers[0]}

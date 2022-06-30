@@ -54,11 +54,13 @@ function getTokens() {
         totalValue: _.totalValue,
         fromDate: moment(_.first_time).fromNow(),
         collection: collection.name,
-        tweet: `🚨 ${collection.name} #${_.otherTokens.join(
-          " #"
-        )} worth ${_.totalValue.toFixed(
+        tweet: `🚨 ${collection.name} #${_.otherTokens
+          .slice(0, 3)
+          .join(" #")} ${_.otherTokens.length > 3 ? '...': ''} ${
+          _.otherTokens.length
+        } tokens worth ${_.totalValue.toFixed(
           0
-        )}Ξ tokens may have been stolen, details: https://explorer.scamsniffer.io/assets/${
+        )}Ξ, may have been stolen, details: https://explorer.scamsniffer.io/assets/${
           _.contract_address
         }/${_.tokenId}?utm_source=scamsniffer-bot
 from: ${senders[0]}
@@ -104,7 +106,7 @@ async function getNeedPostTweet() {
   for (let index = 0; index < tokens.length; index++) {
     const token = tokens[index];
     if (posted.indexOf(token.id) > -1) {
-      continue;
+      // continue;
     }
     lastToken = token;
     break;
@@ -121,6 +123,7 @@ async function getNeedPostTweet() {
         //  posted.push(token.id);
         // console.log("send", token);
         // continue;
+        break;
         try {
           await sendPost(token.tweet, token.image);
           posted.push(token.id);

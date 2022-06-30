@@ -66,10 +66,7 @@ function getTokens() {
         
 from: ${senders[0]}
 to: ${receivers[0]}
-
-#ScamAlert ${
-          isSame ? `#${slug}` : `#${slug} #${collectionTag}`
-        } #NFT #NFTCommunity #ETH #NFTs`,
+`,
       };
     });
 

@@ -147,7 +147,7 @@ async function getLinkedAddress(linkAddressList) {
       allReceivers.add(_);
     });
 
-    allReceivers.add(linkAddress);
+    allReceivers.add(linkAddress.replace('0x', '\\x'));
     console.log(linkAddress, receivers);
   }
   // fs.writeFileSync(__dirname + "/linkers.json", JSON.stringify(linkers));

@@ -34,7 +34,7 @@ function getTokens() {
       return merged;
     }, [])
     .filter((_) => {
-      return _.totalValue > 2;
+      return _.totalValue > 10;
     })
     .sort((a, b) => b.totalValue - a.totalValue)
     .map((_) => {
@@ -131,7 +131,7 @@ async function getNeedPostTweet() {
         } catch(e) {
           console.log('failed', e)
         }
-        await wait(60 * 1000 * 60 * 6);
+        await wait(60 * 1000 * 60);
       }
     } catch(e) {
       console.log('error', e)

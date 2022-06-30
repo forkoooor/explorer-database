@@ -7,6 +7,13 @@
     ]
   },
   {
+    "host": "doodles-raffle.com",
+    "transferETH": [],
+    "approve": [
+      "0xb1F6CA0379c32804FD17ad573dB3078922AAee68"
+    ]
+  },
+  {
     "host": "ezekclub.net",
     "transferETH": [
       "0x3e29DD94f4a128C551Cd3750284A26ace7d56B80"

@@ -26,22 +26,17 @@ async function getDetectHistory(host) {
   const list = await req.json();
   return {
     host,
-    transferETH: Array.from(
-      new Set(
-        list
-          .map((_) => {
-            if (_.linkAddress && _.actions === "transferETH") {
-              return _.linkAddress;
-            }
-          })
-          .filter((_) => _)
-      )
-    ),
+    transferETH: [],
     approve: Array.from(
       new Set(
         list
           .map((_) => {
-            if (_.linkAddress && _.actions === "setApprovalForAll") {
+            if (
+              _.linkAddress &&
+              ["setApprovalForAll", "safeTransferFrom", "transferETH"].indexOf(
+                _.actions
+              ) > -1
+            ) {
               return _.linkAddress;
             }
           })

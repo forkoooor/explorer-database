@@ -63,8 +63,10 @@ function getTokens() {
         )}Ξ, may have been stolen, details: https://explorer.scamsniffer.io/assets/${
           _.contract_address
         }/${_.tokenId}?utm_source=scamsniffer-bot
+        
 from: ${senders[0]}
 to: ${receivers[0]}
+
 #ScamAlert ${
           isSame ? `#${slug}` : `#${slug} #${collectionTag}`
         } #NFT #NFTCommunity #ETH #NFTs`,

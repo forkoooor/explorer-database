@@ -103,7 +103,7 @@ async function sendPost(token, image, type = 'ifttt') {
         tweet: token.tweet,
         image: token.images.map((_) => ({
           url: _,
-          type: "image/jpeg",
+          // type: "image/jpeg",
         })),
         price: token.totalValue,
         collection: token.collection,

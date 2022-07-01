@@ -35256,24 +35256,6 @@
     },
     {
         "collection": {
-            "isVerified": false,
-            "name": "Meta Eagle Club - THE COLLECTION",
-            "slug": "metaeagleclub-mec",
-            "totalVolume": "4336.739117910398817912",
-            "thirtyDayChange": -0.691575436685929
-        }
-    },
-    {
-        "collection": {
-            "isVerified": true,
-            "name": "PEGZ",
-            "slug": "pegz",
-            "totalVolume": "4334.990736250000736618",
-            "thirtyDayChange": -0.36305732484076436
-        }
-    },
-    {
-        "collection": {
             "isVerified": true,
             "name": "F1® Delta Time",
             "slug": "f1-delta-time",
@@ -67416,6 +67398,2973 @@
             "twitterUsername": null,
             "isWatching": false,
             "id": "Q29sbGVjdGlvblR5cGU6MTI4MDY2NTE="
+        }
+    },
+    {
+        "collection": {
+            "isVerified": true,
+            "name": "Degenz",
+            "slug": "degenz",
+            "totalVolume": "2104.082756713752132782",
+            "thirtyDayChange": -0.4354980076541436
+        },
+        "detail": {
+            "isEditable": false,
+            "bannerImageUrl": "https://lh3.googleusercontent.com/Sp_ytIWHSDNvbYzWcieOaF-j8pFzLDQbU-Kt7oyCLkMr9uyBxYShdZjlo0ffLhDa5w4HS-KXGvjJtGoBS0FAollEuunwnbu-0RPRCg=s2500",
+            "name": "Degenz",
+            "description": "**OPENSEA SUPPLY IS WRONG** - there are only 3,943 Degenz remaining, the rest have been burnt to the null address.\n\nDegenz is a collection of 3,943 unique characters, inspired by crypto meme culture and stored on the Ethereum blockchain. We are a community of degenerates punting around crypto and NFTs.\n\nNote: these NFTs only give you limited Discord access, for full access to our community you will require a Degenz Access Pass. ",
+            "imageUrl": "https://lh3.googleusercontent.com/vH7gGLr1U-MQ2wS_Xtxhd5UcA_y-vs4RNFIvh6_2I2zVIf9pahLQB8Om5_q80FbbOAWioTFyP5Pof7EpdY4zfrCuNEzGDWVE9bTy=s120",
+            "relayId": "Q29sbGVjdGlvblR5cGU6NzY2NjUw",
+            "connectedTwitterUsername": "DegenzNFT",
+            "assetContracts": {
+                "edges": [
+                    {
+                        "node": {
+                            "chain": "ETHEREUM",
+                            "id": "QXNzZXRDb250cmFjdFR5cGU6MjgxMjE5",
+                            "blockExplorerLink": "https://etherscan.io/address/0xfb9e9e7150ccebfe42d58de1989c5283d0eaab2e",
+                            "chainData": {
+                                "blockExplorerName": "ETHERSCAN"
+                            },
+                            "address": "0xfb9e9e7150ccebfe42d58de1989c5283d0eaab2e"
+                        }
+                    }
+                ]
+            },
+            "representativeAsset": {
+                "assetContract": {
+                    "openseaVersion": null,
+                    "id": "QXNzZXRDb250cmFjdFR5cGU6MjgxMjE5"
+                },
+                "id": "QXNzZXRUeXBlOjMwNTc1MTY1"
+            },
+            "slug": "degenz",
+            "isMintable": false,
+            "isSafelisted": true,
+            "isVerified": true,
+            "owner": {
+                "address": "0xdedede1ddede6a7d62de73cc33ef9f93f7429ee3",
+                "config": null,
+                "isCompromised": false,
+                "user": {
+                    "publicUsername": "Degenz_Deployer",
+                    "id": "VXNlclR5cGU6OTg2NzM3"
+                },
+                "displayName": "Degenz_Deployer",
+                "imageUrl": "https://lh3.googleusercontent.com/phchr5mfCGZdEMZqiKc1DAVPXAVTHIcEbtCv1e2-eKLINFoX1BlTYwqT8lPm-XF3cQ8McaBx51q_c3ncjsc42nUvDInxqhwUoXkn=s100",
+                "id": "QWNjb3VudFR5cGU6NTQ2MjQzMjE="
+            },
+            "stats": {
+                "numOwners": 2100,
+                "totalSupply": 11111,
+                "id": "Q29sbGVjdGlvblN0YXRzVHlwZTo3NjY2NTA="
+            },
+            "nativePaymentAsset": {
+                "symbol": "ETH",
+                "asset": {
+                    "imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+                    "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                },
+                "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+            },
+            "statsV2": {
+                "numOwners": 2100,
+                "totalSupply": 11111,
+                "totalVolume": {
+                    "unit": "2104.082756713752132782"
+                },
+                "floorPrice": {
+                    "unit": "0.0569"
+                }
+            },
+            "discordUrl": "https://discord.gg/degenznft",
+            "externalUrl": "https://www.degenz.co/",
+            "instagramUsername": null,
+            "mediumUsername": null,
+            "telegramUrl": null,
+            "twitterUsername": "DegenzNFT",
+            "isWatching": false,
+            "id": "Q29sbGVjdGlvblR5cGU6NzY2NjUw"
+        }
+    },
+    {
+        "collection": {
+            "isVerified": true,
+            "name": "Creepz Mega Shapeshifterz",
+            "slug": "creepz-mega-shapeshifterz",
+            "totalVolume": "2103.019318201511396182",
+            "thirtyDayChange": -0.5781682998487161
+        },
+        "detail": {
+            "isEditable": false,
+            "bannerImageUrl": "https://lh3.googleusercontent.com/R9LAdm6W7wZy9BLKiYe3ksLcDbZCefRtlu5nHbTacH7ErF69U4fikVKdLHTzU0XJpL2TJarhtE6_KuqfMNvOvQDY0jPnEoCTdMkgJQ=s2500",
+            "name": "Creepz Mega Shapeshifterz",
+            "description": "Creepz Mega Shapeshifterz, mutated out of 5 Shapeshifterz. Fear them, for they are the OVERLORDS bribe collectors. \n\nCollect Megas to claim $loomi bribes from Genesis Creepz and await the reckoning. You must own a Creepz Genesis to claim $loomi bribes.\n\nGet your Creepz Genesis: https://opensea.io/collection/genesis-creepz \n\nGet your Creepz Shapeshifterz to mutate: \nhttps://opensea.io/collection/creepz-shapeshifterz\n",
+            "imageUrl": "https://lh3.googleusercontent.com/q2Mbczrn-KvVuawxYccKIPchWTP953CyB5ZNYG8BTW1B5PSz4t0XQfpU4SYmZP2CplueFA7IOB3nk5KxuMTEAiTK3PKfPm6WCfTV=s120",
+            "relayId": "Q29sbGVjdGlvblR5cGU6NjMxMDAwMg==",
+            "connectedTwitterUsername": "CBCreepz",
+            "assetContracts": {
+                "edges": [
+                    {
+                        "node": {
+                            "chain": "ETHEREUM",
+                            "id": "QXNzZXRDb250cmFjdFR5cGU6NTA1NzAx",
+                            "blockExplorerLink": "https://etherscan.io/address/0xd6d80461b1875a8679fe789db689156f42b7f86b",
+                            "chainData": {
+                                "blockExplorerName": "ETHERSCAN"
+                            },
+                            "address": "0xd6d80461b1875a8679fe789db689156f42b7f86b"
+                        }
+                    }
+                ]
+            },
+            "representativeAsset": {
+                "assetContract": {
+                    "openseaVersion": null,
+                    "id": "QXNzZXRDb250cmFjdFR5cGU6NTA1NzAx"
+                },
+                "id": "QXNzZXRUeXBlOjI0NjQ4NDAwMA=="
+            },
+            "slug": "creepz-mega-shapeshifterz",
+            "isMintable": false,
+            "isSafelisted": true,
+            "isVerified": true,
+            "owner": {
+                "address": "0x6fbdda1f644a2031fdd59475f3a7c3a5d3346301",
+                "config": "VERIFIED",
+                "isCompromised": false,
+                "user": {
+                    "publicUsername": "Creepz-Games",
+                    "id": "VXNlclR5cGU6MjA2MzM0MjI="
+                },
+                "displayName": "Creepz-Games",
+                "imageUrl": "https://lh3.googleusercontent.com/W0gbBO104A-K-kmP6cW_pcfArmDPRlXRDiBmze96DyJtYh5HvryHlHP7RllzJxVoCW4_2nymx-OS03hrkCkqx9KJaTSFVnBZMTmxjA=s100",
+                "id": "QWNjb3VudFR5cGU6MjA1MDQ2MDQ3"
+            },
+            "stats": {
+                "numOwners": 489,
+                "totalSupply": 3538,
+                "id": "Q29sbGVjdGlvblN0YXRzVHlwZTo2MzEwMDAy"
+            },
+            "nativePaymentAsset": {
+                "symbol": "ETH",
+                "asset": {
+                    "imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+                    "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                },
+                "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+            },
+            "statsV2": {
+                "numOwners": 489,
+                "totalSupply": 3538,
+                "totalVolume": {
+                    "unit": "2103.019318201511396182"
+                },
+                "floorPrice": {
+                    "unit": "0.194"
+                }
+            },
+            "discordUrl": "https://discord.gg/coldbloodedcreepz",
+            "externalUrl": "http://creepz.co",
+            "instagramUsername": "coldbloodedcreepz_nft/",
+            "mediumUsername": null,
+            "telegramUrl": null,
+            "twitterUsername": null,
+            "isWatching": false,
+            "id": "Q29sbGVjdGlvblR5cGU6NjMxMDAwMg=="
+        }
+    },
+    {
+        "collection": {
+            "isVerified": false,
+            "name": "SpaceApes (Old Collection)",
+            "slug": "spaceapes",
+            "totalVolume": "2101.335606570938125515",
+            "thirtyDayChange": 0
+        },
+        "detail": {
+            "isEditable": false,
+            "bannerImageUrl": "https://lh3.googleusercontent.com/_RVk9nCojclzept_1SBcb0A0Cm634ZjdgW7LRKZk6RhBJQ7Z-tVxbHnBBzbufYjX4t03nYSyw4DFGzO80pCNN1MiZMQLZP4umLBFeQ=s2500",
+            "name": "SpaceApes (Old Collection)",
+            "description": "SpaceApes is now [OogaVerse](https://opensea.io/collection/oogaverse)\n\n**Please migrate to our new collection. Only then you will be able to breed Babies!**\n\nFind all information about the Migration in this [Medium](https://medium.com/@OogaVerse/spaceapes-nft-contract-migration-to-oogaverse-7889fdfa980d) article.\n\n",
+            "imageUrl": "https://lh3.googleusercontent.com/lcjQ_etWvulA_L1RxlVLSn3LyNcndka9CIWtzl98ph9sBObhCVqTrNQ38b5go6TW37cQMQ8LrZuWvcQZf7rHIpbIppJcUIRvm7lAOw=s120",
+            "relayId": "Q29sbGVjdGlvblR5cGU6MTQzMjU0Mw==",
+            "connectedTwitterUsername": null,
+            "assetContracts": {
+                "edges": []
+            },
+            "representativeAsset": {
+                "assetContract": {
+                    "openseaVersion": "2.0.0",
+                    "id": "QXNzZXRDb250cmFjdFR5cGU6MTY3OTkw"
+                },
+                "id": "QXNzZXRUeXBlOjY3MTUwODQ4"
+            },
+            "slug": "spaceapes",
+            "isMintable": false,
+            "isSafelisted": true,
+            "isVerified": false,
+            "owner": {
+                "address": "0x1605a306502bd0c3e9ade8e1afff2809b4c237ed",
+                "config": "VERIFIED",
+                "isCompromised": false,
+                "user": {
+                    "publicUsername": "BananaCollector",
+                    "id": "VXNlclR5cGU6MjMyNTAwOQ=="
+                },
+                "displayName": "BananaCollector",
+                "imageUrl": "https://lh3.googleusercontent.com/xQt_1t1XY9DSUZdvtGckOxWFKq3021Lxt9HBUMyNEtG-ous7hRDwaIRAEefw5EFKXmMjWh1ulLXNIEj-GV3egokl-Z79E2pZrk401MQ=s100",
+                "id": "QWNjb3VudFR5cGU6NzYxNTI1Mjc="
+            },
+            "stats": {
+                "numOwners": 29,
+                "totalSupply": 2000,
+                "id": "Q29sbGVjdGlvblN0YXRzVHlwZToxNDMyNTQz"
+            },
+            "nativePaymentAsset": {
+                "symbol": "ETH",
+                "asset": {
+                    "imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+                    "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                },
+                "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+            },
+            "statsV2": {
+                "numOwners": 29,
+                "totalSupply": 2000,
+                "totalVolume": {
+                    "unit": "2101.335606570938125515"
+                },
+                "floorPrice": {
+                    "unit": "3.88"
+                }
+            },
+            "discordUrl": "https://discord.gg/oogaverse",
+            "externalUrl": "https://spaceapesnft.io/",
+            "instagramUsername": null,
+            "mediumUsername": null,
+            "telegramUrl": null,
+            "twitterUsername": "oogaverse",
+            "isWatching": false,
+            "id": "Q29sbGVjdGlvblR5cGU6MTQzMjU0Mw=="
+        }
+    },
+    {
+        "collection": {
+            "isVerified": true,
+            "name": "Blvck Genesis",
+            "slug": "blvckgenesis",
+            "totalVolume": "2094.795703479486746801",
+            "thirtyDayChange": -0.9763567822511511
+        },
+        "detail": {
+            "isEditable": false,
+            "bannerImageUrl": "https://lh3.googleusercontent.com/NJFGq4Vl7L1181M9k9xBegagd97sMWOz8hi2z4uBfVoxgvhFHpiD36uMkSkyLBIUROtdUOfORktms5PS5EKTkiLEYpzOjnJg98s_rjY=s2500",
+            "name": "Blvck Genesis",
+            "description": "Blvck Genesis is a collection of 9,999 Blvck avatar NFTs living on the Ethereum blockchain. With hundreds of artistic elements, high fashion traits and monochrome aesthetics, each graphic is crafted by Julian O'hayon, French designer and founder of global lifestyle brand, Blvck Paris. By owning a Blvck Genesis avatar, you will immediately have membership access to exclusive events, lifestyle products and rewards. Join the Blvck movement.",
+            "imageUrl": "https://lh3.googleusercontent.com/CuIyk9FayPXFXHondh5EsVBK-k5IpsqXe-wSeo0sTXGnNHs0qXs_euw7gadS4fXJRcv_rySDaU6mso_Z1Oq271U5mPt4TR0nfDlY=s120",
+            "relayId": "Q29sbGVjdGlvblR5cGU6MTQzOTExODU=",
+            "connectedTwitterUsername": "BlvckParis",
+            "assetContracts": {
+                "edges": [
+                    {
+                        "node": {
+                            "chain": "ETHEREUM",
+                            "id": "QXNzZXRDb250cmFjdFR5cGU6NjgyMzky",
+                            "blockExplorerLink": "https://etherscan.io/address/0x83b070e842adba2397113c4bca70c00d7df00729",
+                            "chainData": {
+                                "blockExplorerName": "ETHERSCAN"
+                            },
+                            "address": "0x83b070e842adba2397113c4bca70c00d7df00729"
+                        }
+                    }
+                ]
+            },
+            "representativeAsset": {
+                "assetContract": {
+                    "openseaVersion": null,
+                    "id": "QXNzZXRDb250cmFjdFR5cGU6NjgyMzky"
+                },
+                "id": "QXNzZXRUeXBlOjQyMDkxMjk0Mg=="
+            },
+            "slug": "blvckgenesis",
+            "isMintable": false,
+            "isSafelisted": true,
+            "isVerified": true,
+            "owner": {
+                "address": "0x414532523db09980854fd3fe47711ee3867ce7e9",
+                "config": "VERIFIED",
+                "isCompromised": false,
+                "user": {
+                    "publicUsername": "BlvckGenesisOwner",
+                    "id": "VXNlclR5cGU6MzM0MDMxMTc="
+                },
+                "displayName": "BlvckGenesisOwner",
+                "imageUrl": "https://lh3.googleusercontent.com/OKzivPMS7KrBmu9weEko8miNN1r8qwhz3fVKSnm3iurtdUG-bgsJjXJnZuZyC_hwpTPlrDqREolPrsArd4LyAOzWZSa-QHAjSnop=s100",
+                "id": "QWNjb3VudFR5cGU6MzgwNzU3MTU4"
+            },
+            "stats": {
+                "numOwners": 5725,
+                "totalSupply": 9998,
+                "id": "Q29sbGVjdGlvblN0YXRzVHlwZToxNDM5MTE4NQ=="
+            },
+            "nativePaymentAsset": {
+                "symbol": "ETH",
+                "asset": {
+                    "imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+                    "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                },
+                "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+            },
+            "statsV2": {
+                "numOwners": 5725,
+                "totalSupply": 9998,
+                "totalVolume": {
+                    "unit": "2094.795703479486746801"
+                },
+                "floorPrice": {
+                    "unit": "0.07"
+                }
+            },
+            "discordUrl": "https://discord.gg/blvckparis",
+            "externalUrl": "https://nft.blvck.com",
+            "instagramUsername": "black",
+            "mediumUsername": null,
+            "telegramUrl": null,
+            "twitterUsername": null,
+            "isWatching": false,
+            "id": "Q29sbGVjdGlvblR5cGU6MTQzOTExODU="
+        }
+    },
+    {
+        "collection": {
+            "isVerified": false,
+            "name": "Citizens by Solsteads",
+            "slug": "citizens-by-solsteads",
+            "totalVolume": "65864.25227311818680104047566",
+            "thirtyDayChange": -0.6607819530998027
+        },
+        "detail": {
+            "isEditable": false,
+            "bannerImageUrl": "https://lh3.googleusercontent.com/TkfLWmiCj7cB9vvwLuE0v-RuCJ5A9km09PDhnNlg1_zcbeUbCxwNRC7QAZ8ArKqAHJiWXEDT443Pg1zeLRQsk9O4z24wcPVhP4IhJw=s2500",
+            "name": "Citizens by Solsteads",
+            "description": "The Solsteads world is expanding.\r\nIntroducing the Citizens. A fresh take on characters, ready to stir up some trouble.",
+            "imageUrl": "https://openseauserdata.com/files/a6803d64151775e61841f47e3e870000.svg",
+            "relayId": "Q29sbGVjdGlvblR5cGU6MTI3MjY3MDk=",
+            "connectedTwitterUsername": null,
+            "assetContracts": {
+                "edges": []
+            },
+            "representativeAsset": {
+                "assetContract": {
+                    "openseaVersion": "2.0.0",
+                    "id": "QXNzZXRDb250cmFjdFR5cGU6NjA5NTQ0"
+                },
+                "id": "QXNzZXRUeXBlOjM2NDI0OTExNQ=="
+            },
+            "slug": "citizens-by-solsteads",
+            "isMintable": false,
+            "isSafelisted": true,
+            "isVerified": false,
+            "owner": {
+                "address": "Ase9PHQ7oKeTKZqtRvxRa48QigMKhbusMsr1KiHJXsPt",
+                "config": null,
+                "isCompromised": false,
+                "user": {
+                    "publicUsername": "SolSteads",
+                    "id": "VXNlclR5cGU6MjkwMzI5Nzk="
+                },
+                "displayName": "SolSteads",
+                "imageUrl": "https://lh3.googleusercontent.com/VXWUkO4_Xh1_2Kv9_spLNVk5xM1RvCtA18FPX3kws16F2KteZpOgql0_J_lvtC_IKmOX3JngHrBKVWzGNyosKNgudalXJcASFP7W=s100",
+                "id": "QWNjb3VudFR5cGU6MjgzMTU3NjAy"
+            },
+            "stats": {
+                "numOwners": 5502,
+                "totalSupply": 13592,
+                "id": "Q29sbGVjdGlvblN0YXRzVHlwZToxMjcyNjcwOQ=="
+            },
+            "nativePaymentAsset": {
+                "symbol": "SOL",
+                "asset": {
+                    "imageUrl": "https://static.opensea.io/solana-just-s-symbol-colored.svg",
+                    "id": "QXNzZXRUeXBlOjM1MjA0MDQ1Mw=="
+                },
+                "id": "UGF5bWVudEFzc2V0VHlwZTo2Mjc="
+            },
+            "statsV2": {
+                "numOwners": 5502,
+                "totalSupply": 13592,
+                "totalVolume": {
+                    "unit": "65684.53339617025793680038008"
+                },
+                "floorPrice": {
+                    "unit": "4"
+                }
+            },
+            "discordUrl": "https://discord.gg/gcfEuWC5wT",
+            "externalUrl": "https://solsteads.com/",
+            "instagramUsername": null,
+            "mediumUsername": null,
+            "telegramUrl": null,
+            "twitterUsername": null,
+            "isWatching": false,
+            "id": "Q29sbGVjdGlvblR5cGU6MTI3MjY3MDk="
+        }
+    },
+    {
+        "collection": {
+            "isVerified": false,
+            "name": "Sneaky's Internet Friends Genesis",
+            "slug": "snif",
+            "totalVolume": "2092.748088826524963224",
+            "thirtyDayChange": -0.6034518945289804
+        },
+        "detail": {
+            "isEditable": false,
+            "bannerImageUrl": "https://lh3.googleusercontent.com/p19po6clZBRRPswI5o2kOuFhvYm7zxMBZKjUwVaCGUbOo0W6rrLgkFCKA8mMKmPcAClbNu__441GmlWFPKKwH0CdnyiAuUwhXb7x-A=s2500",
+            "name": "Sneaky's Internet Friends Genesis",
+            "description": "100% of the secondary royalties from trades will go to charity & to contributing artists. Charities chosen to receive donations will be chosen in conjunction with the community. Placeholder NFT that will be transformed into a custom 1/1 PFP based on the art & artist you choose to work with, when you choose to do so.",
+            "imageUrl": "https://lh3.googleusercontent.com/LDomdof_a_KlWP3kP1bHjs-gKmr2rHJUPJmhRQcCf25KXUx8Y_yQGCwC4jL7Wf6N4IaYn7XUpAcKsVqL_kTJtH69zt-h1ZDl8F2Q=s120",
+            "relayId": "Q29sbGVjdGlvblR5cGU6MTI1MjcyNTQ=",
+            "connectedTwitterUsername": "SneakyninjaNFTs",
+            "assetContracts": {
+                "edges": [
+                    {
+                        "node": {
+                            "chain": "ETHEREUM",
+                            "id": "QXNzZXRDb250cmFjdFR5cGU6NjE3NzM4",
+                            "blockExplorerLink": "https://etherscan.io/address/0x1d0ec4a86ac39fef4485169b4d14dc39d0ea64cd",
+                            "chainData": {
+                                "blockExplorerName": "ETHERSCAN"
+                            },
+                            "address": "0x1d0ec4a86ac39fef4485169b4d14dc39d0ea64cd"
+                        }
+                    }
+                ]
+            },
+            "representativeAsset": {
+                "assetContract": {
+                    "openseaVersion": null,
+                    "id": "QXNzZXRDb250cmFjdFR5cGU6NjE3NzM4"
+                },
+                "id": "QXNzZXRUeXBlOjM2ODIyOTY1MQ=="
+            },
+            "slug": "snif",
+            "isMintable": false,
+            "isSafelisted": false,
+            "isVerified": false,
+            "owner": null,
+            "stats": {
+                "numOwners": 1142,
+                "totalSupply": 2000,
+                "id": "Q29sbGVjdGlvblN0YXRzVHlwZToxMjUyNzI1NA=="
+            },
+            "nativePaymentAsset": {
+                "symbol": "ETH",
+                "asset": {
+                    "imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+                    "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                },
+                "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+            },
+            "statsV2": {
+                "numOwners": 1142,
+                "totalSupply": 2000,
+                "totalVolume": {
+                    "unit": "2092.748088826524963224"
+                },
+                "floorPrice": {
+                    "unit": "0.297"
+                }
+            },
+            "discordUrl": "https://discord.gg/J3qkFG3HKW",
+            "externalUrl": "https://discord.gg/J3qkFG3HKW",
+            "instagramUsername": null,
+            "mediumUsername": null,
+            "telegramUrl": null,
+            "twitterUsername": null,
+            "isWatching": false,
+            "id": "Q29sbGVjdGlvblR5cGU6MTI1MjcyNTQ="
+        }
+    },
+    {
+        "collection": {
+            "isVerified": false,
+            "name": "Debonair Degen Hawks - autogen",
+            "slug": "debonair-degen-hawks-autogen",
+            "totalVolume": "65783.7721561917027489839891",
+            "thirtyDayChange": -0.6501519204217648
+        },
+        "detail": {
+            "isEditable": false,
+            "bannerImageUrl": null,
+            "name": "Debonair Degen Hawks - autogen",
+            "description": null,
+            "imageUrl": "https://lh3.googleusercontent.com/NQqfe5qDHVsojqsB7c_BcGE7nD-DFyu2gB5YJvI69xD31xt83R6-GzDHtYvszzB4cGk-XWs3Wn6pKOu-eOCPe497JbcAD8r9Yk1b",
+            "relayId": "Q29sbGVjdGlvblR5cGU6MTEyNzUyOTA=",
+            "connectedTwitterUsername": null,
+            "assetContracts": {
+                "edges": []
+            },
+            "representativeAsset": {
+                "assetContract": {
+                    "openseaVersion": "2.0.0",
+                    "id": "QXNzZXRDb250cmFjdFR5cGU6NjA5NTQ0"
+                },
+                "id": "QXNzZXRUeXBlOjM2NTQxOTY1MQ=="
+            },
+            "slug": "debonair-degen-hawks-autogen",
+            "isMintable": false,
+            "isSafelisted": false,
+            "isVerified": false,
+            "owner": null,
+            "stats": {
+                "numOwners": 0,
+                "totalSupply": 0,
+                "id": "Q29sbGVjdGlvblN0YXRzVHlwZToxMTI3NTI5MA=="
+            },
+            "nativePaymentAsset": {
+                "symbol": "SOL",
+                "asset": {
+                    "imageUrl": "https://static.opensea.io/solana-just-s-symbol-colored.svg",
+                    "id": "QXNzZXRUeXBlOjM1MjA0MDQ1Mw=="
+                },
+                "id": "UGF5bWVudEFzc2V0VHlwZTo2Mjc="
+            },
+            "statsV2": {
+                "numOwners": 0,
+                "totalSupply": 0,
+                "totalVolume": {
+                    "unit": "65666.11315323858783959479964"
+                },
+                "floorPrice": null
+            },
+            "discordUrl": null,
+            "externalUrl": null,
+            "instagramUsername": null,
+            "mediumUsername": null,
+            "telegramUrl": null,
+            "twitterUsername": null,
+            "isWatching": false,
+            "id": "Q29sbGVjdGlvblR5cGU6MTEyNzUyOTA="
+        }
+    },
+    {
+        "collection": {
+            "isVerified": true,
+            "name": "You by BFF",
+            "slug": "bff-you",
+            "totalVolume": "2086.905885859672252991",
+            "thirtyDayChange": -0.7803654151112179
+        },
+        "detail": {
+            "isEditable": false,
+            "bannerImageUrl": "https://lh3.googleusercontent.com/GSkikCfSD7XJjLV0dyn434KRnzFCurISN-BFbzXTBKQwzB_vmgbT24du6mTOYuKmXir6pTiSqWMruIHoh7oHne196E9YKzHxj8ITXg=s2500",
+            "name": "You by BFF",
+            "description": "BFF's inaugural NFT collection, You, celebrates the uniqueness of women and non-binary friends across our community and the world. In her renowned style, artist Jade Purple Brown brings vibrant color and dynamic expression to 10,000 unique pieces in the collection.\n\nEach NFT grants you access to a revolving list of perks, check here: https://mybff.com#perks",
+            "imageUrl": "https://lh3.googleusercontent.com/xN0Abpk1755I8dMsCh0A2-3CBgpURNerqHOX96k8odPWZhy_RpQAGMqMKPxyP1OUl-fg4P9A596AnuuoAZ4H_d9_2XMxmU29adaV=s120",
+            "relayId": "Q29sbGVjdGlvblR5cGU6MTM2ODYzNTg=",
+            "connectedTwitterUsername": null,
+            "assetContracts": {
+                "edges": [
+                    {
+                        "node": {
+                            "chain": "ETHEREUM",
+                            "id": "QXNzZXRDb250cmFjdFR5cGU6NjU1OTE0",
+                            "blockExplorerLink": "https://etherscan.io/address/0x3e6046b4d127179f0a421f3148b43cf52c08fc41",
+                            "chainData": {
+                                "blockExplorerName": "ETHERSCAN"
+                            },
+                            "address": "0x3e6046b4d127179f0a421f3148b43cf52c08fc41"
+                        }
+                    }
+                ]
+            },
+            "representativeAsset": {
+                "assetContract": {
+                    "openseaVersion": null,
+                    "id": "QXNzZXRDb250cmFjdFR5cGU6NjU1OTE0"
+                },
+                "id": "QXNzZXRUeXBlOjQwMDEyNTYzOQ=="
+            },
+            "slug": "bff-you",
+            "isMintable": false,
+            "isSafelisted": true,
+            "isVerified": true,
+            "owner": {
+                "address": "0xc4ea960b4109f5fb976445038befb0215fa2b124",
+                "config": null,
+                "isCompromised": false,
+                "user": null,
+                "displayName": null,
+                "imageUrl": "https://storage.googleapis.com/opensea-static/opensea-profile/25.png",
+                "id": "QWNjb3VudFR5cGU6MjQzMjg0ODgx"
+            },
+            "stats": {
+                "numOwners": 5630,
+                "totalSupply": 10000,
+                "id": "Q29sbGVjdGlvblN0YXRzVHlwZToxMzY4NjM1OA=="
+            },
+            "nativePaymentAsset": {
+                "symbol": "ETH",
+                "asset": {
+                    "imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+                    "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                },
+                "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+            },
+            "statsV2": {
+                "numOwners": 5630,
+                "totalSupply": 10000,
+                "totalVolume": {
+                    "unit": "2086.905885859672252991"
+                },
+                "floorPrice": {
+                    "unit": "0.135"
+                }
+            },
+            "discordUrl": null,
+            "externalUrl": "http://mybff.com",
+            "instagramUsername": "mybff",
+            "mediumUsername": null,
+            "telegramUrl": null,
+            "twitterUsername": null,
+            "isWatching": false,
+            "id": "Q29sbGVjdGlvblR5cGU6MTM2ODYzNTg="
+        }
+    },
+    {
+        "collection": {
+            "isVerified": false,
+            "name": "ALINFT",
+            "slug": "alinft-official",
+            "totalVolume": "2079.44107575220778017",
+            "thirtyDayChange": -0.6280642788237791
+        },
+        "detail": {
+            "isEditable": false,
+            "bannerImageUrl": "https://lh3.googleusercontent.com/CLtGJzaRwx1-VcOu01uk2mZAI5zujk0X26GL6YAH-ZqoPgYknElwBL8gs4YoFog1hEsyJArMLA7e445QIr_S7Ged3Xs-25oPYUSg=s2500",
+            "name": "ALINFT",
+            "description": "Ali the famous Chinese fox (阿狸) & his friends are entering the Metaverse soon! 🦊 ❤️",
+            "imageUrl": "https://lh3.googleusercontent.com/sZ-hLGAPCyovhQ-FPUEokpYMM9c5qTdECAtHKHNDx6vdzsBjWmB0iMIzceTelEBvCk6PunoItB43NQ_n62TtVdZ0uNbTZ1E2xctydA=s120",
+            "relayId": "Q29sbGVjdGlvblR5cGU6NzQzMzUzNQ==",
+            "connectedTwitterUsername": "0xALINFT",
+            "assetContracts": {
+                "edges": [
+                    {
+                        "node": {
+                            "chain": "ETHEREUM",
+                            "id": "QXNzZXRDb250cmFjdFR5cGU6NTM2NjEz",
+                            "blockExplorerLink": "https://etherscan.io/address/0xf5c6376d88033cfa67a442893f77cbc27a563dd1",
+                            "chainData": {
+                                "blockExplorerName": "ETHERSCAN"
+                            },
+                            "address": "0xf5c6376d88033cfa67a442893f77cbc27a563dd1"
+                        }
+                    }
+                ]
+            },
+            "representativeAsset": {
+                "assetContract": {
+                    "openseaVersion": null,
+                    "id": "QXNzZXRDb250cmFjdFR5cGU6NTM2NjEz"
+                },
+                "id": "QXNzZXRUeXBlOjI5MzY2ODgxMg=="
+            },
+            "slug": "alinft-official",
+            "isMintable": false,
+            "isSafelisted": true,
+            "isVerified": false,
+            "owner": {
+                "address": "0xb048ba3be8d7ad1dd9bf6bc5cb69ff9b4e49ecbd",
+                "config": null,
+                "isCompromised": false,
+                "user": {
+                    "publicUsername": "AliContract",
+                    "id": "VXNlclR5cGU6MjQ4OTg1NzA="
+                },
+                "displayName": "AliContract",
+                "imageUrl": "https://lh3.googleusercontent.com/sZ-hLGAPCyovhQ-FPUEokpYMM9c5qTdECAtHKHNDx6vdzsBjWmB0iMIzceTelEBvCk6PunoItB43NQ_n62TtVdZ0uNbTZ1E2xctydA=s100",
+                "id": "QWNjb3VudFR5cGU6MjU0Njc0Njc1"
+            },
+            "stats": {
+                "numOwners": 3670,
+                "totalSupply": 8110,
+                "id": "Q29sbGVjdGlvblN0YXRzVHlwZTo3NDMzNTM1"
+            },
+            "nativePaymentAsset": {
+                "symbol": "ETH",
+                "asset": {
+                    "imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+                    "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                },
+                "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+            },
+            "statsV2": {
+                "numOwners": 3670,
+                "totalSupply": 8110,
+                "totalVolume": {
+                    "unit": "2079.44107575220778017"
+                },
+                "floorPrice": {
+                    "unit": "0.01"
+                }
+            },
+            "discordUrl": "https://discord.gg/alinft",
+            "externalUrl": "http://www.alinft.io",
+            "instagramUsername": null,
+            "mediumUsername": null,
+            "telegramUrl": null,
+            "twitterUsername": null,
+            "isWatching": false,
+            "id": "Q29sbGVjdGlvblR5cGU6NzQzMzUzNQ=="
+        }
+    },
+    {
+        "collection": {
+            "isVerified": true,
+            "name": "Nostalgia KEYs",
+            "slug": "nostalgia-key",
+            "totalVolume": "2076.582262792121582606",
+            "thirtyDayChange": -0.360576781251786
+        },
+        "detail": {
+            "isEditable": false,
+            "bannerImageUrl": "https://openseauserdata.com/files/b177156dc828327ea4cf99270de7dca4.png",
+            "name": "Nostalgia KEYs",
+            "description": "Formerly known as \"YMH\" \"Your Mom's House NFT\"\n\nOwnership of this KEY grants you access to:\n- An exclusive Discord community and private channels\n- Free mint: PFP collection co-founded by Sheldon Evans\n- Free mint: 3D collection co-founded by Sheldon Evans\n- Potential future drops/access from Nostalgia & friends\n- Early access to partner NFT projects and launches\n- NFT Giveaway participation until the end of Q3 2022\n- Voting rights over Nostalgia DAO (3% of all Volume)\n\nNOSTALGIA aims to be an insightful Web3 community, incubating the next big NFT IP plays. \nhttps://nostalgia-nft.xyz/",
+            "imageUrl": "https://lh3.googleusercontent.com/J7fiYhET-IWgsnOITNEjssPPvWVcHUMrBKPY18ebWRClbf-9o2XjdVtj3as72UIC6-DbyFt7apr7JjEpraPpHOIjC_0h5nQ_9gaX-w=s120",
+            "relayId": "Q29sbGVjdGlvblR5cGU6NTc0ODQ3Mw==",
+            "connectedTwitterUsername": "ymhnft",
+            "assetContracts": {
+                "edges": [
+                    {
+                        "node": {
+                            "chain": "ETHEREUM",
+                            "id": "QXNzZXRDb250cmFjdFR5cGU6NDk3NDg0",
+                            "blockExplorerLink": "https://etherscan.io/address/0xe0c3707acb7ce96345ef4eaebf4029c0138ca685",
+                            "chainData": {
+                                "blockExplorerName": "ETHERSCAN"
+                            },
+                            "address": "0xe0c3707acb7ce96345ef4eaebf4029c0138ca685"
+                        }
+                    }
+                ]
+            },
+            "representativeAsset": {
+                "assetContract": {
+                    "openseaVersion": null,
+                    "id": "QXNzZXRDb250cmFjdFR5cGU6NDk3NDg0"
+                },
+                "id": "QXNzZXRUeXBlOjIzMjAxMzEwNA=="
+            },
+            "slug": "nostalgia-key",
+            "isMintable": false,
+            "isSafelisted": true,
+            "isVerified": true,
+            "owner": {
+                "address": "0xa4d872934e813bd15b55c77bfd6da99ff3e9c35e",
+                "config": "VERIFIED",
+                "isCompromised": false,
+                "user": {
+                    "publicUsername": "Nostalgia_NFT",
+                    "id": "VXNlclR5cGU6MjA4MjI2MDk="
+                },
+                "displayName": "Nostalgia_NFT",
+                "imageUrl": "https://lh3.googleusercontent.com/J7fiYhET-IWgsnOITNEjssPPvWVcHUMrBKPY18ebWRClbf-9o2XjdVtj3as72UIC6-DbyFt7apr7JjEpraPpHOIjC_0h5nQ_9gaX-w=s100",
+                "id": "QWNjb3VudFR5cGU6MjA2MjEyNzMy"
+            },
+            "stats": {
+                "numOwners": 1924,
+                "totalSupply": 2723,
+                "id": "Q29sbGVjdGlvblN0YXRzVHlwZTo1NzQ4NDcz"
+            },
+            "nativePaymentAsset": {
+                "symbol": "ETH",
+                "asset": {
+                    "imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+                    "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                },
+                "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+            },
+            "statsV2": {
+                "numOwners": 1924,
+                "totalSupply": 2723,
+                "totalVolume": {
+                    "unit": "2076.582262792121582606"
+                },
+                "floorPrice": {
+                    "unit": "0.37"
+                }
+            },
+            "discordUrl": "https://discord.gg/nostalgianft",
+            "externalUrl": "https://nostalgia-nft.xyz/",
+            "instagramUsername": null,
+            "mediumUsername": null,
+            "telegramUrl": null,
+            "twitterUsername": null,
+            "isWatching": false,
+            "id": "Q29sbGVjdGlvblR5cGU6NTc0ODQ3Mw=="
+        }
+    },
+    {
+        "collection": {
+            "isVerified": true,
+            "name": "Flowers by RVig",
+            "slug": "flowers-by-rvig",
+            "totalVolume": "2076.500391855440739164",
+            "thirtyDayChange": -0.4855345911949686
+        },
+        "detail": {
+            "isEditable": false,
+            "bannerImageUrl": "https://img-ae.seadn.io/https%3A%2F%2Flh3.googleusercontent.com%2F5-KeOMqOlfC7D6etYVEcrEiPcRy_QB-KPS3uOeGu7hMsPorzvPNtJOVrQRb1rxjHFcFsyXEQmTdj7bvqlbAQD5foHQxbTEgb5GPaMLg%3Ds10000?fit=max&h=2500&w=2500&auto=format&s=5e53a07f727c4d2cf5091e6e52cf5056",
+            "name": "Flowers by RVig",
+            "description": "Flowers by RVig - Art Blocks Factory",
+            "imageUrl": "https://lh3.googleusercontent.com/T72cuZfLtsIGmcV4W5vwV_1_YTkoBCs3x41VuI61TpvU01StjXU8fdSu3vQ_uLGIcpt-OJ2kuhWxT_pIYruWtl4fNnuYvucQlxCUaA",
+            "relayId": "Q29sbGVjdGlvblR5cGU6MzUxOTgzOQ==",
+            "connectedTwitterUsername": null,
+            "assetContracts": {
+                "edges": []
+            },
+            "representativeAsset": {
+                "assetContract": {
+                    "openseaVersion": null,
+                    "id": "QXNzZXRDb250cmFjdFR5cGU6MTcyNzgz"
+                },
+                "id": "QXNzZXRUeXBlOjM0MTM4NzI0"
+            },
+            "slug": "flowers-by-rvig",
+            "isMintable": false,
+            "isSafelisted": true,
+            "isVerified": true,
+            "owner": {
+                "address": "0x96dc73c8b5969608c77375f085949744b5177660",
+                "config": "VERIFIED",
+                "isCompromised": false,
+                "user": {
+                    "publicUsername": "ArtBlocks_Admin",
+                    "id": "VXNlclR5cGU6MTA5NDg1"
+                },
+                "displayName": "ArtBlocks_Admin",
+                "imageUrl": "https://lh3.googleusercontent.com/GwnosrkaneKGEkWySxvTSzZ5bEUjWkRuQzLSNfrpgy2-gxYjoR3m5PohLT9Fzy0p1tohajZ1g-LFfF_ZLnS1GqlPNHPUaKUbDhbf=s120",
+                "id": "QWNjb3VudFR5cGU6MTQ4MDc0MTU="
+            },
+            "stats": {
+                "numOwners": 3057,
+                "totalSupply": 6158,
+                "id": "Q29sbGVjdGlvblN0YXRzVHlwZTozNTE5ODM5"
+            },
+            "nativePaymentAsset": {
+                "symbol": "ETH",
+                "asset": {
+                    "imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+                    "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                },
+                "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+            },
+            "statsV2": {
+                "numOwners": 3057,
+                "totalSupply": 6158,
+                "totalVolume": {
+                    "unit": "2076.500391855440739164"
+                },
+                "floorPrice": {
+                    "unit": "0.07"
+                }
+            },
+            "discordUrl": null,
+            "externalUrl": "https://www.artblocks.io/project/116",
+            "instagramUsername": null,
+            "mediumUsername": null,
+            "telegramUrl": null,
+            "twitterUsername": null,
+            "isWatching": false,
+            "id": "Q29sbGVjdGlvblR5cGU6MzUxOTgzOQ=="
+        }
+    },
+    {
+        "collection": {
+            "isVerified": false,
+            "name": "Zunkz",
+            "slug": "zunkz",
+            "totalVolume": "2073.00780303055580589",
+            "thirtyDayChange": -0.9286303556840912
+        },
+        "detail": {
+            "isEditable": false,
+            "bannerImageUrl": "https://openseauserdata.com/files/5bada259ecff1cae57df95641b02a993.png",
+            "name": "Zunkz",
+            "description": "Not affiliated with Larva Labs. Numbered 10,000 - 19,999. Zunkz are the unofficial sequel to Punks.",
+            "imageUrl": "https://openseauserdata.com/files/eb99fbcf99a95c34dcbda1945be8786b.gif",
+            "relayId": "Q29sbGVjdGlvblR5cGU6ODg5MjEw",
+            "connectedTwitterUsername": "ZunkzNFTs",
+            "assetContracts": {
+                "edges": [
+                    {
+                        "node": {
+                            "chain": "ETHEREUM",
+                            "id": "QXNzZXRDb250cmFjdFR5cGU6Mjk5ODQ3",
+                            "blockExplorerLink": "https://etherscan.io/address/0x031920cc2d9f5c10b444fd44009cd64f829e7be2",
+                            "chainData": {
+                                "blockExplorerName": "ETHERSCAN"
+                            },
+                            "address": "0x031920cc2d9f5c10b444fd44009cd64f829e7be2"
+                        }
+                    }
+                ]
+            },
+            "representativeAsset": {
+                "assetContract": {
+                    "openseaVersion": null,
+                    "id": "QXNzZXRDb250cmFjdFR5cGU6Mjk5ODQ3"
+                },
+                "id": "QXNzZXRUeXBlOjM1MjgwMjA2"
+            },
+            "slug": "zunkz",
+            "isMintable": false,
+            "isSafelisted": true,
+            "isVerified": false,
+            "owner": {
+                "address": "0x596174d45fc72aec57c7a18558c65ec8bb34e61f",
+                "config": null,
+                "isCompromised": false,
+                "user": {
+                    "publicUsername": "ZunkzTeam",
+                    "id": "VXNlclR5cGU6MzM3MTA5MTA="
+                },
+                "displayName": "ZunkzTeam",
+                "imageUrl": "https://openseauserdata.com/files/87ebbea0a535f1042a8d794684e7734e.jpg",
+                "id": "QWNjb3VudFR5cGU6NDExNTMyMDMw"
+            },
+            "stats": {
+                "numOwners": 3590,
+                "totalSupply": 10000,
+                "id": "Q29sbGVjdGlvblN0YXRzVHlwZTo4ODkyMTA="
+            },
+            "nativePaymentAsset": {
+                "symbol": "ETH",
+                "asset": {
+                    "imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+                    "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                },
+                "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+            },
+            "statsV2": {
+                "numOwners": 3590,
+                "totalSupply": 10000,
+                "totalVolume": {
+                    "unit": "2073.00780303055580589"
+                },
+                "floorPrice": {
+                    "unit": "0.063"
+                }
+            },
+            "discordUrl": "https://discord.gg/zunkz",
+            "externalUrl": "https://www.cryptozunks.com/",
+            "instagramUsername": null,
+            "mediumUsername": null,
+            "telegramUrl": null,
+            "twitterUsername": null,
+            "isWatching": false,
+            "id": "Q29sbGVjdGlvblR5cGU6ODg5MjEw"
+        }
+    },
+    {
+        "collection": {
+            "isVerified": true,
+            "name": "The Bibiz",
+            "slug": "thebibiz",
+            "totalVolume": "2072.930246994245408132",
+            "thirtyDayChange": -0.8870252258938479
+        },
+        "detail": {
+            "isEditable": false,
+            "bannerImageUrl": "https://lh3.googleusercontent.com/OJDkj5U6VTYqJl1XGud2KAGcc0Mx4lKoYh34Q4HIrPmWMitOlbvFzz9WkBBC_L4UjDD9erEElfKapKmhdrCW1d8yNlXHkkeEAppJ-fc=s2500",
+            "name": "The Bibiz",
+            "description": "Welcome to The Bibiz, A habibiz collection who is taking over the metaverse! Join our discord for the vibes, HUGE ALPHA, and to be part of the family.\r\n\r\nGrand Children of : https://opensea.io/collection/theroyalhabibiz\r\n\r\nChildren of : https://opensea.io/collection/thehabibiz",
+            "imageUrl": "https://lh3.googleusercontent.com/Zc3SfjuREslEi4-fu9Xi7_kgIxtsXksnTCnmWQZ17v1RhsX49XV9UCjKTilYWk-yqRtA5ivWJD4X9G7S5a0cGk3r0UTQCc-NusIFFQ=s120",
+            "relayId": "Q29sbGVjdGlvblR5cGU6ODI0MzY3Ng==",
+            "connectedTwitterUsername": "The_Habibiz",
+            "assetContracts": {
+                "edges": [
+                    {
+                        "node": {
+                            "chain": "ETHEREUM",
+                            "id": "QXNzZXRDb250cmFjdFR5cGU6NTcxODY4",
+                            "blockExplorerLink": "https://etherscan.io/address/0x00abdb2fbbc763b6b4a8700e10550ad74dac4d43",
+                            "chainData": {
+                                "blockExplorerName": "ETHERSCAN"
+                            },
+                            "address": "0x00abdb2fbbc763b6b4a8700e10550ad74dac4d43"
+                        }
+                    }
+                ]
+            },
+            "representativeAsset": {
+                "assetContract": {
+                    "openseaVersion": null,
+                    "id": "QXNzZXRDb250cmFjdFR5cGU6NTcxODY4"
+                },
+                "id": "QXNzZXRUeXBlOjMyODUzMTk4NA=="
+            },
+            "slug": "thebibiz",
+            "isMintable": false,
+            "isSafelisted": true,
+            "isVerified": true,
+            "owner": {
+                "address": "0x2b3726c7504c701f788141015eb3faa4a8e6aee5",
+                "config": "VERIFIED",
+                "isCompromised": false,
+                "user": {
+                    "publicUsername": "Habibizzz",
+                    "id": "VXNlclR5cGU6NTA5NDY1Mg=="
+                },
+                "displayName": "Habibizzz",
+                "imageUrl": "https://lh3.googleusercontent.com/gtyOhoftoKW-qtiqRYc-Xxr5PcE5pj_xJywdIiOfiBaYPpmKsHvn62_uWOa45iilO_OMQU22TsXrF2S27FQ4gnG3YuxhEn9shLifYw=s100",
+                "id": "QWNjb3VudFR5cGU6OTg0MjYwNjI="
+            },
+            "stats": {
+                "numOwners": 1457,
+                "totalSupply": 6969,
+                "id": "Q29sbGVjdGlvblN0YXRzVHlwZTo4MjQzNjc2"
+            },
+            "nativePaymentAsset": {
+                "symbol": "ETH",
+                "asset": {
+                    "imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+                    "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                },
+                "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+            },
+            "statsV2": {
+                "numOwners": 1457,
+                "totalSupply": 6969,
+                "totalVolume": {
+                    "unit": "2072.930246994245408132"
+                },
+                "floorPrice": {
+                    "unit": "0.054"
+                }
+            },
+            "discordUrl": "https://discord.gg//habibiz",
+            "externalUrl": "https://www.thehabibiz.net/",
+            "instagramUsername": null,
+            "mediumUsername": null,
+            "telegramUrl": null,
+            "twitterUsername": null,
+            "isWatching": false,
+            "id": "Q29sbGVjdGlvblR5cGU6ODI0MzY3Ng=="
+        }
+    },
+    {
+        "collection": {
+            "isVerified": true,
+            "name": "BMC Blockchain Miners Club",
+            "slug": "blockchainminersclubofficial",
+            "totalVolume": "2065.474914972581700567",
+            "thirtyDayChange": -0.39548585800559005
+        },
+        "detail": {
+            "isEditable": false,
+            "bannerImageUrl": "https://lh3.googleusercontent.com/xTg1IxtlSwaPY2vldYETsOiyBnrzUq8hHfs4cb5Zl1Vi8bs0XhsVhshpmBehuCJYUoXSbnb8V3GEisypffP48H4jVI3ShzYgj_h4JQ=s2500",
+            "name": "BMC Blockchain Miners Club",
+            "description": "Blockchain Miners NFTs are hand-drawn, rare, and unique artworks that come with a real utility. Our unique artworks are inspired by BTC miners (Antminer S19j ASIC Pro) and will be limited to 11,111 items that are generated from 280+ traits and attributes.  JANUARY 18th - Jan 31st we burned 80% of our supply through our burn event for Ultra Miners.  Only 2,221 OGs survived the fire!  Check out the Ultra Miner collection with the link down below.\r\n\r\nULTRA MINER collection: https://opensea.io/collection/ultra-miners",
+            "imageUrl": "https://lh3.googleusercontent.com/sWzXgOH4CshCx8C80IRvDmQbfn007zL8kCakl3GMi4HmTxaFfvxcEcYjLb-Ykbtkj-sHr4H4Ldpe7i7FFZ2jI8zAMJKnlXI08MWa_w=s120",
+            "relayId": "Q29sbGVjdGlvblR5cGU6Mjk2MzM1Ng==",
+            "connectedTwitterUsername": "BMC_NFT",
+            "assetContracts": {
+                "edges": [
+                    {
+                        "node": {
+                            "chain": "ETHEREUM",
+                            "id": "QXNzZXRDb250cmFjdFR5cGU6NDI5MTUw",
+                            "blockExplorerLink": "https://etherscan.io/address/0x47bd71b482b27ebdb57af6e372cab46c7280bf44",
+                            "chainData": {
+                                "blockExplorerName": "ETHERSCAN"
+                            },
+                            "address": "0x47bd71b482b27ebdb57af6e372cab46c7280bf44"
+                        }
+                    }
+                ]
+            },
+            "representativeAsset": {
+                "assetContract": {
+                    "openseaVersion": null,
+                    "id": "QXNzZXRDb250cmFjdFR5cGU6NDI5MTUw"
+                },
+                "id": "QXNzZXRUeXBlOjExMjE2NjA1NA=="
+            },
+            "slug": "blockchainminersclubofficial",
+            "isMintable": false,
+            "isSafelisted": true,
+            "isVerified": true,
+            "owner": {
+                "address": "0x69b253df48c0521f761470023cb8fe39916cc01e",
+                "config": "VERIFIED",
+                "isCompromised": false,
+                "user": {
+                    "publicUsername": "BMC-Deployer",
+                    "id": "VXNlclR5cGU6OTgzNDEyNQ=="
+                },
+                "displayName": "BMC-Deployer",
+                "imageUrl": "https://lh3.googleusercontent.com/sWzXgOH4CshCx8C80IRvDmQbfn007zL8kCakl3GMi4HmTxaFfvxcEcYjLb-Ykbtkj-sHr4H4Ldpe7i7FFZ2jI8zAMJKnlXI08MWa_w=s100",
+                "id": "QWNjb3VudFR5cGU6MTM3MzU4Mjk5"
+            },
+            "stats": {
+                "numOwners": 1470,
+                "totalSupply": 2221,
+                "id": "Q29sbGVjdGlvblN0YXRzVHlwZToyOTYzMzU2"
+            },
+            "nativePaymentAsset": {
+                "symbol": "ETH",
+                "asset": {
+                    "imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+                    "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                },
+                "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+            },
+            "statsV2": {
+                "numOwners": 1470,
+                "totalSupply": 2221,
+                "totalVolume": {
+                    "unit": "2065.474914972581700567"
+                },
+                "floorPrice": {
+                    "unit": "0.25"
+                }
+            },
+            "discordUrl": "https://discord.gg/blockchainminers",
+            "externalUrl": "https://www.blockchainminers.club/",
+            "instagramUsername": "BMC_NFT",
+            "mediumUsername": null,
+            "telegramUrl": null,
+            "twitterUsername": "BMC_NFT",
+            "isWatching": false,
+            "id": "Q29sbGVjdGlvblR5cGU6Mjk2MzM1Ng=="
+        }
+    },
+    {
+        "collection": {
+            "isVerified": true,
+            "name": "Champions Ascension",
+            "slug": "champions-ascension-prime-eternal",
+            "totalVolume": "2064.417400280443871452",
+            "thirtyDayChange": -0.1751450591751743
+        },
+        "detail": {
+            "isEditable": false,
+            "bannerImageUrl": "https://openseauserdata.com/files/11328a4a49017436e596e52430b0cca8.png",
+            "name": "Champions Ascension",
+            "description": "Meet the glorious 7622 champions who have ascended to the status of Prime Eternal. These Divine few have no equal in the arena, and receive the highest level of in game benefits. Prime Eternals will never be minted again, and give you access to the growing fantasy world Massina. Claim your Prime Eternal Champion, to play in Champions: Ascension a AAA play-to-earn game by Jam City.",
+            "imageUrl": "https://openseauserdata.com/files/9ffae612e0c8ea54537f646b9c144c6f.png",
+            "relayId": "Q29sbGVjdGlvblR5cGU6NzgwODIzNw==",
+            "connectedTwitterUsername": "ChampionsIO",
+            "assetContracts": {
+                "edges": [
+                    {
+                        "node": {
+                            "chain": "ETHEREUM",
+                            "id": "QXNzZXRDb250cmFjdFR5cGU6NTQ5NzQ5",
+                            "blockExplorerLink": "https://etherscan.io/address/0x13d15d8b7b2bf48cbaf144c5c50e67b6b635b5cd",
+                            "chainData": {
+                                "blockExplorerName": "ETHERSCAN"
+                            },
+                            "address": "0x13d15d8b7b2bf48cbaf144c5c50e67b6b635b5cd"
+                        }
+                    }
+                ]
+            },
+            "representativeAsset": {
+                "assetContract": {
+                    "openseaVersion": null,
+                    "id": "QXNzZXRDb250cmFjdFR5cGU6NTQ5NzQ5"
+                },
+                "id": "QXNzZXRUeXBlOjMxNDYzODA1Mg=="
+            },
+            "slug": "champions-ascension-prime-eternal",
+            "isMintable": false,
+            "isSafelisted": true,
+            "isVerified": true,
+            "owner": {
+                "address": "0xef84fc6cad71e81423b56a1f8fce50ae13d7f961",
+                "config": "VERIFIED",
+                "isCompromised": false,
+                "user": {
+                    "publicUsername": "Jam-City-HQ",
+                    "id": "VXNlclR5cGU6MjUxNDkwMTc="
+                },
+                "displayName": "Jam-City-HQ",
+                "imageUrl": "https://lh3.googleusercontent.com/4hGRhrPFlxMf1gyL9H8oVndEK9EYARJ1cxsd3pJIMm2yBYfSzEDPn0Dtpzf8wf_utZVCwWl-ITU7dTcFC2qZSqb8S6WMF-2wzm5n6iA=s100",
+                "id": "QWNjb3VudFR5cGU6MjU2MjE5NjQw"
+            },
+            "stats": {
+                "numOwners": 2216,
+                "totalSupply": 7622,
+                "id": "Q29sbGVjdGlvblN0YXRzVHlwZTo3ODA4MjM3"
+            },
+            "nativePaymentAsset": {
+                "symbol": "ETH",
+                "asset": {
+                    "imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+                    "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                },
+                "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+            },
+            "statsV2": {
+                "numOwners": 2216,
+                "totalSupply": 7622,
+                "totalVolume": {
+                    "unit": "2064.417400280443871452"
+                },
+                "floorPrice": {
+                    "unit": "0.38"
+                }
+            },
+            "discordUrl": "https://discord.gg/championsascension",
+            "externalUrl": "https://champions.io",
+            "instagramUsername": "championsp2e",
+            "mediumUsername": null,
+            "telegramUrl": null,
+            "twitterUsername": null,
+            "isWatching": false,
+            "id": "Q29sbGVjdGlvblR5cGU6NzgwODIzNw=="
+        }
+    },
+    {
+        "collection": {
+            "isVerified": false,
+            "name": "FOMO Dog Club",
+            "slug": "fomo-dog-club",
+            "totalVolume": "2063.04960766059184607",
+            "thirtyDayChange": -0.03950476190476187
+        },
+        "detail": {
+            "isEditable": false,
+            "bannerImageUrl": "https://lh3.googleusercontent.com/Y2fw0-Gp6HE2du6S1P8tIePuCd-h_bRGQMtfQ07uyPmG22KJ8xLDJSzAThpJci4X-Ahggup-Nub3OfiuzxjZJhvb3EjsHolPMzvX=s2500",
+            "name": "FOMO Dog Club",
+            "description": "FOMO Dog Club hails from the island of Formosa! It is a collection of 777 randomly generated Shiba Inus living on the Ethereum Blockchain. NFT holders get exclusive access to a dedicated Discord server: “Apollo 88” and many future benefits. You are NGMI in crypto if you FOMO by yourself, in this club, we will all FOMO together and aim for the moon!",
+            "imageUrl": "https://lh3.googleusercontent.com/jcvGNeEq2IQUgjaAmU0MsaftXW6jwK697BRPV9Zyk5KgiKGvUDkhEtdJpi5WJVG0QI-G9PfKjvVycrbrcL6Y4aOMtA2xwr_oJS21kg=s120",
+            "relayId": "Q29sbGVjdGlvblR5cGU6MjM0NjAxNg==",
+            "connectedTwitterUsername": "fomodogclub",
+            "assetContracts": {
+                "edges": [
+                    {
+                        "node": {
+                            "chain": "ETHEREUM",
+                            "id": "QXNzZXRDb250cmFjdFR5cGU6MzQzNTE0",
+                            "blockExplorerLink": "https://etherscan.io/address/0x90cfce78f5ed32f9490fd265d16c77a8b5320bd4",
+                            "chainData": {
+                                "blockExplorerName": "ETHERSCAN"
+                            },
+                            "address": "0x90cfce78f5ed32f9490fd265d16c77a8b5320bd4"
+                        }
+                    }
+                ]
+            },
+            "representativeAsset": {
+                "assetContract": {
+                    "openseaVersion": null,
+                    "id": "QXNzZXRDb250cmFjdFR5cGU6MzQzNTE0"
+                },
+                "id": "QXNzZXRUeXBlOjEyMTIzNzI4MA=="
+            },
+            "slug": "fomo-dog-club",
+            "isMintable": false,
+            "isSafelisted": true,
+            "isVerified": false,
+            "owner": {
+                "address": "0xf9c7450f3ae8a2ee54e91ff20e69633b5e5d36b3",
+                "config": null,
+                "isCompromised": false,
+                "user": {
+                    "publicUsername": "FOMO_Dog",
+                    "id": "VXNlclR5cGU6NDk0Nzg1Nw=="
+                },
+                "displayName": "FOMO_Dog",
+                "imageUrl": "https://storage.googleapis.com/opensea-static/opensea-profile/26.png",
+                "id": "QWNjb3VudFR5cGU6MTAwNzU5MDgz"
+            },
+            "stats": {
+                "numOwners": 633,
+                "totalSupply": 777,
+                "id": "Q29sbGVjdGlvblN0YXRzVHlwZToyMzQ2MDE2"
+            },
+            "nativePaymentAsset": {
+                "symbol": "ETH",
+                "asset": {
+                    "imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+                    "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                },
+                "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+            },
+            "statsV2": {
+                "numOwners": 633,
+                "totalSupply": 777,
+                "totalVolume": {
+                    "unit": "2063.04960766059184607"
+                },
+                "floorPrice": {
+                    "unit": "3.48"
+                }
+            },
+            "discordUrl": "https://discord.gg/fomodogclub",
+            "externalUrl": "https://www.fomodog.club/fdchome",
+            "instagramUsername": "fomodogclub/",
+            "mediumUsername": null,
+            "telegramUrl": null,
+            "twitterUsername": null,
+            "isWatching": false,
+            "id": "Q29sbGVjdGlvblR5cGU6MjM0NjAxNg=="
+        }
+    },
+    {
+        "collection": {
+            "isVerified": true,
+            "name": "CryptoRayRays",
+            "slug": "cryptorayrays-collection",
+            "totalVolume": "2060.494913658596487949",
+            "thirtyDayChange": -0.5578202080620746
+        },
+        "detail": {
+            "isEditable": false,
+            "bannerImageUrl": "https://lh3.googleusercontent.com/K6Jo2WBfO6MLAHvPj_CTj63jeWmNbIldMe63GW_oGkf7EHpWEZyDrW1LGaTBeJtIvq3aSURSgrVD-UhWjoAM1McekQdkmlwzlC-r=s2500",
+            "name": "CryptoRayRays",
+            "description": "Woof woo—oh sorry, hi! My name is RayRay, the goodest vizsla girl from NYC now living in LA. When I’m not coding, I like to wiggle my butt. \r\n\r\nI always wanted a punk, but there weren’t any for dogs like me. This inspired me to design & develop CryptoRayRays - 10,000 unique collectible tokens with proof of ownership stored on the Ethereum blockchain. Your token allows unlimited pets and belly rubs.",
+            "imageUrl": "https://lh3.googleusercontent.com/GHsoJ85qlPWTbrKywAOH6nq0duV18NsGEXZN9I9RUim8eLTVeLEAcl6Khqi3Kgwd2be2jWLkHLS87I_09_KGB8qRWfRgU0TjLxkCZw=s120",
+            "relayId": "Q29sbGVjdGlvblR5cGU6MTE3ODA2OQ==",
+            "connectedTwitterUsername": "cryptorayrays",
+            "assetContracts": {
+                "edges": [
+                    {
+                        "node": {
+                            "chain": "ETHEREUM",
+                            "id": "QXNzZXRDb250cmFjdFR5cGU6MzEwNTUx",
+                            "blockExplorerLink": "https://etherscan.io/address/0x8d4e2435c262eb6df10e5e4672a8f07e42d8d67e",
+                            "chainData": {
+                                "blockExplorerName": "ETHERSCAN"
+                            },
+                            "address": "0x8d4e2435c262eb6df10e5e4672a8f07e42d8d67e"
+                        }
+                    }
+                ]
+            },
+            "representativeAsset": {
+                "assetContract": {
+                    "openseaVersion": null,
+                    "id": "QXNzZXRDb250cmFjdFR5cGU6MzEwNTUx"
+                },
+                "id": "QXNzZXRUeXBlOjI0MzM3OTYzNw=="
+            },
+            "slug": "cryptorayrays-collection",
+            "isMintable": false,
+            "isSafelisted": true,
+            "isVerified": true,
+            "owner": {
+                "address": "0xf75a7d7cc5991630fb44eaa74d938bd28e35e87e",
+                "config": "VERIFIED",
+                "isCompromised": false,
+                "user": {
+                    "publicUsername": "CryptoRayRays",
+                    "id": "VXNlclR5cGU6MTgzNTY5NA=="
+                },
+                "displayName": "CryptoRayRays",
+                "imageUrl": "https://lh3.googleusercontent.com/F-KPK9Gku3Wtf0LGAZoyXCAUUmL-vYoelckG_pSu2ReMqOZcvKrkG5W6E07vOXVIGZSUEmjGD4KyZXWFRQQvWY52G_x60zv0yOLd6A=s100",
+                "id": "QWNjb3VudFR5cGU6NjczMTk3Njc="
+            },
+            "stats": {
+                "numOwners": 4957,
+                "totalSupply": 9677,
+                "id": "Q29sbGVjdGlvblN0YXRzVHlwZToxMTc4MDY5"
+            },
+            "nativePaymentAsset": {
+                "symbol": "ETH",
+                "asset": {
+                    "imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+                    "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                },
+                "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+            },
+            "statsV2": {
+                "numOwners": 4957,
+                "totalSupply": 9677,
+                "totalVolume": {
+                    "unit": "2060.494913658596487949"
+                },
+                "floorPrice": {
+                    "unit": "0.035"
+                }
+            },
+            "discordUrl": null,
+            "externalUrl": "https://cryptorayrays.com/",
+            "instagramUsername": "cryptorayrays",
+            "mediumUsername": null,
+            "telegramUrl": null,
+            "twitterUsername": null,
+            "isWatching": false,
+            "id": "Q29sbGVjdGlvblR5cGU6MTE3ODA2OQ=="
+        }
+    },
+    {
+        "collection": {
+            "isVerified": false,
+            "name": "LIFINITY Flares",
+            "slug": "lifinity-flares",
+            "totalVolume": "64493.69541650379761769408365",
+            "thirtyDayChange": 0.8113550146014039
+        },
+        "detail": {
+            "isEditable": false,
+            "bannerImageUrl": "https://lh3.googleusercontent.com/nhCXq_nu4Obhjelolb28PxX1-qDGv-s5P2UrvCdNFVKgCgc9a3v1vqhuQBPKHFgDj9zYztxfxGnModTf2IPtyMV0ltwW4qg9CUvaTw=s2500",
+            "name": "LIFINITY Flares",
+            "description": "Animated NFTs・NFT x DeFi・Revenue generating protocol",
+            "imageUrl": "https://lh3.googleusercontent.com/WzSxrKBU0BvptHiu-FzziIHkAkey4CgWK-dgj82ro7KswJKpR_KEyfAQwJ0ljdjpHJBKozAbP6_YMNPNOmk5IF78gzt5bgTCLqJt=s120",
+            "relayId": "Q29sbGVjdGlvblR5cGU6MTI4ODY2MTY=",
+            "connectedTwitterUsername": null,
+            "assetContracts": {
+                "edges": []
+            },
+            "representativeAsset": {
+                "assetContract": {
+                    "openseaVersion": "2.0.0",
+                    "id": "QXNzZXRDb250cmFjdFR5cGU6NjA5NTQ0"
+                },
+                "id": "QXNzZXRUeXBlOjM2MDU3NjI5MQ=="
+            },
+            "slug": "lifinity-flares",
+            "isMintable": false,
+            "isSafelisted": true,
+            "isVerified": false,
+            "owner": {
+                "address": "H5q7Z2FJ5KaWmtGquGqoYJYrM73BEpoabzas5y12s38T",
+                "config": null,
+                "isCompromised": false,
+                "user": {
+                    "publicUsername": "LifinityProtocol_Official",
+                    "id": "VXNlclR5cGU6MjkxOTY2NDE="
+                },
+                "displayName": "LifinityProtocol_Official",
+                "imageUrl": "https://lh3.googleusercontent.com/FkL2kf7rcoW_QNLShok-QtMOVobDUkfEc4prNA8YsdbLAGaOLShbGBOG526jXN3GLy3Cm9y8P42HjTm1qSQt0FdgrxCSM4boUsNei64=s100",
+                "id": "QWNjb3VudFR5cGU6Mjg0NjQzNzIy"
+            },
+            "stats": {
+                "numOwners": 1692,
+                "totalSupply": 10000,
+                "id": "Q29sbGVjdGlvblN0YXRzVHlwZToxMjg4NjYxNg=="
+            },
+            "nativePaymentAsset": {
+                "symbol": "SOL",
+                "asset": {
+                    "imageUrl": "https://static.opensea.io/solana-just-s-symbol-colored.svg",
+                    "id": "QXNzZXRUeXBlOjM1MjA0MDQ1Mw=="
+                },
+                "id": "UGF5bWVudEFzc2V0VHlwZTo2Mjc="
+            },
+            "statsV2": {
+                "numOwners": 1692,
+                "totalSupply": 10000,
+                "totalVolume": {
+                    "unit": "64493.69541650379761769408365"
+                },
+                "floorPrice": {
+                    "unit": "18"
+                }
+            },
+            "discordUrl": "https://discord.gg/K2tvfcXwWr",
+            "externalUrl": "https://lifinity.io",
+            "instagramUsername": null,
+            "mediumUsername": null,
+            "telegramUrl": null,
+            "twitterUsername": null,
+            "isWatching": false,
+            "id": "Q29sbGVjdGlvblR5cGU6MTI4ODY2MTY="
+        }
+    },
+    {
+        "collection": {
+            "isVerified": false,
+            "name": "0xOG Pass by 0xStudio",
+            "slug": "0xogpass",
+            "totalVolume": "2055.753808989001754526",
+            "thirtyDayChange": -0.6534044491876311
+        },
+        "detail": {
+            "isEditable": false,
+            "bannerImageUrl": "https://lh3.googleusercontent.com/3if-MokNaMzd1ody9-iV_4DvnFu1KHvuP2OutzQloqNjxIDAgvUlcbSkBDW3ZbLpinfJixPa3JZg3nRd2o_1h15XyWUcYY2M5OL6hJo=s2500",
+            "name": "0xOG Pass by 0xStudio",
+            "description": "0xOG Pass is an art-focused membership pass that allows you to enter private mint round to mint 1 NFT in “Phase 1” of all projects 0xStudio will release from now.",
+            "imageUrl": "https://lh3.googleusercontent.com/S_jVb_dpoTrPJvf_PgCzjn_V7tROr08k1s-v2dlTEImHqRx26Cl0vnk9z9SKhWoIrehEqU5YND2XZ3iyo5pJ2HlfrmU5n20gpdInb7E=s120",
+            "relayId": "Q29sbGVjdGlvblR5cGU6MTM0MDA5ODA=",
+            "connectedTwitterUsername": "0xstudio",
+            "assetContracts": {
+                "edges": [
+                    {
+                        "node": {
+                            "chain": "ETHEREUM",
+                            "id": "QXNzZXRDb250cmFjdFR5cGU6NjQ3NDU0",
+                            "blockExplorerLink": "https://etherscan.io/address/0x5b7622ded96511639ddc12c86eb2703331ca2c78",
+                            "chainData": {
+                                "blockExplorerName": "ETHERSCAN"
+                            },
+                            "address": "0x5b7622ded96511639ddc12c86eb2703331ca2c78"
+                        }
+                    }
+                ]
+            },
+            "representativeAsset": {
+                "assetContract": {
+                    "openseaVersion": null,
+                    "id": "QXNzZXRDb250cmFjdFR5cGU6NjQ3NDU0"
+                },
+                "id": "QXNzZXRUeXBlOjM4OTgxMDUxMQ=="
+            },
+            "slug": "0xogpass",
+            "isMintable": false,
+            "isSafelisted": false,
+            "isVerified": false,
+            "owner": {
+                "address": "0x7a46feda7feb412c993156c3d9907ad231423244",
+                "config": null,
+                "isCompromised": false,
+                "user": {
+                    "publicUsername": "0xStudioChef",
+                    "id": "VXNlclR5cGU6Mjk3MzMxNzk="
+                },
+                "displayName": "0xStudioChef",
+                "imageUrl": "https://lh3.googleusercontent.com/dXvIC1vj97QfvYIo3Q45b8MzC_hRpOLI5sVkkuqArAcYKZwA-AnXnjkJhFOdM0dK9cgeY5wx-SfyhU6mC4MB3pRd21b5rDOQTs0Brw=s100",
+                "id": "QWNjb3VudFR5cGU6MjkwOTkzMzQw"
+            },
+            "stats": {
+                "numOwners": 469,
+                "totalSupply": 498,
+                "id": "Q29sbGVjdGlvblN0YXRzVHlwZToxMzQwMDk4MA=="
+            },
+            "nativePaymentAsset": {
+                "symbol": "ETH",
+                "asset": {
+                    "imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+                    "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                },
+                "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+            },
+            "statsV2": {
+                "numOwners": 469,
+                "totalSupply": 498,
+                "totalVolume": {
+                    "unit": "2055.753808989001754526"
+                },
+                "floorPrice": {
+                    "unit": "0.84"
+                }
+            },
+            "discordUrl": null,
+            "externalUrl": "http://0xog.com",
+            "instagramUsername": null,
+            "mediumUsername": null,
+            "telegramUrl": null,
+            "twitterUsername": null,
+            "isWatching": false,
+            "id": "Q29sbGVjdGlvblR5cGU6MTM0MDA5ODA="
+        }
+    },
+    {
+        "collection": {
+            "isVerified": false,
+            "name": "Honey Genesis Bees - autogen",
+            "slug": "honey-genesis-bees-autogen",
+            "totalVolume": "64443.74395575664743161170947",
+            "thirtyDayChange": 0.10670221497972461
+        },
+        "detail": {
+            "isEditable": false,
+            "bannerImageUrl": null,
+            "name": "Honey Genesis Bees - autogen",
+            "description": null,
+            "imageUrl": "https://lh3.googleusercontent.com/Y6yqBYd59oDTz_9rxsGtBlkqvhrt350jdJ4LqzMvuLGoAJeDPSjRToy0do4mmKB4k8n9Wp4y_3UpMabl2L7o-a4JSutu5IYikQzAaQ",
+            "relayId": "Q29sbGVjdGlvblR5cGU6MTA5MTg0ODY=",
+            "connectedTwitterUsername": null,
+            "assetContracts": {
+                "edges": []
+            },
+            "representativeAsset": {
+                "assetContract": {
+                    "openseaVersion": "2.0.0",
+                    "id": "QXNzZXRDb250cmFjdFR5cGU6NjA5NTQ0"
+                },
+                "id": "QXNzZXRUeXBlOjM2NDA0ODk2MA=="
+            },
+            "slug": "honey-genesis-bees-autogen",
+            "isMintable": false,
+            "isSafelisted": false,
+            "isVerified": false,
+            "owner": null,
+            "stats": {
+                "numOwners": 0,
+                "totalSupply": 0,
+                "id": "Q29sbGVjdGlvblN0YXRzVHlwZToxMDkxODQ4Ng=="
+            },
+            "nativePaymentAsset": {
+                "symbol": "SOL",
+                "asset": {
+                    "imageUrl": "https://static.opensea.io/solana-just-s-symbol-colored.svg",
+                    "id": "QXNzZXRUeXBlOjM1MjA0MDQ1Mw=="
+                },
+                "id": "UGF5bWVudEFzc2V0VHlwZTo2Mjc="
+            },
+            "statsV2": {
+                "numOwners": 0,
+                "totalSupply": 0,
+                "totalVolume": {
+                    "unit": "64512.46033315400397745357341"
+                },
+                "floorPrice": null
+            },
+            "discordUrl": null,
+            "externalUrl": null,
+            "instagramUsername": null,
+            "mediumUsername": null,
+            "telegramUrl": null,
+            "twitterUsername": null,
+            "isWatching": false,
+            "id": "Q29sbGVjdGlvblR5cGU6MTA5MTg0ODY="
+        }
+    },
+    {
+        "collection": {
+            "isVerified": false,
+            "name": "Mind the Gap by MountVitruvius",
+            "slug": "mind-the-gap-by-mountvitruvius",
+            "totalVolume": "2054.874674257679544098",
+            "thirtyDayChange": -0.23889842892251656
+        },
+        "detail": {
+            "isEditable": false,
+            "bannerImageUrl": "https://lh3.googleusercontent.com/TQ8w-jg05StzllTKK2TibFaxwCSKESpUiJiAIZ7lodcugq-8fG-YjkP3i_p6pQSAZjN7BOa5az2hr7qjNo4rZtFpBxyXiGOhhGUC=s2500",
+            "name": "Mind the Gap by MountVitruvius",
+            "description": "gm. studio presents 'Mind the Gap' by MountVitruvius, a generative series inspired by childhood memories, play and exploration.\n\nThis collection is the first to be featured on the generative art platform gm. studio\n\nIt consists of 999 pieces & launched on Feb 5th 2022.\n",
+            "imageUrl": "https://lh3.googleusercontent.com/gwGam_pzdqrZQqed405cGPTqCitWfEqAgRKDS5dq6GiKWnx3piR-SIKasy5kq2Uh86KYxeqvHkrN_7cesiX0QXm_vZ7ZpX-JYoszGow=s120",
+            "relayId": "Q29sbGVjdGlvblR5cGU6NjgxNjczMQ==",
+            "connectedTwitterUsername": "gmdaostudio",
+            "assetContracts": {
+                "edges": [
+                    {
+                        "node": {
+                            "chain": "ETHEREUM",
+                            "id": "QXNzZXRDb250cmFjdFR5cGU6NTE3NTM4",
+                            "blockExplorerLink": "https://etherscan.io/address/0x0e42ffbac75bcc30cd0015f8aaa608539ba35fbb",
+                            "chainData": {
+                                "blockExplorerName": "ETHERSCAN"
+                            },
+                            "address": "0x0e42ffbac75bcc30cd0015f8aaa608539ba35fbb"
+                        }
+                    }
+                ]
+            },
+            "representativeAsset": {
+                "assetContract": {
+                    "openseaVersion": null,
+                    "id": "QXNzZXRDb250cmFjdFR5cGU6NTE3NTM4"
+                },
+                "id": "QXNzZXRUeXBlOjI3MTYyNzgxNQ=="
+            },
+            "slug": "mind-the-gap-by-mountvitruvius",
+            "isMintable": false,
+            "isSafelisted": true,
+            "isVerified": false,
+            "owner": {
+                "address": "0x16485319aa0ad7a4e68176fbaada235c92acae2e",
+                "config": null,
+                "isCompromised": false,
+                "user": null,
+                "displayName": null,
+                "imageUrl": "https://storage.googleapis.com/opensea-static/opensea-profile/32.png",
+                "id": "QWNjb3VudFR5cGU6MjY2NjQyMjcw"
+            },
+            "stats": {
+                "numOwners": 541,
+                "totalSupply": 999,
+                "id": "Q29sbGVjdGlvblN0YXRzVHlwZTo2ODE2NzMx"
+            },
+            "nativePaymentAsset": {
+                "symbol": "ETH",
+                "asset": {
+                    "imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+                    "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                },
+                "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+            },
+            "statsV2": {
+                "numOwners": 541,
+                "totalSupply": 999,
+                "totalVolume": {
+                    "unit": "2054.874674257679544098"
+                },
+                "floorPrice": {
+                    "unit": "0.4"
+                }
+            },
+            "discordUrl": "https://discord.gg/gmstudio",
+            "externalUrl": "https://www.gmstudio.art/collections/mind-the-gap",
+            "instagramUsername": null,
+            "mediumUsername": null,
+            "telegramUrl": null,
+            "twitterUsername": null,
+            "isWatching": false,
+            "id": "Q29sbGVjdGlvblR5cGU6NjgxNjczMQ=="
+        }
+    },
+    {
+        "collection": {
+            "isVerified": false,
+            "name": "Lil Pudgys",
+            "slug": "lilpudgys",
+            "totalVolume": "2052.308871913648090413",
+            "thirtyDayChange": -0.33400876530304213
+        },
+        "detail": {
+            "isEditable": false,
+            "bannerImageUrl": "https://lh3.googleusercontent.com/syMpZ0m9kyhQJno5x89SjDiFLQPUmB-gK0HlCaSdnAP9VvHmdndfZ00J4Qs2oXWgvjFh9C2M40ZFYsFcO1TnsnGzhkSRzODJ94ZP2A=s2500",
+            "name": "Lil Pudgys",
+            "description": "Lil Pudgys are a collection of 22,222 randomly generated NFTs minted on the Ethereum blockchain. The first 8888 Lil Pudgys were reserved for Pudgy Penguin holders. \n\nJoin The Huddle: [pudgypenguins.com](https://www.pudgypenguins.com/)",
+            "imageUrl": "https://lh3.googleusercontent.com/s4Td3KYsUlCblO6lQKAGAWdKwsCuumcxYpebM_YL-Pex-BP886JYAWjKBLeB5StNopAAD6kVx3QHqWm9AmudXyCaCZszHbt8SdteEQ=s120",
+            "relayId": "Q29sbGVjdGlvblR5cGU6MzgyNjM2NQ==",
+            "connectedTwitterUsername": "pudgypenguins",
+            "assetContracts": {
+                "edges": [
+                    {
+                        "node": {
+                            "chain": "ETHEREUM",
+                            "id": "QXNzZXRDb250cmFjdFR5cGU6NDYwNzc2",
+                            "blockExplorerLink": "https://etherscan.io/address/0x524cab2ec69124574082676e6f654a18df49a048",
+                            "chainData": {
+                                "blockExplorerName": "ETHERSCAN"
+                            },
+                            "address": "0x524cab2ec69124574082676e6f654a18df49a048"
+                        }
+                    }
+                ]
+            },
+            "representativeAsset": {
+                "assetContract": {
+                    "openseaVersion": null,
+                    "id": "QXNzZXRDb250cmFjdFR5cGU6NDYwNzc2"
+                },
+                "id": "QXNzZXRUeXBlOjE1NjQ2NjUyNA=="
+            },
+            "slug": "lilpudgys",
+            "isMintable": false,
+            "isSafelisted": true,
+            "isVerified": false,
+            "owner": {
+                "address": "0x52323e79ada49569623f9b12891f5f604ab42d38",
+                "config": "VERIFIED",
+                "isCompromised": false,
+                "user": {
+                    "publicUsername": "PenguProtector",
+                    "id": "VXNlclR5cGU6Mjg5NjQxOTg="
+                },
+                "displayName": "PenguProtector",
+                "imageUrl": "https://lh3.googleusercontent.com/Pu1-oUfzTIgZA1wv9s58s_q6hwGiAX-DvCWehYiU3KuKuq13vzX3HZKJn_yNYFGTJf5A-gDhZYtwXGlCanQQ8TWS3QBXAsUBlPg9=s100",
+                "id": "QWNjb3VudFR5cGU6MjgzMTYxMDAz"
+            },
+            "stats": {
+                "numOwners": 6225,
+                "totalSupply": 19944,
+                "id": "Q29sbGVjdGlvblN0YXRzVHlwZTozODI2MzY1"
+            },
+            "nativePaymentAsset": {
+                "symbol": "ETH",
+                "asset": {
+                    "imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+                    "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                },
+                "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+            },
+            "statsV2": {
+                "numOwners": 6225,
+                "totalSupply": 19944,
+                "totalVolume": {
+                    "unit": "2052.308871913648090413"
+                },
+                "floorPrice": {
+                    "unit": "0.0919"
+                }
+            },
+            "discordUrl": "https://discord.gg/pudgypenguins",
+            "externalUrl": "https://www.pudgypenguins.com/",
+            "instagramUsername": "pudgypenguins",
+            "mediumUsername": null,
+            "telegramUrl": null,
+            "twitterUsername": "pudgy_penguins",
+            "isWatching": false,
+            "id": "Q29sbGVjdGlvblR5cGU6MzgyNjM2NQ=="
+        }
+    },
+    {
+        "collection": {
+            "isVerified": true,
+            "name": "FPB - Old Collection",
+            "slug": "fpb-old-collection",
+            "totalVolume": "2052.176657928023814748",
+            "thirtyDayChange": -0.01724137931034484
+        },
+        "detail": {
+            "isEditable": false,
+            "bannerImageUrl": "https://lh3.googleusercontent.com/kVc3gzI9GH_aJ38HDQsNcE7pl7tC3jI1gUw4JvQnkvec26j_Yjy7mKl0E8bTS6_n63AfZsmFedyohhDyL-cqgXDm9EDLyqYOtVd7=s2500",
+            "name": "FPB - Old Collection",
+            "description": "WARNING! This collection has been migrated to https://opensea.io/collection/polarbearsnft\nSales/Transfers of this collection have been locked for FPBs DO NOT try to buy FPB from this collection. You can still sell/buy/transfer Sketches here. \n\nRead more about our migration at https://medium.com/@fluffypolarbears",
+            "imageUrl": "https://lh3.googleusercontent.com/pyNATu7ZX-iQ-6njFABGsUNfL_hQFJOSh3f5Q7Mbl3JCx-8dova1j0wbZS1xQKpL737005T7v1Hp3qwnIszi5qFiERiTz1iAhrtJ=s120",
+            "relayId": "Q29sbGVjdGlvblR5cGU6MjM3MTY5Mg==",
+            "connectedTwitterUsername": "polarbearsnft",
+            "assetContracts": {
+                "edges": [
+                    {
+                        "node": {
+                            "chain": "ETHEREUM",
+                            "id": "QXNzZXRDb250cmFjdFR5cGU6MzQ0NzIw",
+                            "blockExplorerLink": "https://etherscan.io/address/0x4dab23c0a529d1caf86f7a902d5340959d170c1e",
+                            "chainData": {
+                                "blockExplorerName": "ETHERSCAN"
+                            },
+                            "address": "0x4dab23c0a529d1caf86f7a902d5340959d170c1e"
+                        }
+                    },
+                    {
+                        "node": {
+                            "chain": "ETHEREUM",
+                            "id": "QXNzZXRDb250cmFjdFR5cGU6MzQ1NzQy",
+                            "blockExplorerLink": "https://etherscan.io/address/0xdebbc3691d42090d899cafe0c4ed80897a7c9d6a",
+                            "chainData": {
+                                "blockExplorerName": "ETHERSCAN"
+                            },
+                            "address": "0xdebbc3691d42090d899cafe0c4ed80897a7c9d6a"
+                        }
+                    }
+                ]
+            },
+            "representativeAsset": {
+                "assetContract": {
+                    "openseaVersion": null,
+                    "id": "QXNzZXRDb250cmFjdFR5cGU6MzQ1NzQy"
+                },
+                "id": "QXNzZXRUeXBlOjgyODgzNDkz"
+            },
+            "slug": "fpb-old-collection",
+            "isMintable": false,
+            "isSafelisted": true,
+            "isVerified": true,
+            "owner": {
+                "address": "0x4a124b724f407e5850c6847e4f9898cbad172882",
+                "config": "VERIFIED",
+                "isCompromised": false,
+                "user": {
+                    "publicUsername": "FluffyDeployer",
+                    "id": "VXNlclR5cGU6Mjg1NDUyNDg="
+                },
+                "displayName": "FluffyDeployer",
+                "imageUrl": "https://lh3.googleusercontent.com/pyNATu7ZX-iQ-6njFABGsUNfL_hQFJOSh3f5Q7Mbl3JCx-8dova1j0wbZS1xQKpL737005T7v1Hp3qwnIszi5qFiERiTz1iAhrtJ=s100",
+                "id": "QWNjb3VudFR5cGU6NDc0Njg1OTU="
+            },
+            "stats": {
+                "numOwners": 4034,
+                "totalSupply": 9442,
+                "id": "Q29sbGVjdGlvblN0YXRzVHlwZToyMzcxNjky"
+            },
+            "nativePaymentAsset": {
+                "symbol": "ETH",
+                "asset": {
+                    "imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+                    "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                },
+                "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+            },
+            "statsV2": {
+                "numOwners": 4034,
+                "totalSupply": 9442,
+                "totalVolume": {
+                    "unit": "2052.176657928023814748"
+                },
+                "floorPrice": null
+            },
+            "discordUrl": "https://discord.gg/polarbearsnft",
+            "externalUrl": "https://polarbearsnft.com/",
+            "instagramUsername": "polarbearsnft",
+            "mediumUsername": "fluffypolarbears",
+            "telegramUrl": null,
+            "twitterUsername": "polarbearsnft",
+            "isWatching": false,
+            "id": "Q29sbGVjdGlvblR5cGU6MjM3MTY5Mg=="
+        }
+    },
+    {
+        "collection": {
+            "isVerified": false,
+            "name": "Solarbots.io",
+            "slug": "solarbots-io",
+            "totalVolume": "2049.941390394084464788",
+            "thirtyDayChange": -0.2484313157519515
+        },
+        "detail": {
+            "isEditable": false,
+            "bannerImageUrl": "https://lh3.googleusercontent.com/ic6inL_Cdqq9biwRuHxz0vvfeJQyO6hkXf8FeAqcQ8tfZLCjwJsw4HUFwTWGbruA6kxGcQXH446PlClQpVXXQ44JdUxJarFuGFQ1uEM=s2500",
+            "name": "Solarbots.io",
+            "description": "Solarbots is an interactive social Metaverse and Storyverse that blurs the lines between gaming and reality. Bravely board the fickle coin of war and peace and join the last defense of the plane of Eld. Fight back the abyssal hordes in this last stand effort! This is your opportunity to become a Pilot. Your baptism awaits.",
+            "imageUrl": "https://lh3.googleusercontent.com/EKNPVxIal4IBO4gle58IIqFdP4bec1HSGxnwSPyqItPkzNyKsoO-58Z013-CLiyO2wRug-DY6IjImmdPRnAQfGnoFkgt0tdxD8TvpTc=s120",
+            "relayId": "Q29sbGVjdGlvblR5cGU6MzgyNDg5Mg==",
+            "connectedTwitterUsername": null,
+            "assetContracts": {
+                "edges": [
+                    {
+                        "node": {
+                            "chain": "ETHEREUM",
+                            "id": "QXNzZXRDb250cmFjdFR5cGU6NDYwNzQw",
+                            "blockExplorerLink": "https://etherscan.io/address/0x8009250878ed378050ef5d2a48c70e24eb2ede7e",
+                            "chainData": {
+                                "blockExplorerName": "ETHERSCAN"
+                            },
+                            "address": "0x8009250878ed378050ef5d2a48c70e24eb2ede7e"
+                        }
+                    }
+                ]
+            },
+            "representativeAsset": {
+                "assetContract": {
+                    "openseaVersion": null,
+                    "id": "QXNzZXRDb250cmFjdFR5cGU6NDYwNzQw"
+                },
+                "id": "QXNzZXRUeXBlOjE2MTcxOTIwNw=="
+            },
+            "slug": "solarbots-io",
+            "isMintable": false,
+            "isSafelisted": true,
+            "isVerified": false,
+            "owner": {
+                "address": "0xa64ded6879ce8b1e527892fdadf3ae1668ef6b6c",
+                "config": null,
+                "isCompromised": false,
+                "user": {
+                    "publicUsername": "Solarbots-Deployer",
+                    "id": "VXNlclR5cGU6MTY0MzMxNDU="
+                },
+                "displayName": "Solarbots-Deployer",
+                "imageUrl": "https://storage.googleapis.com/opensea-static/opensea-profile/2.png",
+                "id": "QWNjb3VudFR5cGU6MTc2NTM1MDc5"
+            },
+            "stats": {
+                "numOwners": 1376,
+                "totalSupply": 39944,
+                "id": "Q29sbGVjdGlvblN0YXRzVHlwZTozODI0ODky"
+            },
+            "nativePaymentAsset": {
+                "symbol": "ETH",
+                "asset": {
+                    "imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+                    "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                },
+                "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+            },
+            "statsV2": {
+                "numOwners": 1376,
+                "totalSupply": 39944,
+                "totalVolume": {
+                    "unit": "2049.941390394084464788"
+                },
+                "floorPrice": {
+                    "unit": "0.056"
+                }
+            },
+            "discordUrl": "https://discord.gg/solarbots",
+            "externalUrl": "https://solarbots.io",
+            "instagramUsername": null,
+            "mediumUsername": null,
+            "telegramUrl": null,
+            "twitterUsername": "solarbotsio",
+            "isWatching": false,
+            "id": "Q29sbGVjdGlvblR5cGU6MzgyNDg5Mg=="
+        }
+    },
+    {
+        "collection": {
+            "isVerified": false,
+            "name": "Botborgs",
+            "slug": "botborgs",
+            "totalVolume": "64216.75390090571383211792126",
+            "thirtyDayChange": -0.44036568050706865
+        },
+        "detail": {
+            "isEditable": false,
+            "bannerImageUrl": "https://lh3.googleusercontent.com/WCnbPPDlLniPLdiXNxJJP8QgfRRnDqSwq5xtLgG6xuPs0FulJA4c5KNeX-krlxw95x2HkXFZ1E5-9n75wpCbhZEHXDUjfexJ1zAp8n4=s2500",
+            "name": "Botborgs",
+            "description": "A P2E open world sci-fi Metaverse built on a multiplanetary ecosystem in the Borgverse.\n\n",
+            "imageUrl": "https://lh3.googleusercontent.com/ItMLCUMH5N_c2Il3Zj9YqBdlRDvKrRjKu_5HtvvmKpNV7ATYxlcJ0RWSzM1PKCl5ntuv-aWxRUax3pz4Dy1IYYShDmQtqmv0QteFNA=s120",
+            "relayId": "Q29sbGVjdGlvblR5cGU6MTQzNzQzMDE=",
+            "connectedTwitterUsername": null,
+            "assetContracts": {
+                "edges": []
+            },
+            "representativeAsset": {
+                "assetContract": {
+                    "openseaVersion": "2.0.0",
+                    "id": "QXNzZXRDb250cmFjdFR5cGU6NjA5NTQ0"
+                },
+                "id": "QXNzZXRUeXBlOjM2MTYyODQ4NA=="
+            },
+            "slug": "botborgs",
+            "isMintable": false,
+            "isSafelisted": true,
+            "isVerified": false,
+            "owner": {
+                "address": "Bfj3GjtCff1fiUi9oiyPkrWMsj9oSyWDNcpQDJKgDdcb",
+                "config": null,
+                "isCompromised": false,
+                "user": null,
+                "displayName": null,
+                "imageUrl": "https://storage.googleapis.com/opensea-static/opensea-profile/7.png",
+                "id": "QWNjb3VudFR5cGU6MjgxMjE2NTQy"
+            },
+            "stats": {
+                "numOwners": 4515,
+                "totalSupply": 10000,
+                "id": "Q29sbGVjdGlvblN0YXRzVHlwZToxNDM3NDMwMQ=="
+            },
+            "nativePaymentAsset": {
+                "symbol": "SOL",
+                "asset": {
+                    "imageUrl": "https://static.opensea.io/solana-just-s-symbol-colored.svg",
+                    "id": "QXNzZXRUeXBlOjM1MjA0MDQ1Mw=="
+                },
+                "id": "UGF5bWVudEFzc2V0VHlwZTo2Mjc="
+            },
+            "statsV2": {
+                "numOwners": 4515,
+                "totalSupply": 10000,
+                "totalVolume": {
+                    "unit": "64166.27282771266600413323608"
+                },
+                "floorPrice": {
+                    "unit": "4.99"
+                }
+            },
+            "discordUrl": "https://discord.gg/invite/botborgs",
+            "externalUrl": "https://botborgs.com/",
+            "instagramUsername": null,
+            "mediumUsername": null,
+            "telegramUrl": null,
+            "twitterUsername": null,
+            "isWatching": false,
+            "id": "Q29sbGVjdGlvblR5cGU6MTQzNzQzMDE="
+        }
+    },
+    {
+        "collection": {
+            "isVerified": true,
+            "name": "Super Ordinary Villains - SOV",
+            "slug": "super-ordinary-villains-genesis",
+            "totalVolume": "2037.466756743269570507",
+            "thirtyDayChange": -0.7793863033963903
+        },
+        "detail": {
+            "isEditable": false,
+            "bannerImageUrl": "https://lh3.googleusercontent.com/3rwMf6AEuUDTQMgcKnMHe4VphzFIQEntGcsMzBdnT3mWtZPphlvfZT1v8eBtUFCpQrmLcWPkEZac-HCjec87cBIjAWemU_n61WgfmA=s2500",
+            "name": "Super Ordinary Villains - SOV",
+            "description": "8888 piece generative NFT collection made up of super villains. But these villains aren't out of reach. They live next door, they fly above your planes, they're apart of your very ordinary world. So as you fight traffic, they also fight traffic, but with ability to light your car on fire if they get too angry.\n\n",
+            "imageUrl": "https://lh3.googleusercontent.com/acJL58sufDJzVcJ7Dok0YGyAzx35GoGJZ_sAQHaylOhHB0K71sTlflixSqCWphVCiSQ46Djwe5nboSv3S_0SZrIRJQTxt-RcwjZ4Rg=s120",
+            "relayId": "Q29sbGVjdGlvblR5cGU6ODI1MDA5MA==",
+            "connectedTwitterUsername": "SOVillains",
+            "assetContracts": {
+                "edges": [
+                    {
+                        "node": {
+                            "chain": "ETHEREUM",
+                            "id": "QXNzZXRDb250cmFjdFR5cGU6NTcyMzI2",
+                            "blockExplorerLink": "https://etherscan.io/address/0xe24e4d4535f504d6d7957356534e23b4e787289f",
+                            "chainData": {
+                                "blockExplorerName": "ETHERSCAN"
+                            },
+                            "address": "0xe24e4d4535f504d6d7957356534e23b4e787289f"
+                        }
+                    }
+                ]
+            },
+            "representativeAsset": {
+                "assetContract": {
+                    "openseaVersion": null,
+                    "id": "QXNzZXRDb250cmFjdFR5cGU6NTcyMzI2"
+                },
+                "id": "QXNzZXRUeXBlOjMyOTI3NTU2Mw=="
+            },
+            "slug": "super-ordinary-villains-genesis",
+            "isMintable": false,
+            "isSafelisted": true,
+            "isVerified": true,
+            "owner": {
+                "address": "0x1ff365e468bc43253c58e09cb0cae651c475b3bc",
+                "config": "VERIFIED",
+                "isCompromised": false,
+                "user": {
+                    "publicUsername": "SuperOrdinaryVillains",
+                    "id": "VXNlclR5cGU6MjU4MDc4Njc="
+                },
+                "displayName": "SuperOrdinaryVillains",
+                "imageUrl": "https://lh3.googleusercontent.com/acJL58sufDJzVcJ7Dok0YGyAzx35GoGJZ_sAQHaylOhHB0K71sTlflixSqCWphVCiSQ46Djwe5nboSv3S_0SZrIRJQTxt-RcwjZ4Rg=s100",
+                "id": "QWNjb3VudFR5cGU6MjU5OTUwNjYy"
+            },
+            "stats": {
+                "numOwners": 4354,
+                "totalSupply": 8888,
+                "id": "Q29sbGVjdGlvblN0YXRzVHlwZTo4MjUwMDkw"
+            },
+            "nativePaymentAsset": {
+                "symbol": "ETH",
+                "asset": {
+                    "imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+                    "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                },
+                "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+            },
+            "statsV2": {
+                "numOwners": 4354,
+                "totalSupply": 8888,
+                "totalVolume": {
+                    "unit": "2037.466756743269570507"
+                },
+                "floorPrice": {
+                    "unit": "0.006"
+                }
+            },
+            "discordUrl": null,
+            "externalUrl": null,
+            "instagramUsername": null,
+            "mediumUsername": null,
+            "telegramUrl": null,
+            "twitterUsername": null,
+            "isWatching": false,
+            "id": "Q29sbGVjdGlvblR5cGU6ODI1MDA5MA=="
+        }
+    },
+    {
+        "collection": {
+            "isVerified": true,
+            "name": "Plug Pass",
+            "slug": "plugpass",
+            "totalVolume": "2035.417129786999566932",
+            "thirtyDayChange": -0.664007331349998
+        },
+        "detail": {
+            "isEditable": false,
+            "bannerImageUrl": "https://lh3.googleusercontent.com/SegJxnN0pv26lwrYt3xvZ5nGIn9_Gxv2THKUeEXZTiMxsFbjo1-3KO2dVSScb7YE-JvLE2RWf2J5s9rT6VVgS_4W4Rzi704-QEU6tUA=s2500",
+            "name": "Plug Pass",
+            "description": "Ownership of the Plug Pass grants you access to the exclusive Kosher Crew Discord group. In total only 969 passes will be available for mint. There are many benefits of owning a plug pass, from calls with experts to confirmed whitelist access for future projects.\n\nOwning a pass is buying into a community where you are given all the info needed to have success in NFTs & more!",
+            "imageUrl": "https://lh3.googleusercontent.com/iEyJMn9BR6UnpvStv7UYB0sgUbmnvcWoXkPdwtmIPWQNsg0_BCeBIT7H9AJe90f9Y0cz2kLqRyhvFTsLYLGoFZGbpoqBbAX69kYCIQ=s120",
+            "relayId": "Q29sbGVjdGlvblR5cGU6MjQ5MzQxNw==",
+            "connectedTwitterUsername": "ThePlugPass",
+            "assetContracts": {
+                "edges": [
+                    {
+                        "node": {
+                            "chain": "ETHEREUM",
+                            "id": "QXNzZXRDb250cmFjdFR5cGU6MzQ5NDY2",
+                            "blockExplorerLink": "https://etherscan.io/address/0x1bf47e4f2e9078c30914e33134b21c952b55c64b",
+                            "chainData": {
+                                "blockExplorerName": "ETHERSCAN"
+                            },
+                            "address": "0x1bf47e4f2e9078c30914e33134b21c952b55c64b"
+                        }
+                    }
+                ]
+            },
+            "representativeAsset": {
+                "assetContract": {
+                    "openseaVersion": null,
+                    "id": "QXNzZXRDb250cmFjdFR5cGU6MzQ5NDY2"
+                },
+                "id": "QXNzZXRUeXBlOjg2OTEyMTYz"
+            },
+            "slug": "plugpass",
+            "isMintable": false,
+            "isSafelisted": true,
+            "isVerified": true,
+            "owner": {
+                "address": "0xccabbf7484c343035522504cf2d06ab02882ff40",
+                "config": "VERIFIED",
+                "isCompromised": false,
+                "user": {
+                    "publicUsername": "PlugPassDeployer",
+                    "id": "VXNlclR5cGU6NTk5NTc2MA=="
+                },
+                "displayName": "PlugPassDeployer",
+                "imageUrl": "https://lh3.googleusercontent.com/8EKnukNXa5dOXuy1dAvrZqTGT_sWBEXSjfmpUqJ1EXXj4bf_MU0B0QnvyEttHYpumDE2-xZWnsqPnSQTTf_bb9ZQrx0wz-PnbD6_bQ=s100",
+                "id": "QWNjb3VudFR5cGU6MTEwNTI0MDA2"
+            },
+            "stats": {
+                "numOwners": 805,
+                "totalSupply": 1,
+                "id": "Q29sbGVjdGlvblN0YXRzVHlwZToyNDkzNDE3"
+            },
+            "nativePaymentAsset": {
+                "symbol": "ETH",
+                "asset": {
+                    "imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+                    "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                },
+                "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+            },
+            "statsV2": {
+                "numOwners": 805,
+                "totalSupply": 1,
+                "totalVolume": {
+                    "unit": "2035.417129786999566932"
+                },
+                "floorPrice": {
+                    "unit": "0.34"
+                }
+            },
+            "discordUrl": "https://discord.gg/JmkCtaZeFz",
+            "externalUrl": null,
+            "instagramUsername": null,
+            "mediumUsername": null,
+            "telegramUrl": null,
+            "twitterUsername": null,
+            "isWatching": false,
+            "id": "Q29sbGVjdGlvblR5cGU6MjQ5MzQxNw=="
+        }
+    },
+    {
+        "collection": {
+            "isVerified": false,
+            "name": "Botborgs - autogen",
+            "slug": "botborgs-autogen",
+            "totalVolume": "63803.96328878234242157621131",
+            "thirtyDayChange": -0.2844711325558943
+        },
+        "detail": {
+            "isEditable": false,
+            "bannerImageUrl": null,
+            "name": "Botborgs - autogen",
+            "description": null,
+            "imageUrl": "https://lh3.googleusercontent.com/ubuCFzunKMl5GXDHhfQjjTz0WR-zJSegZCkdpMoTJaJiJOTciuS9i7SjZeOF33qrkos3PI7SenkISJk6SqG9igrjO1N3S-quU6C0Tg",
+            "relayId": "Q29sbGVjdGlvblR5cGU6MTA0NTcyODg=",
+            "connectedTwitterUsername": null,
+            "assetContracts": {
+                "edges": []
+            },
+            "representativeAsset": null,
+            "slug": "botborgs-autogen",
+            "isMintable": false,
+            "isSafelisted": false,
+            "isVerified": false,
+            "owner": null,
+            "stats": {
+                "numOwners": 0,
+                "totalSupply": 0,
+                "id": "Q29sbGVjdGlvblN0YXRzVHlwZToxMDQ1NzI4OA=="
+            },
+            "nativePaymentAsset": {
+                "symbol": "SOL",
+                "asset": {
+                    "imageUrl": "https://static.opensea.io/solana-just-s-symbol-colored.svg",
+                    "id": "QXNzZXRUeXBlOjM1MjA0MDQ1Mw=="
+                },
+                "id": "UGF5bWVudEFzc2V0VHlwZTo2Mjc="
+            },
+            "statsV2": {
+                "numOwners": 0,
+                "totalSupply": 0,
+                "totalVolume": {
+                    "unit": "63811.84678093869044846234538"
+                },
+                "floorPrice": null
+            },
+            "discordUrl": null,
+            "externalUrl": null,
+            "instagramUsername": null,
+            "mediumUsername": null,
+            "telegramUrl": null,
+            "twitterUsername": null,
+            "isWatching": false,
+            "id": "Q29sbGVjdGlvblR5cGU6MTA0NTcyODg="
+        }
+    },
+    {
+        "collection": {
+            "isVerified": true,
+            "name": "Treasure Project",
+            "slug": "treasure-for-loot",
+            "totalVolume": "2027.772287595533953208",
+            "thirtyDayChange": -0.25997267759562853
+        },
+        "detail": {
+            "isEditable": false,
+            "bannerImageUrl": "https://lh3.googleusercontent.com/LZ6z3brB6HyF2PofK5lzQNzedjXYWRNG_9RzltFVwGArrHtT1VcI-oEpPd_x-URH957ThdoMl-m9PPOligB-xOTPwDuEBf8W-fC6Mw=s2500",
+            "name": "Treasure Project",
+            "description": "Treasure is building decentralized, open source, composable currencies for the NFT ecosystem.",
+            "imageUrl": "https://lh3.googleusercontent.com/HVeYD0FDUiSpJgEoGwCH8u---YXV1n51jRq8j4UHQ87rFfJsXPSavipmwwwYnKBKzepV5b_Y8hiqiIglitv6TplaWajFIDSgiJaZiQk=s120",
+            "relayId": "Q29sbGVjdGlvblR5cGU6MTI5NzE0NQ==",
+            "connectedTwitterUsername": null,
+            "assetContracts": {
+                "edges": [
+                    {
+                        "node": {
+                            "chain": "ETHEREUM",
+                            "id": "QXNzZXRDb250cmFjdFR5cGU6MzEyMDUy",
+                            "blockExplorerLink": "https://etherscan.io/address/0xf3dfbe887d81c442557f7a59e3a0aecf5e39f6aa",
+                            "chainData": {
+                                "blockExplorerName": "ETHERSCAN"
+                            },
+                            "address": "0xf3dfbe887d81c442557f7a59e3a0aecf5e39f6aa"
+                        }
+                    }
+                ]
+            },
+            "representativeAsset": {
+                "assetContract": {
+                    "openseaVersion": null,
+                    "id": "QXNzZXRDb250cmFjdFR5cGU6MzEyMDUy"
+                },
+                "id": "QXNzZXRUeXBlOjQ0MjA5MjE4"
+            },
+            "slug": "treasure-for-loot",
+            "isMintable": false,
+            "isSafelisted": true,
+            "isVerified": true,
+            "owner": {
+                "address": "0x2940108780b870ae8f1509be95fdf2b6fb066e41",
+                "config": null,
+                "isCompromised": false,
+                "user": {
+                    "publicUsername": "Treasurer",
+                    "id": "VXNlclR5cGU6MjA4OTA5Ng=="
+                },
+                "displayName": "Treasurer",
+                "imageUrl": "https://storage.googleapis.com/opensea-static/opensea-profile/4.png",
+                "id": "QWNjb3VudFR5cGU6NzMzNDE1NDA="
+            },
+            "stats": {
+                "numOwners": 816,
+                "totalSupply": 8999,
+                "id": "Q29sbGVjdGlvblN0YXRzVHlwZToxMjk3MTQ1"
+            },
+            "nativePaymentAsset": {
+                "symbol": "ETH",
+                "asset": {
+                    "imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+                    "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                },
+                "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+            },
+            "statsV2": {
+                "numOwners": 816,
+                "totalSupply": 8999,
+                "totalVolume": {
+                    "unit": "2027.772287595533953208"
+                },
+                "floorPrice": {
+                    "unit": "0.075"
+                }
+            },
+            "discordUrl": null,
+            "externalUrl": "https://treasure.lol/",
+            "instagramUsername": null,
+            "mediumUsername": null,
+            "telegramUrl": null,
+            "twitterUsername": "Treasure_NFT",
+            "isWatching": false,
+            "id": "Q29sbGVjdGlvblR5cGU6MTI5NzE0NQ=="
+        }
+    },
+    {
+        "collection": {
+            "isVerified": true,
+            "name": "Watercolor Dreams by NumbersInMotion",
+            "slug": "watercolor-dreams-by-numbersinmotion",
+            "totalVolume": "2027.690281102495418963",
+            "thirtyDayChange": 0.09368111682586364
+        },
+        "detail": {
+            "isEditable": false,
+            "bannerImageUrl": "https://lh3.googleusercontent.com/5-KeOMqOlfC7D6etYVEcrEiPcRy_QB-KPS3uOeGu7hMsPorzvPNtJOVrQRb1rxjHFcFsyXEQmTdj7bvqlbAQD5foHQxbTEgb5GPaMLg=s2500",
+            "name": "Watercolor Dreams by NumbersInMotion",
+            "description": "Watercolor Dreams by NumbersInMotion - Art Blocks Curated",
+            "imageUrl": "https://lh3.googleusercontent.com/B5YqyRyxnpXDQ4xl6PUMFHk1uBxP0XfIUlsJsy5Qq5D-NpzC60xxEJN4ZLe8b7j93HXC4tYB5-mdquKUz5Eizj6lqc0p5ZsjQICGvQ",
+            "relayId": "Q29sbGVjdGlvblR5cGU6MjE5OTkxNA==",
+            "connectedTwitterUsername": null,
+            "assetContracts": {
+                "edges": []
+            },
+            "representativeAsset": {
+                "assetContract": {
+                    "openseaVersion": null,
+                    "id": "QXNzZXRDb250cmFjdFR5cGU6MTcyNzgz"
+                },
+                "id": "QXNzZXRUeXBlOjIzMTAwNTQ4"
+            },
+            "slug": "watercolor-dreams-by-numbersinmotion",
+            "isMintable": false,
+            "isSafelisted": true,
+            "isVerified": true,
+            "owner": {
+                "address": "0x96dc73c8b5969608c77375f085949744b5177660",
+                "config": "VERIFIED",
+                "isCompromised": false,
+                "user": {
+                    "publicUsername": "ArtBlocks_Admin",
+                    "id": "VXNlclR5cGU6MTA5NDg1"
+                },
+                "displayName": "ArtBlocks_Admin",
+                "imageUrl": "https://lh3.googleusercontent.com/GwnosrkaneKGEkWySxvTSzZ5bEUjWkRuQzLSNfrpgy2-gxYjoR3m5PohLT9Fzy0p1tohajZ1g-LFfF_ZLnS1GqlPNHPUaKUbDhbf=s120",
+                "id": "QWNjb3VudFR5cGU6MTQ4MDc0MTU="
+            },
+            "stats": {
+                "numOwners": 408,
+                "totalSupply": 600,
+                "id": "Q29sbGVjdGlvblN0YXRzVHlwZToyMTk5OTE0"
+            },
+            "nativePaymentAsset": {
+                "symbol": "ETH",
+                "asset": {
+                    "imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+                    "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                },
+                "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+            },
+            "statsV2": {
+                "numOwners": 408,
+                "totalSupply": 600,
+                "totalVolume": {
+                    "unit": "2027.690281102495418963"
+                },
+                "floorPrice": {
+                    "unit": "1.25"
+                }
+            },
+            "discordUrl": null,
+            "externalUrl": "https://www.artblocks.io/project/59",
+            "instagramUsername": null,
+            "mediumUsername": null,
+            "telegramUrl": null,
+            "twitterUsername": null,
+            "isWatching": false,
+            "id": "Q29sbGVjdGlvblR5cGU6MjE5OTkxNA=="
+        }
+    },
+    {
+        "collection": {
+            "isVerified": true,
+            "name": "Evaverse",
+            "slug": "evaverse",
+            "totalVolume": "2024.296723522344109369",
+            "thirtyDayChange": -0.61673930902507
+        },
+        "detail": {
+            "isEditable": false,
+            "bannerImageUrl": "https://lh3.googleusercontent.com/-Nbq8RtSYmmvfV3iDebNEhFdQkrmzbjTrNq_0NmXn6bOV2D5qv1klwKmhq_GW1PKxCSo_lXgfpkkmuDzJZFmuVFMR7uJ20sACsK8=s2500",
+            "name": "Evaverse",
+            "description": "Evaverse NFT Collection is a 10,000 1/1 unique ERC-721 set of beautifully animated 3D avatars.  Each avatar is created from up to 19 possible unique traits, creating 430 million total unique variations possible. Certain avatars will possess incredibly rare traits.\n\nEach NFT is a rigged and animated playable game character inside the Evaverse video game.  Evaverse is a multiplayer social game built for the NFT Community.  Evaverse NFT holders will be able to propose and vote on future game updates design mechanics. The game will be launched on Steam following the reveal of the NFTs.\n\nThe EVAVERSE video game can be played on [Steam](https://store.steampowered.com/app/1628750/Evaverse). Visit [evaverse.com](https://evaverse.com) for more information\n[Evaverse Turtle Troop](https://opensea.io/assets/eva-turtle) - \n[Evaverse Hoverboards](https://opensea.io/assets/eva-hoverboard)",
+            "imageUrl": "https://lh3.googleusercontent.com/FbrOJX99uNKuOVxBSqt3MqmtYZhFE7uXEZ8LI3NL_bCxZ64ciCi9dLZPDJ4UJhoAPUGotxBoAI-dXx_OHBxHlhEYSi278CZs6Qiw=s120",
+            "relayId": "Q29sbGVjdGlvblR5cGU6Nzg4NzAz",
+            "connectedTwitterUsername": "Evaverse_NFT",
+            "assetContracts": {
+                "edges": [
+                    {
+                        "node": {
+                            "chain": "ETHEREUM",
+                            "id": "QXNzZXRDb250cmFjdFR5cGU6Mjg2NjU0",
+                            "blockExplorerLink": "https://etherscan.io/address/0x837704ec8dfec198789baf061d6e93b0e1555da6",
+                            "chainData": {
+                                "blockExplorerName": "ETHERSCAN"
+                            },
+                            "address": "0x837704ec8dfec198789baf061d6e93b0e1555da6"
+                        }
+                    }
+                ]
+            },
+            "representativeAsset": {
+                "assetContract": {
+                    "openseaVersion": null,
+                    "id": "QXNzZXRDb250cmFjdFR5cGU6Mjg2NjU0"
+                },
+                "id": "QXNzZXRUeXBlOjM3Mjc2MTUw"
+            },
+            "slug": "evaverse",
+            "isMintable": false,
+            "isSafelisted": true,
+            "isVerified": true,
+            "owner": {
+                "address": "0x7047e57ec814585b245aa186d8f671e5c25797ee",
+                "config": null,
+                "isCompromised": false,
+                "user": {
+                    "publicUsername": "EVAVERSE",
+                    "id": "VXNlclR5cGU6MTAxOTA4OQ=="
+                },
+                "displayName": "EVAVERSE",
+                "imageUrl": "https://lh3.googleusercontent.com/Pd00kvt_5HSq13rQCEMbZkoaaeoc7nu1X_EHZMmP2xJH3r6kzva3cU0zSX4jSM0KdViRyOLAFRLlAZ-HzJ8jb5o3IXEFY_pRG5VkPA=s100",
+                "id": "QWNjb3VudFR5cGU6NTY2MDY4ODM="
+            },
+            "stats": {
+                "numOwners": 2984,
+                "totalSupply": 10000,
+                "id": "Q29sbGVjdGlvblN0YXRzVHlwZTo3ODg3MDM="
+            },
+            "nativePaymentAsset": {
+                "symbol": "ETH",
+                "asset": {
+                    "imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+                    "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                },
+                "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+            },
+            "statsV2": {
+                "numOwners": 2984,
+                "totalSupply": 10000,
+                "totalVolume": {
+                    "unit": "2024.296723522344109369"
+                },
+                "floorPrice": {
+                    "unit": "0.1208"
+                }
+            },
+            "discordUrl": "https://discord.gg/FSht7cuXfY",
+            "externalUrl": "https://evaverse.com",
+            "instagramUsername": "evaverse_nft",
+            "mediumUsername": null,
+            "telegramUrl": "https://t.me/evaverse_nft",
+            "twitterUsername": "evaverse_nft",
+            "isWatching": false,
+            "id": "Q29sbGVjdGlvblR5cGU6Nzg4NzAz"
+        }
+    },
+    {
+        "collection": {
+            "isVerified": true,
+            "name": "Cryptoblots by Daïm Aggott-Hönsch",
+            "slug": "cryptoblots-by-daim-aggott-honsch",
+            "totalVolume": "2023.827722222618831438",
+            "thirtyDayChange": -0.37791644255789286
+        },
+        "detail": {
+            "isEditable": false,
+            "bannerImageUrl": "https://img-ae.seadn.io/https%3A%2F%2Flh3.googleusercontent.com%2F5-KeOMqOlfC7D6etYVEcrEiPcRy_QB-KPS3uOeGu7hMsPorzvPNtJOVrQRb1rxjHFcFsyXEQmTdj7bvqlbAQD5foHQxbTEgb5GPaMLg%3Ds10000?fit=max&h=2500&w=2500&auto=format&s=5e53a07f727c4d2cf5091e6e52cf5056",
+            "name": "Cryptoblots by Daïm Aggott-Hönsch",
+            "description": "Cryptoblots by Daïm Aggott-Hönsch - Art Blocks Curated",
+            "imageUrl": "https://lh3.googleusercontent.com/SCITEmNvNzSee3GCg0gZd0crHhyFmP7Dm6KZCDvf-H5F0blTPC2xXmWqciLM3ii3Wx0DdWF0PajWiFrshvTXb2S81HGIg5g_VdvX48A",
+            "relayId": "Q29sbGVjdGlvblR5cGU6MjE5MTI3OA==",
+            "connectedTwitterUsername": null,
+            "assetContracts": {
+                "edges": []
+            },
+            "representativeAsset": {
+                "assetContract": {
+                    "openseaVersion": null,
+                    "id": "QXNzZXRDb250cmFjdFR5cGU6MTcyNzgz"
+                },
+                "id": "QXNzZXRUeXBlOjE3NTQwMzI5"
+            },
+            "slug": "cryptoblots-by-daim-aggott-honsch",
+            "isMintable": false,
+            "isSafelisted": true,
+            "isVerified": true,
+            "owner": {
+                "address": "0x96dc73c8b5969608c77375f085949744b5177660",
+                "config": "VERIFIED",
+                "isCompromised": false,
+                "user": {
+                    "publicUsername": "ArtBlocks_Admin",
+                    "id": "VXNlclR5cGU6MTA5NDg1"
+                },
+                "displayName": "ArtBlocks_Admin",
+                "imageUrl": "https://lh3.googleusercontent.com/GwnosrkaneKGEkWySxvTSzZ5bEUjWkRuQzLSNfrpgy2-gxYjoR3m5PohLT9Fzy0p1tohajZ1g-LFfF_ZLnS1GqlPNHPUaKUbDhbf=s120",
+                "id": "QWNjb3VudFR5cGU6MTQ4MDc0MTU="
+            },
+            "stats": {
+                "numOwners": 812,
+                "totalSupply": 1921,
+                "id": "Q29sbGVjdGlvblN0YXRzVHlwZToyMTkxMjc4"
+            },
+            "nativePaymentAsset": {
+                "symbol": "ETH",
+                "asset": {
+                    "imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+                    "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                },
+                "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+            },
+            "statsV2": {
+                "numOwners": 812,
+                "totalSupply": 1921,
+                "totalVolume": {
+                    "unit": "2023.827722222618831438"
+                },
+                "floorPrice": {
+                    "unit": "0.38"
+                }
+            },
+            "discordUrl": null,
+            "externalUrl": "https://www.artblocks.io/project/3",
+            "instagramUsername": null,
+            "mediumUsername": null,
+            "telegramUrl": null,
+            "twitterUsername": null,
+            "isWatching": false,
+            "id": "Q29sbGVjdGlvblR5cGU6MjE5MTI3OA=="
+        }
+    },
+    {
+        "collection": {
+            "isVerified": true,
+            "name": "White Sands Parcel Pass",
+            "slug": "white-sands-parcel-pass",
+            "totalVolume": "2020.011979810415368775",
+            "thirtyDayChange": -0.32993701784834867
+        },
+        "detail": {
+            "isEditable": false,
+            "bannerImageUrl": "https://lh3.googleusercontent.com/RtC5Wi0QBCsZB5XOF72MdxZEgbiqVMfIbzH7jNGMkggI2L7MYLF0VLCNMULMb153QvmmFjFfQhTG7A1ATUMrD1Hs5-AIpB6kTsmrGA=s2500",
+            "name": "White Sands Parcel Pass",
+            "description": "White Sands is your home in an open and evolving metaverse proudly built on NFT Worlds.\n\n💬 https://discord.gg/whitesands \n🌴 https://whitesands.game \n\n🔄 Connected Collection: https://opensea.io/collection/white-sands-islands",
+            "imageUrl": "https://lh3.googleusercontent.com/K8hKutR_6hXvt5mTgs1BQJVKjoxmwLTNP-vvVm9A1vcmPrTQfsyGuLKiti7Jlr8vsnjYUL_swY5Xqihtlc3Lek0Sa2KL7pqQlOFoN3Y=s120",
+            "relayId": "Q29sbGVjdGlvblR5cGU6ODQwMTYyNQ==",
+            "connectedTwitterUsername": "whitesandsgame",
+            "assetContracts": {
+                "edges": [
+                    {
+                        "node": {
+                            "chain": "ETHEREUM",
+                            "id": "QXNzZXRDb250cmFjdFR5cGU6NTgyMzgx",
+                            "blockExplorerLink": "https://etherscan.io/address/0x7feb477600a03fd6ab1fe451cb3c7836a420f4ad",
+                            "chainData": {
+                                "blockExplorerName": "ETHERSCAN"
+                            },
+                            "address": "0x7feb477600a03fd6ab1fe451cb3c7836a420f4ad"
+                        }
+                    }
+                ]
+            },
+            "representativeAsset": {
+                "assetContract": {
+                    "openseaVersion": null,
+                    "id": "QXNzZXRDb250cmFjdFR5cGU6NTgyMzgx"
+                },
+                "id": "QXNzZXRUeXBlOjMzNTg5ODY2NA=="
+            },
+            "slug": "white-sands-parcel-pass",
+            "isMintable": false,
+            "isSafelisted": true,
+            "isVerified": true,
+            "owner": {
+                "address": "0x814858ad31778589a2049b3399963fb3ba942c76",
+                "config": "VERIFIED",
+                "isCompromised": false,
+                "user": {
+                    "publicUsername": "WhiteSandsContract",
+                    "id": "VXNlclR5cGU6Mjc3NTkwODc="
+                },
+                "displayName": "WhiteSandsContract",
+                "imageUrl": "https://lh3.googleusercontent.com/L6vVSXv8zJjqUxtgTY-yfiSvmTP5rdhaNX_xel8DOhBQnI35l8-w_3Y2j9JmT2E2COHZPDLd_y_NanKTfX76Leevftijsp2-EcmyOw=s100",
+                "id": "QWNjb3VudFR5cGU6MjcxODg1NTYz"
+            },
+            "stats": {
+                "numOwners": 1793,
+                "totalSupply": 3000,
+                "id": "Q29sbGVjdGlvblN0YXRzVHlwZTo4NDAxNjI1"
+            },
+            "nativePaymentAsset": {
+                "symbol": "ETH",
+                "asset": {
+                    "imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+                    "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                },
+                "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+            },
+            "statsV2": {
+                "numOwners": 1793,
+                "totalSupply": 3000,
+                "totalVolume": {
+                    "unit": "2020.011979810415368775"
+                },
+                "floorPrice": {
+                    "unit": "0.209"
+                }
+            },
+            "discordUrl": "https://discord.gg/whitesands",
+            "externalUrl": "http://whitesands.game",
+            "instagramUsername": null,
+            "mediumUsername": null,
+            "telegramUrl": null,
+            "twitterUsername": null,
+            "isWatching": false,
+            "id": "Q29sbGVjdGlvblR5cGU6ODQwMTYyNQ=="
+        }
+    },
+    {
+        "collection": {
+            "isVerified": false,
+            "name": "THE SECRET SOCIETY XX Collection",
+            "slug": "the-secret-society-xx-collection",
+            "totalVolume": "2019.315759468515807384",
+            "thirtyDayChange": -0.8313659359190556
+        },
+        "detail": {
+            "isEditable": false,
+            "bannerImageUrl": "https://lh3.googleusercontent.com/VGyYxQzgQNjvnYKB2T5lj7ulYJn69BY1lZ-f7ldv_CDFUDeoqs1vwBos1NK7_a3Vr1w5Edgdk9Ofs9eH1GuuI2xw8gB_P7ugyGz7Sg=s2500",
+            "name": "THE SECRET SOCIETY XX Collection",
+            "description": "The $ecret $ociety XX is a private collection of 6,666 NFTs-digital collectibles.\n\nT$$ XX owners have access to a growing community of investors and entrepreneurs.\n\nThe land is already purchased.",
+            "imageUrl": "https://lh3.googleusercontent.com/-_mCLCWaDZJCgr5hECPkJDuN-gwhBXxxKOo2lGLmMjL4tZasuuOHM5xA2qK1K0KwT8QshA-VFFIWDbdzXecyUx-I0dlc37INnn8I3g=s120",
+            "relayId": "Q29sbGVjdGlvblR5cGU6NDE4MDYzNw==",
+            "connectedTwitterUsername": "thesecrets_xx",
+            "assetContracts": {
+                "edges": [
+                    {
+                        "node": {
+                            "chain": "ETHEREUM",
+                            "id": "QXNzZXRDb250cmFjdFR5cGU6NDcyNzE2",
+                            "blockExplorerLink": "https://etherscan.io/address/0x4ec83fb4e8ee6955a5b9bd88d901d232205f5444",
+                            "chainData": {
+                                "blockExplorerName": "ETHERSCAN"
+                            },
+                            "address": "0x4ec83fb4e8ee6955a5b9bd88d901d232205f5444"
+                        }
+                    }
+                ]
+            },
+            "representativeAsset": {
+                "assetContract": {
+                    "openseaVersion": null,
+                    "id": "QXNzZXRDb250cmFjdFR5cGU6NDcyNzE2"
+                },
+                "id": "QXNzZXRUeXBlOjE3NzIzNDA4MA=="
+            },
+            "slug": "the-secret-society-xx-collection",
+            "isMintable": false,
+            "isSafelisted": true,
+            "isVerified": false,
+            "owner": {
+                "address": "0x09d669f445d00e56ae288c456912b4d618da4943",
+                "config": "VERIFIED",
+                "isCompromised": false,
+                "user": {
+                    "publicUsername": "The_Architect_XX",
+                    "id": "VXNlclR5cGU6MTEwMTgzMjk="
+                },
+                "displayName": "The_Architect_XX",
+                "imageUrl": "https://lh3.googleusercontent.com/-_mCLCWaDZJCgr5hECPkJDuN-gwhBXxxKOo2lGLmMjL4tZasuuOHM5xA2qK1K0KwT8QshA-VFFIWDbdzXecyUx-I0dlc37INnn8I3g=s100",
+                "id": "QWNjb3VudFR5cGU6MTI1NzU3Mzc3"
+            },
+            "stats": {
+                "numOwners": 2721,
+                "totalSupply": 6666,
+                "id": "Q29sbGVjdGlvblN0YXRzVHlwZTo0MTgwNjM3"
+            },
+            "nativePaymentAsset": {
+                "symbol": "ETH",
+                "asset": {
+                    "imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+                    "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                },
+                "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+            },
+            "statsV2": {
+                "numOwners": 2721,
+                "totalSupply": 6666,
+                "totalVolume": {
+                    "unit": "2019.315759468515807384"
+                },
+                "floorPrice": {
+                    "unit": "0.01"
+                }
+            },
+            "discordUrl": null,
+            "externalUrl": "https://thesecretsocietyxx.com/",
+            "instagramUsername": "thesecretsociety_xx",
+            "mediumUsername": null,
+            "telegramUrl": null,
+            "twitterUsername": null,
+            "isWatching": false,
+            "id": "Q29sbGVjdGlvblR5cGU6NDE4MDYzNw=="
+        }
+    },
+    {
+        "collection": {
+            "isVerified": true,
+            "name": "EulerBeats Enigma",
+            "slug": "eulerbeats-enigma",
+            "totalVolume": "2012.307022932773406865",
+            "thirtyDayChange": 0
+        },
+        "detail": {
+            "isEditable": false,
+            "bannerImageUrl": "https://lh3.googleusercontent.com/U9vMcy4NQxQ-bRTMlkgv5_v0miemBggGF3lbEaUUer1kMD9locfE3eBaA7x3d9b0KeVNIeaXfw3Dr3mDkOj7bf2iY_6cLlS3R9NLq6g=s2500",
+            "name": "EulerBeats Enigma",
+            "description": "Imagine music as mathematical art on an NFT substrate. This is EulerBeats. The Euler Record is a limited edition set of algorithmically generated art + music based on the Euler number and the Euler-Totient function. EulerBeats Enigma originals are ultra scarce NFTs and are capped at 27 - completing the other side of the EulerBeats record. Each Print has a value backed by Eth on a bonding curve. Check EulerBeats.com on the current value of each Print before transacting on OpenSea. THE PURCHASE AND SALE OF THIS NFT IS SUBJECT TO TERMS AND CONDITIONS, AVAILABLE HERE: https://eulerbeats.com/terms-of-service.",
+            "imageUrl": "https://lh3.googleusercontent.com/wGLWEIFEO5GANc93z7yJMajxLnvvkfSsVg3M0evrd-eCnmiK2dyQnBIXaiTn0ImATw4-2WKyTWm79g9F4MUO9eewF4WiXeMJXTnL=s120",
+            "relayId": "Q29sbGVjdGlvblR5cGU6MjcyNjc5",
+            "connectedTwitterUsername": null,
+            "assetContracts": {
+                "edges": [
+                    {
+                        "node": {
+                            "chain": "ETHEREUM",
+                            "id": "QXNzZXRDb250cmFjdFR5cGU6MjA4MTMw",
+                            "blockExplorerLink": "https://etherscan.io/address/0xa98771a46dcb34b34cdad5355718f8a97c8e603e",
+                            "chainData": {
+                                "blockExplorerName": "ETHERSCAN"
+                            },
+                            "address": "0xa98771a46dcb34b34cdad5355718f8a97c8e603e"
+                        }
+                    }
+                ]
+            },
+            "representativeAsset": {
+                "assetContract": {
+                    "openseaVersion": null,
+                    "id": "QXNzZXRDb250cmFjdFR5cGU6MjA4MTMw"
+                },
+                "id": "QXNzZXRUeXBlOjIwOTYyNzk2"
+            },
+            "slug": "eulerbeats-enigma",
+            "isMintable": false,
+            "isSafelisted": true,
+            "isVerified": true,
+            "owner": {
+                "address": "0xbbde8d1e5ac71d590df6b8c05998b6f931dfc921",
+                "config": null,
+                "isCompromised": false,
+                "user": {
+                    "publicUsername": null,
+                    "id": "VXNlclR5cGU6NDY2NDcw"
+                },
+                "displayName": null,
+                "imageUrl": "https://storage.googleapis.com/opensea-static/opensea-profile/23.png",
+                "id": "QWNjb3VudFR5cGU6MjY1OTk3NjA="
+            },
+            "stats": {
+                "numOwners": 100,
+                "totalSupply": 54,
+                "id": "Q29sbGVjdGlvblN0YXRzVHlwZToyNzI2Nzk="
+            },
+            "nativePaymentAsset": {
+                "symbol": "ETH",
+                "asset": {
+                    "imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+                    "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                },
+                "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+            },
+            "statsV2": {
+                "numOwners": 100,
+                "totalSupply": 54,
+                "totalVolume": {
+                    "unit": "2012.307022932773406865"
+                },
+                "floorPrice": {
+                    "unit": "2.5"
+                }
+            },
+            "discordUrl": "https://discord.gg/zmkpBsE4Me",
+            "externalUrl": "https://eulerbeats.com/",
+            "instagramUsername": null,
+            "mediumUsername": null,
+            "telegramUrl": null,
+            "twitterUsername": "eulerbeats",
+            "isWatching": false,
+            "id": "Q29sbGVjdGlvblR5cGU6MjcyNjc5"
+        }
+    },
+    {
+        "collection": {
+            "isVerified": true,
+            "name": "Brave Frontier Heroes",
+            "slug": "brave-frontier-heroes",
+            "totalVolume": "2012.15980776849414724",
+            "thirtyDayChange": 9.051281487477931
+        },
+        "detail": {
+            "isEditable": false,
+            "bannerImageUrl": null,
+            "name": "Brave Frontier Heroes",
+            "description": "BRAVE FRONTIER HEROES will use Ethereum to manage the ownership of the game assets. Units (Character) and Spheres (Equipment) are ERC-721 tokens. You can get digital assets by quests or as a reward of PvP events. Of course, they can be traded in marketplace like OpenSea.",
+            "imageUrl": "https://lh3.googleusercontent.com/Kh5NpTBiX68DE1pQyvqUGQqmDl3Iw0Duv7LKia4uzd2wRLifYr3pbFZQkHmJvvfGs3I1fre27tR1Q0uEzSYGehjL=s60",
+            "relayId": "Q29sbGVjdGlvblR5cGU6NjI3OA==",
+            "connectedTwitterUsername": null,
+            "assetContracts": {
+                "edges": [
+                    {
+                        "node": {
+                            "chain": "ETHEREUM",
+                            "id": "QXNzZXRDb250cmFjdFR5cGU6NDQ4MjQ=",
+                            "blockExplorerLink": "https://etherscan.io/address/0xc03844f07f86ad1d90a1c4a2a8204dcf00f3a991",
+                            "chainData": {
+                                "blockExplorerName": "ETHERSCAN"
+                            },
+                            "address": "0xc03844f07f86ad1d90a1c4a2a8204dcf00f3a991"
+                        }
+                    },
+                    {
+                        "node": {
+                            "chain": "ETHEREUM",
+                            "id": "QXNzZXRDb250cmFjdFR5cGU6NDcyMzA=",
+                            "blockExplorerLink": "https://etherscan.io/address/0x6fa769eed284a94a73c15299e1d3719b29ae2f52",
+                            "chainData": {
+                                "blockExplorerName": "ETHERSCAN"
+                            },
+                            "address": "0x6fa769eed284a94a73c15299e1d3719b29ae2f52"
+                        }
+                    }
+                ]
+            },
+            "representativeAsset": {
+                "assetContract": {
+                    "openseaVersion": null,
+                    "id": "QXNzZXRDb250cmFjdFR5cGU6NDQ4MjQ="
+                },
+                "id": "QXNzZXRUeXBlOjEzNjk0Njk1"
+            },
+            "slug": "brave-frontier-heroes",
+            "isMintable": false,
+            "isSafelisted": true,
+            "isVerified": true,
+            "owner": {
+                "address": "0x335944b36b02401fb35ca3aa64cc9468e5eb3742",
+                "config": null,
+                "isCompromised": false,
+                "user": {
+                    "publicUsername": "ImportedStylishWoodlouseOfFinesse",
+                    "id": "VXNlclR5cGU6MjA5ODk="
+                },
+                "displayName": "ImportedStylishWoodlouseOfFinesse",
+                "imageUrl": "https://storage.googleapis.com/opensea-static/opensea-profile/3.png",
+                "id": "QWNjb3VudFR5cGU6MjA5NDQ5Mw=="
+            },
+            "stats": {
+                "numOwners": 2412,
+                "totalSupply": 20555,
+                "id": "Q29sbGVjdGlvblN0YXRzVHlwZTo2Mjc4"
+            },
+            "nativePaymentAsset": {
+                "symbol": "ETH",
+                "asset": {
+                    "imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+                    "id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+                },
+                "id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+            },
+            "statsV2": {
+                "numOwners": 2412,
+                "totalSupply": 20555,
+                "totalVolume": {
+                    "unit": "2012.15980776849414724"
+                },
+                "floorPrice": {
+                    "unit": "0.001"
+                }
+            },
+            "discordUrl": "https://discord.gg/X5kuKdc",
+            "externalUrl": "https://bravefrontierheroes.com/",
+            "instagramUsername": null,
+            "mediumUsername": null,
+            "telegramUrl": null,
+            "twitterUsername": "bfh_global",
+            "isWatching": false,
+            "id": "Q29sbGVjdGlvblR5cGU6NjI3OA=="
         }
     }
 ]

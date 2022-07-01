@@ -9943,5 +9943,515 @@
             },
             "address": "0xc8e1de8dc39a758c7a50f659b53f787e0f1398bd"
         }
+    },
+    {
+        "slug": "rtfkt-punk-project-gen1",
+        "name": "RTFKT PUNK PROJECT GEN 1",
+        "externalUrl": "https://rtfkt.com/",
+        "twitterUsername": "RTFKTStudios",
+        "contract": {
+            "chain": "ETHEREUM",
+            "id": "QXNzZXRDb250cmFjdFR5cGU6MjMwOTc3",
+            "blockExplorerLink": "https://etherscan.io/address/0xae3d8d68b4f6c3ee784b2b0669885a315ba77c08",
+            "chainData": {
+                "blockExplorerName": "ETHERSCAN"
+            },
+            "address": "0xae3d8d68b4f6c3ee784b2b0669885a315ba77c08"
+        }
+    },
+    {
+        "slug": "rebelsociety",
+        "name": "Rebel Society",
+        "externalUrl": "https://www.rebelsociety.io/",
+        "twitterUsername": "RebelSocietyNFT",
+        "contract": {
+            "chain": "ETHEREUM",
+            "id": "QXNzZXRDb250cmFjdFR5cGU6MzQ0ODAz",
+            "blockExplorerLink": "https://etherscan.io/address/0x8cd3cea52a45f30ed7c93a63fb2b5c13b453d5a1",
+            "chainData": {
+                "blockExplorerName": "ETHERSCAN"
+            },
+            "address": "0x8cd3cea52a45f30ed7c93a63fb2b5c13b453d5a1"
+        }
+    },
+    {
+        "slug": "bubblegumkids",
+        "name": "Bubblegum Kids",
+        "externalUrl": "http://bubblegumkids.xyz",
+        "twitterUsername": "bubblegumkids_",
+        "contract": {
+            "chain": "ETHEREUM",
+            "id": "QXNzZXRDb250cmFjdFR5cGU6MzI4NDg5",
+            "blockExplorerLink": "https://etherscan.io/address/0xa5ae87b40076745895bb7387011ca8de5fde37e0",
+            "chainData": {
+                "blockExplorerName": "ETHERSCAN"
+            },
+            "address": "0xa5ae87b40076745895bb7387011ca8de5fde37e0"
+        }
+    },
+    {
+        "slug": "degenz",
+        "name": "Degenz",
+        "externalUrl": "https://www.degenz.co/",
+        "twitterUsername": "DegenzNFT",
+        "contract": {
+            "chain": "ETHEREUM",
+            "id": "QXNzZXRDb250cmFjdFR5cGU6MjgxMjE5",
+            "blockExplorerLink": "https://etherscan.io/address/0xfb9e9e7150ccebfe42d58de1989c5283d0eaab2e",
+            "chainData": {
+                "blockExplorerName": "ETHERSCAN"
+            },
+            "address": "0xfb9e9e7150ccebfe42d58de1989c5283d0eaab2e"
+        }
+    },
+    {
+        "slug": "creepz-mega-shapeshifterz",
+        "name": "Creepz Mega Shapeshifterz",
+        "externalUrl": "http://creepz.co",
+        "twitterUsername": "CBCreepz",
+        "contract": {
+            "chain": "ETHEREUM",
+            "id": "QXNzZXRDb250cmFjdFR5cGU6NTA1NzAx",
+            "blockExplorerLink": "https://etherscan.io/address/0xd6d80461b1875a8679fe789db689156f42b7f86b",
+            "chainData": {
+                "blockExplorerName": "ETHERSCAN"
+            },
+            "address": "0xd6d80461b1875a8679fe789db689156f42b7f86b"
+        }
+    },
+    {
+        "slug": "blvckgenesis",
+        "name": "Blvck Genesis",
+        "externalUrl": "https://nft.blvck.com",
+        "twitterUsername": "BlvckParis",
+        "contract": {
+            "chain": "ETHEREUM",
+            "id": "QXNzZXRDb250cmFjdFR5cGU6NjgyMzky",
+            "blockExplorerLink": "https://etherscan.io/address/0x83b070e842adba2397113c4bca70c00d7df00729",
+            "chainData": {
+                "blockExplorerName": "ETHERSCAN"
+            },
+            "address": "0x83b070e842adba2397113c4bca70c00d7df00729"
+        }
+    },
+    {
+        "slug": "snif",
+        "name": "Sneaky's Internet Friends Genesis",
+        "externalUrl": "https://discord.gg/J3qkFG3HKW",
+        "twitterUsername": "SneakyninjaNFTs",
+        "contract": {
+            "chain": "ETHEREUM",
+            "id": "QXNzZXRDb250cmFjdFR5cGU6NjE3NzM4",
+            "blockExplorerLink": "https://etherscan.io/address/0x1d0ec4a86ac39fef4485169b4d14dc39d0ea64cd",
+            "chainData": {
+                "blockExplorerName": "ETHERSCAN"
+            },
+            "address": "0x1d0ec4a86ac39fef4485169b4d14dc39d0ea64cd"
+        }
+    },
+    {
+        "slug": "bff-you",
+        "name": "You by BFF",
+        "externalUrl": "http://mybff.com",
+        "twitterUsername": null,
+        "contract": {
+            "chain": "ETHEREUM",
+            "id": "QXNzZXRDb250cmFjdFR5cGU6NjU1OTE0",
+            "blockExplorerLink": "https://etherscan.io/address/0x3e6046b4d127179f0a421f3148b43cf52c08fc41",
+            "chainData": {
+                "blockExplorerName": "ETHERSCAN"
+            },
+            "address": "0x3e6046b4d127179f0a421f3148b43cf52c08fc41"
+        }
+    },
+    {
+        "slug": "alinft-official",
+        "name": "ALINFT",
+        "externalUrl": "http://www.alinft.io",
+        "twitterUsername": "0xALINFT",
+        "contract": {
+            "chain": "ETHEREUM",
+            "id": "QXNzZXRDb250cmFjdFR5cGU6NTM2NjEz",
+            "blockExplorerLink": "https://etherscan.io/address/0xf5c6376d88033cfa67a442893f77cbc27a563dd1",
+            "chainData": {
+                "blockExplorerName": "ETHERSCAN"
+            },
+            "address": "0xf5c6376d88033cfa67a442893f77cbc27a563dd1"
+        }
+    },
+    {
+        "slug": "nostalgia-key",
+        "name": "Nostalgia KEYs",
+        "externalUrl": "https://nostalgia-nft.xyz/",
+        "twitterUsername": "ymhnft",
+        "contract": {
+            "chain": "ETHEREUM",
+            "id": "QXNzZXRDb250cmFjdFR5cGU6NDk3NDg0",
+            "blockExplorerLink": "https://etherscan.io/address/0xe0c3707acb7ce96345ef4eaebf4029c0138ca685",
+            "chainData": {
+                "blockExplorerName": "ETHERSCAN"
+            },
+            "address": "0xe0c3707acb7ce96345ef4eaebf4029c0138ca685"
+        }
+    },
+    {
+        "slug": "zunkz",
+        "name": "Zunkz",
+        "externalUrl": "https://www.cryptozunks.com/",
+        "twitterUsername": "ZunkzNFTs",
+        "contract": {
+            "chain": "ETHEREUM",
+            "id": "QXNzZXRDb250cmFjdFR5cGU6Mjk5ODQ3",
+            "blockExplorerLink": "https://etherscan.io/address/0x031920cc2d9f5c10b444fd44009cd64f829e7be2",
+            "chainData": {
+                "blockExplorerName": "ETHERSCAN"
+            },
+            "address": "0x031920cc2d9f5c10b444fd44009cd64f829e7be2"
+        }
+    },
+    {
+        "slug": "thebibiz",
+        "name": "The Bibiz",
+        "externalUrl": "https://www.thehabibiz.net/",
+        "twitterUsername": "The_Habibiz",
+        "contract": {
+            "chain": "ETHEREUM",
+            "id": "QXNzZXRDb250cmFjdFR5cGU6NTcxODY4",
+            "blockExplorerLink": "https://etherscan.io/address/0x00abdb2fbbc763b6b4a8700e10550ad74dac4d43",
+            "chainData": {
+                "blockExplorerName": "ETHERSCAN"
+            },
+            "address": "0x00abdb2fbbc763b6b4a8700e10550ad74dac4d43"
+        }
+    },
+    {
+        "slug": "blockchainminersclubofficial",
+        "name": "BMC Blockchain Miners Club",
+        "externalUrl": "https://www.blockchainminers.club/",
+        "twitterUsername": "BMC_NFT",
+        "contract": {
+            "chain": "ETHEREUM",
+            "id": "QXNzZXRDb250cmFjdFR5cGU6NDI5MTUw",
+            "blockExplorerLink": "https://etherscan.io/address/0x47bd71b482b27ebdb57af6e372cab46c7280bf44",
+            "chainData": {
+                "blockExplorerName": "ETHERSCAN"
+            },
+            "address": "0x47bd71b482b27ebdb57af6e372cab46c7280bf44"
+        }
+    },
+    {
+        "slug": "champions-ascension-prime-eternal",
+        "name": "Champions Ascension",
+        "externalUrl": "https://champions.io",
+        "twitterUsername": "ChampionsIO",
+        "contract": {
+            "chain": "ETHEREUM",
+            "id": "QXNzZXRDb250cmFjdFR5cGU6NTQ5NzQ5",
+            "blockExplorerLink": "https://etherscan.io/address/0x13d15d8b7b2bf48cbaf144c5c50e67b6b635b5cd",
+            "chainData": {
+                "blockExplorerName": "ETHERSCAN"
+            },
+            "address": "0x13d15d8b7b2bf48cbaf144c5c50e67b6b635b5cd"
+        }
+    },
+    {
+        "slug": "fomo-dog-club",
+        "name": "FOMO Dog Club",
+        "externalUrl": "https://www.fomodog.club/fdchome",
+        "twitterUsername": "fomodogclub",
+        "contract": {
+            "chain": "ETHEREUM",
+            "id": "QXNzZXRDb250cmFjdFR5cGU6MzQzNTE0",
+            "blockExplorerLink": "https://etherscan.io/address/0x90cfce78f5ed32f9490fd265d16c77a8b5320bd4",
+            "chainData": {
+                "blockExplorerName": "ETHERSCAN"
+            },
+            "address": "0x90cfce78f5ed32f9490fd265d16c77a8b5320bd4"
+        }
+    },
+    {
+        "slug": "cryptorayrays-collection",
+        "name": "CryptoRayRays",
+        "externalUrl": "https://cryptorayrays.com/",
+        "twitterUsername": "cryptorayrays",
+        "contract": {
+            "chain": "ETHEREUM",
+            "id": "QXNzZXRDb250cmFjdFR5cGU6MzEwNTUx",
+            "blockExplorerLink": "https://etherscan.io/address/0x8d4e2435c262eb6df10e5e4672a8f07e42d8d67e",
+            "chainData": {
+                "blockExplorerName": "ETHERSCAN"
+            },
+            "address": "0x8d4e2435c262eb6df10e5e4672a8f07e42d8d67e"
+        }
+    },
+    {
+        "slug": "0xogpass",
+        "name": "0xOG Pass by 0xStudio",
+        "externalUrl": "http://0xog.com",
+        "twitterUsername": "0xstudio",
+        "contract": {
+            "chain": "ETHEREUM",
+            "id": "QXNzZXRDb250cmFjdFR5cGU6NjQ3NDU0",
+            "blockExplorerLink": "https://etherscan.io/address/0x5b7622ded96511639ddc12c86eb2703331ca2c78",
+            "chainData": {
+                "blockExplorerName": "ETHERSCAN"
+            },
+            "address": "0x5b7622ded96511639ddc12c86eb2703331ca2c78"
+        }
+    },
+    {
+        "slug": "mind-the-gap-by-mountvitruvius",
+        "name": "Mind the Gap by MountVitruvius",
+        "externalUrl": "https://www.gmstudio.art/collections/mind-the-gap",
+        "twitterUsername": "gmdaostudio",
+        "contract": {
+            "chain": "ETHEREUM",
+            "id": "QXNzZXRDb250cmFjdFR5cGU6NTE3NTM4",
+            "blockExplorerLink": "https://etherscan.io/address/0x0e42ffbac75bcc30cd0015f8aaa608539ba35fbb",
+            "chainData": {
+                "blockExplorerName": "ETHERSCAN"
+            },
+            "address": "0x0e42ffbac75bcc30cd0015f8aaa608539ba35fbb"
+        }
+    },
+    {
+        "slug": "lilpudgys",
+        "name": "Lil Pudgys",
+        "externalUrl": "https://www.pudgypenguins.com/",
+        "twitterUsername": "pudgy_penguins",
+        "contract": {
+            "chain": "ETHEREUM",
+            "id": "QXNzZXRDb250cmFjdFR5cGU6NDYwNzc2",
+            "blockExplorerLink": "https://etherscan.io/address/0x524cab2ec69124574082676e6f654a18df49a048",
+            "chainData": {
+                "blockExplorerName": "ETHERSCAN"
+            },
+            "address": "0x524cab2ec69124574082676e6f654a18df49a048"
+        }
+    },
+    {
+        "slug": "fpb-old-collection",
+        "name": "FPB - Old Collection",
+        "externalUrl": "https://polarbearsnft.com/",
+        "twitterUsername": "polarbearsnft",
+        "contract": {
+            "chain": "ETHEREUM",
+            "id": "QXNzZXRDb250cmFjdFR5cGU6MzQ0NzIw",
+            "blockExplorerLink": "https://etherscan.io/address/0x4dab23c0a529d1caf86f7a902d5340959d170c1e",
+            "chainData": {
+                "blockExplorerName": "ETHERSCAN"
+            },
+            "address": "0x4dab23c0a529d1caf86f7a902d5340959d170c1e"
+        }
+    },
+    {
+        "slug": "solarbots-io",
+        "name": "Solarbots.io",
+        "externalUrl": "https://solarbots.io",
+        "twitterUsername": "solarbotsio",
+        "contract": {
+            "chain": "ETHEREUM",
+            "id": "QXNzZXRDb250cmFjdFR5cGU6NDYwNzQw",
+            "blockExplorerLink": "https://etherscan.io/address/0x8009250878ed378050ef5d2a48c70e24eb2ede7e",
+            "chainData": {
+                "blockExplorerName": "ETHERSCAN"
+            },
+            "address": "0x8009250878ed378050ef5d2a48c70e24eb2ede7e"
+        }
+    },
+    {
+        "slug": "super-ordinary-villains-genesis",
+        "name": "Super Ordinary Villains - SOV",
+        "externalUrl": null,
+        "twitterUsername": "SOVillains",
+        "contract": {
+            "chain": "ETHEREUM",
+            "id": "QXNzZXRDb250cmFjdFR5cGU6NTcyMzI2",
+            "blockExplorerLink": "https://etherscan.io/address/0xe24e4d4535f504d6d7957356534e23b4e787289f",
+            "chainData": {
+                "blockExplorerName": "ETHERSCAN"
+            },
+            "address": "0xe24e4d4535f504d6d7957356534e23b4e787289f"
+        }
+    },
+    {
+        "slug": "plugpass",
+        "name": "Plug Pass",
+        "externalUrl": null,
+        "twitterUsername": "ThePlugPass",
+        "contract": {
+            "chain": "ETHEREUM",
+            "id": "QXNzZXRDb250cmFjdFR5cGU6MzQ5NDY2",
+            "blockExplorerLink": "https://etherscan.io/address/0x1bf47e4f2e9078c30914e33134b21c952b55c64b",
+            "chainData": {
+                "blockExplorerName": "ETHERSCAN"
+            },
+            "address": "0x1bf47e4f2e9078c30914e33134b21c952b55c64b"
+        }
+    },
+    {
+        "slug": "treasure-for-loot",
+        "name": "Treasure Project",
+        "externalUrl": "https://treasure.lol/",
+        "twitterUsername": "Treasure_NFT",
+        "contract": {
+            "chain": "ETHEREUM",
+            "id": "QXNzZXRDb250cmFjdFR5cGU6MzEyMDUy",
+            "blockExplorerLink": "https://etherscan.io/address/0xf3dfbe887d81c442557f7a59e3a0aecf5e39f6aa",
+            "chainData": {
+                "blockExplorerName": "ETHERSCAN"
+            },
+            "address": "0xf3dfbe887d81c442557f7a59e3a0aecf5e39f6aa"
+        }
+    },
+    {
+        "slug": "evaverse",
+        "name": "Evaverse",
+        "externalUrl": "https://evaverse.com",
+        "twitterUsername": "evaverse_nft",
+        "contract": {
+            "chain": "ETHEREUM",
+            "id": "QXNzZXRDb250cmFjdFR5cGU6Mjg2NjU0",
+            "blockExplorerLink": "https://etherscan.io/address/0x837704ec8dfec198789baf061d6e93b0e1555da6",
+            "chainData": {
+                "blockExplorerName": "ETHERSCAN"
+            },
+            "address": "0x837704ec8dfec198789baf061d6e93b0e1555da6"
+        }
+    },
+    {
+        "slug": "white-sands-parcel-pass",
+        "name": "White Sands Parcel Pass",
+        "externalUrl": "http://whitesands.game",
+        "twitterUsername": "whitesandsgame",
+        "contract": {
+            "chain": "ETHEREUM",
+            "id": "QXNzZXRDb250cmFjdFR5cGU6NTgyMzgx",
+            "blockExplorerLink": "https://etherscan.io/address/0x7feb477600a03fd6ab1fe451cb3c7836a420f4ad",
+            "chainData": {
+                "blockExplorerName": "ETHERSCAN"
+            },
+            "address": "0x7feb477600a03fd6ab1fe451cb3c7836a420f4ad"
+        }
+    },
+    {
+        "slug": "the-secret-society-xx-collection",
+        "name": "THE SECRET SOCIETY XX Collection",
+        "externalUrl": "https://thesecretsocietyxx.com/",
+        "twitterUsername": "thesecrets_xx",
+        "contract": {
+            "chain": "ETHEREUM",
+            "id": "QXNzZXRDb250cmFjdFR5cGU6NDcyNzE2",
+            "blockExplorerLink": "https://etherscan.io/address/0x4ec83fb4e8ee6955a5b9bd88d901d232205f5444",
+            "chainData": {
+                "blockExplorerName": "ETHERSCAN"
+            },
+            "address": "0x4ec83fb4e8ee6955a5b9bd88d901d232205f5444"
+        }
+    },
+    {
+        "slug": "eulerbeats-enigma",
+        "name": "EulerBeats Enigma",
+        "externalUrl": "https://eulerbeats.com/",
+        "twitterUsername": "eulerbeats",
+        "contract": {
+            "chain": "ETHEREUM",
+            "id": "QXNzZXRDb250cmFjdFR5cGU6MjA4MTMw",
+            "blockExplorerLink": "https://etherscan.io/address/0xa98771a46dcb34b34cdad5355718f8a97c8e603e",
+            "chainData": {
+                "blockExplorerName": "ETHERSCAN"
+            },
+            "address": "0xa98771a46dcb34b34cdad5355718f8a97c8e603e"
+        }
+    },
+    {
+        "slug": "brave-frontier-heroes",
+        "name": "Brave Frontier Heroes",
+        "externalUrl": "https://bravefrontierheroes.com/",
+        "twitterUsername": "bfh_global",
+        "contract": {
+            "chain": "ETHEREUM",
+            "id": "QXNzZXRDb250cmFjdFR5cGU6NDQ4MjQ=",
+            "blockExplorerLink": "https://etherscan.io/address/0xc03844f07f86ad1d90a1c4a2a8204dcf00f3a991",
+            "chainData": {
+                "blockExplorerName": "ETHERSCAN"
+            },
+            "address": "0xc03844f07f86ad1d90a1c4a2a8204dcf00f3a991"
+        }
+    },
+    {
+        "slug": "antebellumgenesisland",
+        "name": "Antebellum Genesis Land",
+        "externalUrl": "https://www.antebellumgames.com/",
+        "twitterUsername": "AntebellumGames",
+        "contract": {
+            "chain": "ETHEREUM",
+            "id": "QXNzZXRDb250cmFjdFR5cGU6NjMwMDQ1",
+            "blockExplorerLink": "https://etherscan.io/address/0x4ad3785ec7eed7589fa86538244a4530f962434f",
+            "chainData": {
+                "blockExplorerName": "ETHERSCAN"
+            },
+            "address": "0x4ad3785ec7eed7589fa86538244a4530f962434f"
+        }
+    },
+    {
+        "slug": "headtripz",
+        "name": "SUPERPLASTIC:  Headtripz",
+        "externalUrl": "http://superplastic.co/pages/headtripz",
+        "twitterUsername": null,
+        "contract": {
+            "chain": "ETHEREUM",
+            "id": "QXNzZXRDb250cmFjdFR5cGU6NDk1MTYx",
+            "blockExplorerLink": "https://etherscan.io/address/0xfbfea4a683d37bf68301f6a9acf7e647bfa8e1a7",
+            "chainData": {
+                "blockExplorerName": "ETHERSCAN"
+            },
+            "address": "0xfbfea4a683d37bf68301f6a9acf7e647bfa8e1a7"
+        }
+    },
+    {
+        "slug": "chainguardians",
+        "name": "ChainGuardians",
+        "externalUrl": "https://www.chainguardians.io",
+        "twitterUsername": "Chain_Guardians",
+        "contract": {
+            "chain": "ETHEREUM",
+            "id": "QXNzZXRDb250cmFjdFR5cGU6MzM5MjQ=",
+            "blockExplorerLink": "https://etherscan.io/address/0x4fe99deb8f0be517c31faaad49b4b054ed28c267",
+            "chainData": {
+                "blockExplorerName": "ETHERSCAN"
+            },
+            "address": "0x4fe99deb8f0be517c31faaad49b4b054ed28c267"
+        }
+    },
+    {
+        "slug": "mobland-genesis-synr-pass",
+        "name": "Mobland Genesis SYNR Pass",
+        "externalUrl": "https://mob.land",
+        "twitterUsername": "SynCityHQ",
+        "contract": {
+            "chain": "ETHEREUM",
+            "id": "QXNzZXRDb250cmFjdFR5cGU6NDM3OTgx",
+            "blockExplorerLink": "https://etherscan.io/address/0x6f24a2a5ecfffb0610f69929e9aa7fcef441897a",
+            "chainData": {
+                "blockExplorerName": "ETHERSCAN"
+            },
+            "address": "0x6f24a2a5ecfffb0610f69929e9aa7fcef441897a"
+        }
+    },
+    {
+        "slug": "the-boi",
+        "name": "the#boi",
+        "externalUrl": "https://app.rarible.com/collection/0xe03e4721c75188de6dd9ccf4fc0eb7c81399e305",
+        "twitterUsername": "boiz_collection",
+        "contract": {
+            "chain": "ETHEREUM",
+            "id": "QXNzZXRDb250cmFjdFR5cGU6MjAyMDM3",
+            "blockExplorerLink": "https://etherscan.io/address/0xe03e4721c75188de6dd9ccf4fc0eb7c81399e305",
+            "chainData": {
+                "blockExplorerName": "ETHERSCAN"
+            },
+            "address": "0xe03e4721c75188de6dd9ccf4fc0eb7c81399e305"
+        }
     }
 ]

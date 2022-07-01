@@ -110,7 +110,7 @@ async function sendPost(token, image, type = 'ifttt') {
         price: token.totalValue,
         time: token.time,
         collection: token.collection,
-        Status: token.totalValue > 10 ? "Publish" : "Draft",
+        Status: token.totalValue > 6 ? "Publish" : "Draft",
       },
     },
   ]);

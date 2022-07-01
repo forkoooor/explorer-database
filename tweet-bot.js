@@ -60,9 +60,7 @@ function getTokens() {
         time: _.first_time,
         fromDate: moment(_.first_time).fromNow(),
         collection: collection.name,
-        tweet: `🚨 ${collection.name} #${_.otherTokens
-          .slice(0, 3)
-          .join(" #")} ${
+        tweet: `🚨 ${collection.name} ${_.otherTokens.slice(0, 3).join(", ")} ${
           _.otherTokens.length > 3 ? "..." : ""
         } may have been stolen, ${
           _.otherTokens.length
@@ -70,6 +68,8 @@ function getTokens() {
         
 from: ${senders[0]}
 to: ${receivers[0]}
+
+#ScamAlert ${isSame ? `#${slug}` : `#${slug} #${collectionTag}`} #NFT 
 `,
       };
     });

@@ -27,10 +27,13 @@ function getTokens() {
       const existEvent = merged.find((_) => _.eventId === item.eventId);
       if (existEvent) {
         existEvent.otherTokens.push(item.tokenId);
+        existEvent.images.push(item.tokenId);
+        existEvent.details.push(item);
         existEvent.totalValue = (existEvent.otherTokens.length * item.floorPrice);
       } else {
         item.otherTokens = [item.tokenId];
         item.totalValue = item.floorPrice;
+        item.details = [item]
         merged.push(item);
       }
       return merged;
@@ -54,6 +57,7 @@ function getTokens() {
         otherTokens: _.otherTokens,
         tokenId: _.tokenId,
         totalValue: _.totalValue,
+        images: _.details.map(_ => _.detail.image_url),
         fromDate: moment(_.first_time).fromNow(),
         collection: collection.name,
         tweet: `🚨 ${collection.name} #${_.otherTokens
@@ -84,11 +88,9 @@ async function sendPost(token, image, type = 'ifttt') {
     fields: {
       id: token.id,
       tweet: token.tweet,
-      image: [
-        {
-          url: token.image,
-        },
-      ],
+      image: token.images.map(_ => ({
+        url: _
+      })),
       price: token.totalValue,
       collection: token.collection,
       Status: "Draft",

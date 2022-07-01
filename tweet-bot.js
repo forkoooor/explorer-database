@@ -13,7 +13,7 @@ function getTokens() {
   );
   const tokens = recentTokens
     .filter((_) => _.detail)
-    .slice(0, 60)
+    .slice(0, 100)
     .map((_) => {
       const { first_time, senders } = _;
       _.floorPrice = parseFloat(_.collection.floorPrice);

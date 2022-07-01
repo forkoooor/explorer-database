@@ -87,8 +87,9 @@ async function sendPost(token, image, type = 'ifttt') {
     fields: {
       id: token.id,
       tweet: token.tweet,
-      image: token.images.map(_ => ({
-        url: _
+      image: token.images.map((_) => ({
+        url: _,
+        type: "image/jpeg",
       })),
       price: token.totalValue,
       collection: token.collection,
@@ -100,11 +101,10 @@ async function sendPost(token, image, type = 'ifttt') {
       fields: {
         id: token.id,
         tweet: token.tweet,
-        image: [
-          {
-            url: token.image,
-          },
-        ],
+        image: token.images.map((_) => ({
+          url: _,
+          type: "image/jpeg",
+        })),
         price: token.totalValue,
         collection: token.collection,
         Status: "Done",

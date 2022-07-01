@@ -56,16 +56,16 @@ function getTokens() {
         otherTokens: _.otherTokens,
         tokenId: _.tokenId,
         totalValue: _.totalValue,
-        images: _.details.map(_ => _.detail.image_url),
+        images: _.details.map((_) => _.detail.image_url),
         fromDate: moment(_.first_time).fromNow(),
         collection: collection.name,
         tweet: `🚨 ${collection.name} #${_.otherTokens
           .slice(0, 3)
-          .join(" #")} ${_.otherTokens.length > 3 ? '...': ''} ${
+          .join(" #")} ${
+          _.otherTokens.length > 3 ? "..." : ""
+        } may have been stolen, ${
           _.otherTokens.length
-        } tokens worth ${_.totalValue.toFixed(
-          0
-        )}Ξ, may have been stolen
+        } tokens worth ${_.totalValue.toFixed(0)}Ξ
         
 from: ${senders[0]}
 to: ${receivers[0]}

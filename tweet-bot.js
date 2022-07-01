@@ -27,7 +27,6 @@ function getTokens() {
       const existEvent = merged.find((_) => _.eventId === item.eventId);
       if (existEvent) {
         existEvent.otherTokens.push(item.tokenId);
-        existEvent.images.push(item.tokenId);
         existEvent.details.push(item);
         existEvent.totalValue = (existEvent.otherTokens.length * item.floorPrice);
       } else {

@@ -80,6 +80,20 @@ function wait(ms) {
 }
 
 async function sendPost(token, image, type = 'ifttt') {
+  console.log({
+    fields: {
+      id: token.id,
+      tweet: token.tweet,
+      image: [
+        {
+          url: token.image,
+        },
+      ],
+      price: token.totalValue,
+      collection: token.collection,
+      Status: "Draft",
+    },
+  });
   await base("Table 1").create([
     {
       fields: {

@@ -95,7 +95,7 @@ async function sendPost(token, image, type = 'ifttt') {
       price: token.totalValue,
       time: token.time,
       collection: token.collection,
-      Status: "Draft",
+      Status: token.totalValue > 10 ? 'Publish' : "Draft",
     },
   });
   await base("Table 1").create([
@@ -110,7 +110,7 @@ async function sendPost(token, image, type = 'ifttt') {
         price: token.totalValue,
         time: token.time,
         collection: token.collection,
-        Status: "Done",
+        Status: token.totalValue > 10 ? "Publish" : "Draft",
       },
     },
   ]);

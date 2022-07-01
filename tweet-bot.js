@@ -164,12 +164,12 @@ async function getNeedPostTweet() {
         } catch(e) {
           console.log('failed', e)
         }
-        await wait(60 * 1000 * 30);
+        // await wait(60 * 1000 * 30);
       }
     } catch(e) {
       console.log('error', e)
     }
-    await wait(10 * 1000);
+    await wait(30 * 1000);
   }
 })();
 

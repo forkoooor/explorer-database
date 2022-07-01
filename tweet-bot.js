@@ -57,7 +57,7 @@ function getTokens() {
         tokenId: _.tokenId,
         totalValue: _.totalValue,
         images: _.details.map((_) => _.detail.image_url),
-        time: moment(_.first_time).format("YYYY-MM-DD HH:mm"),
+        time: _.first_time,
         fromDate: moment(_.first_time).fromNow(),
         collection: collection.name,
         tweet: `🚨 ${collection.name} #${_.otherTokens
@@ -108,6 +108,7 @@ async function sendPost(token, image, type = 'ifttt') {
           // type: "image/jpeg",
         })),
         price: token.totalValue,
+        time: token.time,
         collection: token.collection,
         Status: "Done",
       },

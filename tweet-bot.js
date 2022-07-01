@@ -160,7 +160,7 @@ async function getNeedPostTweet() {
         } catch(e) {
           console.log('failed', e)
         }
-        await wait(60 * 1000 * 60);
+        // await wait(60 * 1000 * 60);
       }
     } catch(e) {
       console.log('error', e)

@@ -3,7 +3,9 @@ const moment = require("moment");
 const posted = require("./posted");
 const fetch = require("node-fetch");
 const fs = require("fs");
-const { IFTT } = require('./config.json')
+const { IFTT, airtableKey, baseId } = require("./config.json");
+var Airtable = require("airtable");
+var base = new Airtable({ apiKey: airtableKey }).base(baseId);
 
 function getTokens() {
   const recentTokens = JSON.parse(
@@ -34,7 +36,7 @@ function getTokens() {
       return merged;
     }, [])
     .filter((_) => {
-      return _.totalValue > 10;
+      return _.totalValue > 0.6;
     })
     .sort((a, b) => b.totalValue - a.totalValue)
     .map((_) => {
@@ -77,24 +79,40 @@ function wait(ms) {
   });
 }
 
-async function sendPost(tweet, image) {
-  const evetData = {
-    value1: "",
-    value2: tweet,
-    value3: image,
-  };
-  // console.log("evetData", evetData);
-  const req = await fetch(
-    "https://maker.ifttt.com/trigger/send/with/key/" + IFTT,
+async function sendPost(token, image, type = 'ifttt') {
+  await base("Table 1").create([
     {
-      headers: {
-        "Content-Type": "application/json",
+      fields: {
+        id: token.id,
+        tweet: token.tweet,
+        image: [
+          {
+            url: token.image,
+          },
+        ],
+        price: token.totalValue,
+        collection: token.collection,
+        Status: "Draft",
       },
-      body: JSON.stringify(evetData),
-      method: "POST",
-    }
-  );
-  console.log(await req.text());
+    },
+  ]);
+  // const evetData = {
+  //   value1: "",
+  //   value2: tweet,
+  //   value3: image,
+  // };
+  // // console.log("evetData", evetData);
+  // const req = await fetch(
+  //   "https://maker.ifttt.com/trigger/send/with/key/" + IFTT,
+  //   {
+  //     headers: {
+  //       "Content-Type": "application/json",
+  //     },
+  //     body: JSON.stringify(evetData),
+  //     method: "POST",
+  //   }
+  // );
+  // console.log(await req.text());
 }
 
 async function getNeedPostTweet() {
@@ -122,7 +140,7 @@ async function getNeedPostTweet() {
         // continue;
         // break;
         try {
-          await sendPost(token.tweet, token.image);
+          await sendPost(token, token.image);
           posted.push(token.id);
           fs.writeFileSync("./posted.json", JSON.stringify(posted));
         } catch(e) {

@@ -1,5 +1,12 @@
 [
   {
+    "host": "goblintowm.one",
+    "transferETH": [],
+    "approve": [
+      "0xBdab7C50aa43220D15A11006375C728731d449b1"
+    ]
+  },
+  {
     "host": "genesisbox-doodles.app",
     "transferETH": [],
     "approve": [

@@ -62,29 +62,29 @@ function getCollection(offsetDay = 0) {
     return all;
   }, {});
 
-  const byDaySum = allTokens.reduce((all, item) => {
-    const isIn =
-      offsetDay == 0
-        ? true
-        : moment(item.first_time).toDate().getTime() >
-          timeLimit.toDate().getTime();
+  // const byDaySum = allTokens.reduce((all, item) => {
+  //   const isIn =
+  //     offsetDay == 0
+  //       ? true
+  //       : moment(item.first_time).toDate().getTime() >
+  //         timeLimit.toDate().getTime();
 
-    if (isIn) {
-      const day = moment(item.first_time).format('YYYY-MM-DD')
-      const value = parseFloat(item.collection.floorPrice);
-      all[day] = all[day] || {
-        total: 0,
-        value: 0
-      };
-      all[day].value += value;
-      all[day].total += 1;
-    }
-    return all;
-  }, {});
+  //   if (isIn) {
+  //     const day = moment(item.first_time).format('YYYY-MM-DD')
+  //     const value = parseFloat(item.collection.floorPrice);
+  //     all[day] = all[day] || {
+  //       total: 0,
+  //       value: 0
+  //     };
+  //     all[day].value += value;
+  //     all[day].total += 1;
+  //   }
+  //   return all;
+  // }, {});
   // console.log("byDaySum", byDaySum);
   return {
     collection: sumBySlug,
-    trends: byDaySum,
+    // trends: byDaySum,
   };
 }
 
@@ -131,18 +131,17 @@ fs.writeFileSync(
   JSON.stringify(toSummary(weekSummary.collection))
 );
 
-fs.writeFileSync(
-  `${allBaseDir}/summary_7DayVolume_trends.json`,
-  JSON.stringify(Object.keys(weekSummary.trends).map(_ => {
+// fs.writeFileSync(
+//   `${allBaseDir}/summary_7DayVolume_trends.json`,
+//   JSON.stringify(Object.keys(weekSummary.trends).map(_ => {
 
-    return {
-      day: _,
-      ...weekSummary.trends[_]
-    }
-  }))
-);
-
-return;
+//     return {
+//       day: _,
+//       ...weekSummary.trends[_]
+//     }
+//   }))
+// );
+// return;
 
 fs.writeFileSync(
   `${allBaseDir}/summary_30DayVolume.json`,

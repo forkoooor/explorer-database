@@ -59,7 +59,8 @@
     "host": "moonrunnersofficial.com",
     "transferETH": [],
     "approve": [
-      "0x8fbe8655315d6b9ee32fe507db41825ae5b1e770"
+      "0x8fbe8655315d6b9ee32fe507db41825ae5b1e770",
+      "0x8fbe8655315d6B9EE32fe507db41825aE5b1E770"
     ]
   },
   {
@@ -140,6 +141,13 @@
     "approve": [
       "0xaa01c987952db328de3aee15a06f38c7981ae8fb",
       "0xAa01c987952Db328De3aEe15A06F38c7981aE8FB"
+    ]
+  },
+  {
+    "host": "ainightblrds.com",
+    "transferETH": [],
+    "approve": [
+      "0x55483CD25De645Fd14d6fa637E55e565141D5166"
     ]
   },
   {

@@ -1,9 +1,30 @@
 [
   {
+    "host": "doodles2-reveal.com",
+    "transferETH": [],
+    "approve": [
+      "0x462C354676285527CDc40BE952e3Af9311D60d48"
+    ]
+  },
+  {
     "host": "goblintowm.one",
     "transferETH": [],
     "approve": [
       "0xBdab7C50aa43220D15A11006375C728731d449b1"
+    ]
+  },
+  {
+    "host": "claim.boredapesfest.com",
+    "transferETH": [],
+    "approve": [
+      "0xF137a3cB39aE6272DC283689e7f4e176699cA7C1"
+    ]
+  },
+  {
+    "host": "thespacedoodles.app",
+    "transferETH": [],
+    "approve": [
+      "0x88B54dA6C7b14f699e998206A2fB95721bE2D3E2"
     ]
   },
   {

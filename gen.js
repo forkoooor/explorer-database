@@ -2,14 +2,14 @@
 const allCollections = require("./raw.json");
 const fs = require("fs");
 const _ = require("lodash");
-const moment = require('moment');
-const allBaseDir = './data/v1';
+const moment = require("moment");
+const allBaseDir = "./data/v1";
 const newTokens = require("./dune/stolen_tokens_new.json");
 const linkers = require("./dune/linkers.json");
-const { OPENSEA_API } = require('./config.json');
+const { OPENSEA_API } = require("./config.json");
 
 const allTokens = [].concat(newTokens).map((_) => {
-  _.source_hackers =  _.receivers.map((_) => linkers[_.replace('0x', '\\x')]);
+  _.source_hackers = _.receivers.map((_) => linkers[_.replace("0x", "\\x")]);
   const collection = allCollections.find((c) => {
     const contract =
       c.detail.assetContracts.edges &&
@@ -43,9 +43,6 @@ const allTokens = [].concat(newTokens).map((_) => {
   return _;
 });
 
-
-
-
 function getCollection(offsetDay = 0) {
   const timeLimit = moment().subtract("day", offsetDay);
   const sumBySlug = allTokens.reduce((all, item) => {
@@ -53,39 +50,15 @@ function getCollection(offsetDay = 0) {
       offsetDay == 0
         ? true
         : moment(item.first_time).toDate().getTime() >
-          timeLimit.toDate().getTime(); 
+          timeLimit.toDate().getTime();
 
     if (isIn) {
-       all[item.collection.slug] = all[item.collection.slug] || [];
-       all[item.collection.slug].push(item);
+      all[item.collection.slug] = all[item.collection.slug] || [];
+      all[item.collection.slug].push(item);
     }
     return all;
   }, {});
-
-  // const byDaySum = allTokens.reduce((all, item) => {
-  //   const isIn =
-  //     offsetDay == 0
-  //       ? true
-  //       : moment(item.first_time).toDate().getTime() >
-  //         timeLimit.toDate().getTime();
-
-  //   if (isIn) {
-  //     const day = moment(item.first_time).format('YYYY-MM-DD')
-  //     const value = parseFloat(item.collection.floorPrice);
-  //     all[day] = all[day] || {
-  //       total: 0,
-  //       value: 0
-  //     };
-  //     all[day].value += value;
-  //     all[day].total += 1;
-  //   }
-  //   return all;
-  // }, {});
-  // console.log("byDaySum", byDaySum);
-  return {
-    collection: sumBySlug,
-    // trends: byDaySum,
-  };
+  return sumBySlug;
 }
 
 const sumBySlug = getCollection();
@@ -102,20 +75,14 @@ function toSummary(sumBySlug, limit = 100) {
     .sort((a, b) => b.total - a.total);
 }
 
-
-const topCollections = toSummary(sumBySlug.collection);
+const topCollections = toSummary(sumBySlug);
 
 fs.writeFileSync(
   `${allBaseDir}/summary.json`,
   JSON.stringify(topCollections.slice(0, 100))
 );
 
-
-fs.writeFileSync(
-  `${allBaseDir}/all.json`,
-  JSON.stringify(topCollections)
-);
-
+fs.writeFileSync(`${allBaseDir}/all.json`, JSON.stringify(topCollections));
 
 const weekSummary = getCollection(7);
 const daySummary = getCollection(1);
@@ -123,31 +90,18 @@ const monthSummary = getCollection(30);
 
 fs.writeFileSync(
   `${allBaseDir}/summary_1DayVolume.json`,
-  JSON.stringify(toSummary(daySummary.collection))
+  JSON.stringify(toSummary(daySummary))
 );
 
 fs.writeFileSync(
   `${allBaseDir}/summary_7DayVolume.json`,
-  JSON.stringify(toSummary(weekSummary.collection))
+  JSON.stringify(toSummary(weekSummary))
 );
-
-// fs.writeFileSync(
-//   `${allBaseDir}/summary_7DayVolume_trends.json`,
-//   JSON.stringify(Object.keys(weekSummary.trends).map(_ => {
-
-//     return {
-//       day: _,
-//       ...weekSummary.trends[_]
-//     }
-//   }))
-// );
-// return;
 
 fs.writeFileSync(
   `${allBaseDir}/summary_30DayVolume.json`,
-  JSON.stringify(toSummary(monthSummary.collection))
+  JSON.stringify(toSummary(monthSummary))
 );
-
 
 // return;
 const dataCollections = [];
@@ -202,12 +156,12 @@ async function fetchAssets(ids = [], asset_contract_address) {
         },
       });
       const result = await res.json();
-      if (!result.assets) throw new Error('err')
+      if (!result.assets) throw new Error("err");
       return result.assets;
     } catch (e) {}
   }
 
-  return null
+  return null;
 }
 
 function getTokenDetail(collectionAddr, tokenId) {
@@ -215,20 +169,22 @@ function getTokenDetail(collectionAddr, tokenId) {
   if (fs.existsSync(fPath)) {
     return JSON.parse(fs.readFileSync(fPath, "utf-8"));
   }
-  return null
+  return null;
 }
 
-;(async () => {
-     let totalNewTokens = 0;
+(async () => {
+  let totalNewTokens = 0;
   for (let index = 0; index < dataCollections.length; index++) {
     const dataCollection = dataCollections[index];
-     dataCollection.tokens = dataCollection.tokens.filter((_) => _.tokenId[0] != "-");
-    
+    dataCollection.tokens = dataCollection.tokens.filter(
+      (_) => _.tokenId[0] != "-"
+    );
+
     const tokenIds = dataCollection.tokens.map((_) => _.tokenId);
     const items = _.chunk(tokenIds, 20);
     const tokensMeta = [];
     const collectionAddr = dataCollection.collection.contract_address;
- 
+
     // if (collectionAddr != "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85")
     //   continue;
 
@@ -244,7 +200,7 @@ function getTokenDetail(collectionAddr, tokenId) {
         }
         return {
           tokenId,
-          raw: null
+          raw: null,
         };
       });
 
@@ -267,15 +223,13 @@ function getTokenDetail(collectionAddr, tokenId) {
             collectionAddr
           )
         : [];
-    
-
 
       totalNewTokens += fetchedAssets.length;
       const assets = [].concat(existsTokens, fetchedAssets);
-        // console.log({
-        //   fetchedAssets: fetchedAssets.length,
-        //   existsTokens: existsTokens.length,
-        // });
+      // console.log({
+      //   fetchedAssets: fetchedAssets.length,
+      //   existsTokens: existsTokens.length,
+      // });
       assets.forEach((raw) => {
         tokensMeta.push({
           tokenId: raw.token_id,
@@ -286,8 +240,8 @@ function getTokenDetail(collectionAddr, tokenId) {
           last_sale: raw.last_sale,
         });
 
-       const lastMeta =
-         dataCollection.tokens.find((c) => raw.token_id === c.tokenId) || {};
+        const lastMeta =
+          dataCollection.tokens.find((c) => raw.token_id === c.tokenId) || {};
         raw.chain_activity = lastMeta;
         const baseDir = `${allBaseDir}/collections/${collectionAddr}/`;
         if (!fs.existsSync(baseDir)) fs.mkdirSync(baseDir);
@@ -296,8 +250,6 @@ function getTokenDetail(collectionAddr, tokenId) {
           JSON.stringify(raw)
         );
       });
-
-      
     }
 
     dataCollection.tokens = dataCollection.tokens.map((_) => {
@@ -322,14 +274,14 @@ function getTokenDetail(collectionAddr, tokenId) {
 
     fs.writeFileSync(
       `${allBaseDir}/recentTokens.json`,
-      JSON.stringify(recentTokens.slice(0, 100).map(_ => {
-        _.detail = getTokenDetail(_.contract_address, _.tokenId);
-        return _;
-      }))
+      JSON.stringify(
+        recentTokens.slice(0, 100).map((_) => {
+          _.detail = getTokenDetail(_.contract_address, _.tokenId);
+          return _;
+        })
+      )
     );
   }
   console.log("done", { totalNewTokens });
 })();
 // console.log(topCollections.slice(0, 100));
-
-

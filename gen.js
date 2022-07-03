@@ -61,7 +61,31 @@ function getCollection(offsetDay = 0) {
     }
     return all;
   }, {});
-  return sumBySlug;
+
+  const byDaySum = allTokens.reduce((all, item) => {
+    const isIn =
+      offsetDay == 0
+        ? true
+        : moment(item.first_time).toDate().getTime() >
+          timeLimit.toDate().getTime();
+
+    if (isIn) {
+      const day = moment(item.first_time).format('YYYY-MM-DD')
+      const value = parseFloat(item.collection.floorPrice);
+      all[day] = all[day] || {
+        total: 0,
+        value: 0
+      };
+      all[day].value += value;
+      all[day].total += 1;
+    }
+    return all;
+  }, {});
+  // console.log("byDaySum", byDaySum);
+  return {
+    collection: sumBySlug,
+    trends: byDaySum,
+  };
 }
 
 const sumBySlug = getCollection();
@@ -79,7 +103,7 @@ function toSummary(sumBySlug, limit = 100) {
 }
 
 
-const topCollections = toSummary(sumBySlug);
+const topCollections = toSummary(sumBySlug.collection);
 
 fs.writeFileSync(
   `${allBaseDir}/summary.json`,
@@ -99,17 +123,30 @@ const monthSummary = getCollection(30);
 
 fs.writeFileSync(
   `${allBaseDir}/summary_1DayVolume.json`,
-  JSON.stringify(toSummary(daySummary))
+  JSON.stringify(toSummary(daySummary.collection))
 );
 
 fs.writeFileSync(
   `${allBaseDir}/summary_7DayVolume.json`,
-  JSON.stringify(toSummary(weekSummary))
+  JSON.stringify(toSummary(weekSummary.collection))
 );
 
 fs.writeFileSync(
+  `${allBaseDir}/summary_7DayVolume_trends.json`,
+  JSON.stringify(Object.keys(weekSummary.trends).map(_ => {
+
+    return {
+      day: _,
+      ...weekSummary.trends[_]
+    }
+  }))
+);
+
+return;
+
+fs.writeFileSync(
   `${allBaseDir}/summary_30DayVolume.json`,
-  JSON.stringify(toSummary(monthSummary))
+  JSON.stringify(toSummary(monthSummary.collection))
 );
 
 

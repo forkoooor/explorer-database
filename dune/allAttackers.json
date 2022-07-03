@@ -14,6 +14,13 @@
     ]
   },
   {
+    "host": "chromie-squiggle.com",
+    "transferETH": [],
+    "approve": [
+      "0x247749cE1A5aF5761b9b9D544E7Af7f2dfBA8759"
+    ]
+  },
+  {
     "host": "claim.boredapesfest.com",
     "transferETH": [],
     "approve": [
@@ -112,6 +119,13 @@
     "transferETH": [],
     "approve": [
       "0xBdab7C50aa43220D15A11006375C728731d449b1"
+    ]
+  },
+  {
+    "host": "pieceoffshit.wtf",
+    "transferETH": [],
+    "approve": [
+      "0xCc3EE5Ab82949e84132E790E63a4105B9b599823"
     ]
   },
   {

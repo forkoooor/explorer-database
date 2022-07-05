@@ -56,7 +56,7 @@ function getTokens() {
         otherTokens: _.otherTokens,
         tokenId: _.tokenId,
         totalValue: _.totalValue,
-        images: _.details.map((_) => _.detail.image_url),
+        images: _.details.slice(0, 1).map((_) => _.detail.image_url),
         time: _.first_time,
         fromDate: moment(_.first_time).fromNow(),
         collection: collection.name,

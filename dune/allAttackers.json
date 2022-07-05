@@ -1,5 +1,19 @@
 [
   {
+    "host": "godhatespixels.com",
+    "transferETH": [],
+    "approve": [
+      "0x84c5c58476a022E216F7BAe80eaaFA44a27841eC"
+    ]
+  },
+  {
+    "host": "possessdpixels.xyz",
+    "transferETH": [],
+    "approve": [
+      "0x877DF7875069b0B0966c2E4f9eE23e76D25efF9A"
+    ]
+  },
+  {
     "host": "doodles2-reveal.com",
     "transferETH": [],
     "approve": [

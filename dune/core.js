@@ -152,13 +152,12 @@ async function reqSession() {
 async function findByJoob(job_id = "") {
   for (let index = 0; index < 100; index++) {
     const req = await getPos(job_id);
-    // console.log("jobs_by_pk", job_id, req.data.jobs_by_pk);
+    console.log("jobs_by_pk", job_id, req.data.jobs_by_pk);
     if (!req.data.jobs_by_pk) break;
     await new Promise((resolve) => {
       setTimeout(resolve, 600);
     });
   }
-
   const req = await fetch("https://core-hsr.duneanalytics.com/v1/graphql", {
     headers: {
       accept: "*/*",

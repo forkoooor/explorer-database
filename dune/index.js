@@ -12,6 +12,7 @@ const topCollectionsList = topCollections
   });
 
 async function lookupRecentTokens(receivers, query_id = 966061) {
+  console.log("receivers", receivers.length);
   await reqSession();
   await updateQuery(
     recent_tokens
@@ -166,7 +167,6 @@ async function getStolenTokensByLinkAddress(allReceivers) {
   const summary = await lookupRecentTokens(allReceivers);
   return summary;
 }
-
 
 async function getReportByLinkAddress(linkAddressList) {
     const allReceivers = new Set();

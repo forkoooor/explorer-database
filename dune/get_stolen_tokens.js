@@ -117,4 +117,5 @@ async function genReport(lastId = 1) {
   fs.writeFileSync(reportFile, JSON.stringify(report, null, 2));
 }
 
+
 genReport(2);

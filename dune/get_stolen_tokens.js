@@ -46,6 +46,23 @@ async function getDetectHistory(host) {
   };
 }
 
+
+async function getRecentScamActivity() {
+  const req = await fetch(
+    `${API}/scamActivity?sort=-id&limit=1000&fields=address`
+  );
+  const list = await req.json();
+  return Array.from(
+    new Set(
+      list
+        .map((_) => {
+          return _.address;
+        })
+        .filter((_) => _)
+    )
+  );
+}
+
 async function genLinkerAddressList(lastId = 1) {
   const cacheFile = __dirname + "/address_list_cache.json";
   if (fs.existsSync(cacheFile)) {
@@ -55,35 +72,35 @@ async function genLinkerAddressList(lastId = 1) {
       return cacheData;
     }
   }
+  // const newDomains = await getNewDomains(lastId);
+  // const allAttackers = await getRecentScamActivity();
+  // for (let index = 0; index < newDomains.length; index++) {
+  //   const newDomain = newDomains[index];
+  //   const historyWatch = await getDetectHistory(newDomain);
+  //   if (historyWatch.approve.length) {
+  //     console.log(historyWatch);
+  //     allAttackers.push(historyWatch);
+  //   }
 
-  const newDomains = await getNewDomains(lastId);
-  const allAttackers = [];
-  for (let index = 0; index < newDomains.length; index++) {
-    const newDomain = newDomains[index];
-    const historyWatch = await getDetectHistory(newDomain);
-    if (historyWatch.approve.length) {
-      console.log(historyWatch);
-      allAttackers.push(historyWatch);
-    }
-
-    if (historyWatch.transferETH.length) {
-      console.log(historyWatch);
-      allAttackers.push(historyWatch);
-    }
-  }
-  const allList = Array.from(
-    allAttackers.reduce((all, item) => {
-      item.approve.forEach((addr) => {
-        all.add(addr);
-      });
-      item.transferETH.forEach((addr) => {
-        all.add(addr);
-      });
-      return all;
-    }, new Set())
-  );
-  const allAttackersFiles = __dirname + "/allAttackers.json";
-  fs.writeFileSync(allAttackersFiles, JSON.stringify(allAttackers, null, 2));
+  //   if (historyWatch.transferETH.length) {
+  //     console.log(historyWatch);
+  //     allAttackers.push(historyWatch);
+  //   }
+  // }
+  const allList = await getRecentScamActivity();
+  // const allList = Array.from(
+  //   allAttackers.reduce((all, item) => {
+  //     item.approve.forEach((addr) => {
+  //       all.add(addr);
+  //     });
+  //     item.transferETH.forEach((addr) => {
+  //       all.add(addr);
+  //     });
+  //     return all;
+  //   }, new Set())
+  // );
+  // const allAttackersFiles = __dirname + "/allAttackers.json";
+  // fs.writeFileSync(allAttackersFiles, JSON.stringify(allAttackers, null, 2));
   const listData = await getLinkedAddress(allList);
   listData.saveTime = Date.now();
   console.log("listData", listData);

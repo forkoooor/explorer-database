@@ -49,7 +49,7 @@ async function getDetectHistory(host) {
 
 async function getRecentScamActivity() {
   const req = await fetch(
-    `${API}/scamActivity?sort=-id&limit=1000&fields=address`
+    `${API}/scamActivity?sort=-id&limit=300&fields=address`
   );
   const list = await req.json();
   return Array.from(

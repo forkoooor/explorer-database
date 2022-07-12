@@ -56,7 +56,7 @@ async function getRecentScamActivity() {
     new Set(
       list
         .map((_) => {
-          return _.address;
+          return _.address.split(',')[0];
         })
         .filter((_) => _)
     )

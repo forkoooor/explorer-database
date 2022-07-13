@@ -52,15 +52,14 @@ async function getRecentScamActivity() {
     `${API}/scamActivity?sort=-id&limit=300&fields=address`
   );
   const list = await req.json();
-  return Array.from(
-    new Set(
-      list
-        .map((_) => {
-          return _.address.split(',')[0];
-        })
-        .filter((_) => _)
-    )
-  );
+  let allAddressList = []
+  list
+    .map((_) => {
+      const list = _.address.split(",");
+      allAddressList = allAddressList.concat(list);
+    })
+
+  return Array.from(new Set(allAddressList));
 }
 
 async function genLinkerAddressList(lastId = 1) {

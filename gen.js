@@ -84,24 +84,30 @@ fs.writeFileSync(
 
 fs.writeFileSync(`${allBaseDir}/all.json`, JSON.stringify(topCollections));
 
-const weekSummary = getCollection(7);
-const daySummary = getCollection(1);
-const monthSummary = getCollection(30);
+const daySummary = toSummary(getCollection(1));
+const weekSummary = toSummary(getCollection(7));
+const monthSummary = toSummary(getCollection(30));
 
-fs.writeFileSync(
-  `${allBaseDir}/summary_1DayVolume.json`,
-  JSON.stringify(toSummary(daySummary))
-);
+if (daySummary.length) {
+  fs.writeFileSync(
+    `${allBaseDir}/summary_1DayVolume.json`,
+    JSON.stringify(daySummary)
+  );
+}
 
-fs.writeFileSync(
-  `${allBaseDir}/summary_7DayVolume.json`,
-  JSON.stringify(toSummary(weekSummary))
-);
+if (weekSummary.length) {
+  fs.writeFileSync(
+    `${allBaseDir}/summary_7DayVolume.json`,
+    JSON.stringify(weekSummary)
+  );
+}
 
-fs.writeFileSync(
-  `${allBaseDir}/summary_30DayVolume.json`,
-  JSON.stringify(toSummary(monthSummary))
-);
+if (monthSummary.length) {
+  fs.writeFileSync(
+    `${allBaseDir}/summary_30DayVolume.json`,
+    JSON.stringify(monthSummary)
+  );
+}
 
 // return;
 const dataCollections = [];

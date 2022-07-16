@@ -47,9 +47,9 @@ async function getDetectHistory(host) {
 }
 
 
-async function getRecentScamActivity() {
+async function getRecentScamActivity(limit = 100) {
   const req = await fetch(
-    `${API}/scamActivity?sort=-id&limit=300&fields=address`
+    `${API}/scamActivity?sort=-id&limit=${limit}&fields=address`
   );
   const list = await req.json();
   let allAddressList = []
@@ -64,12 +64,16 @@ async function getRecentScamActivity() {
 
 async function genLinkerAddressList(lastId = 1) {
   const cacheFile = __dirname + "/address_list_cache.json";
+  let cacheData = null
+  let firstRun = false
   if (fs.existsSync(cacheFile)) {
-    const cacheData = JSON.parse(fs.readFileSync(cacheFile, "utf-8"));
-    const isNotTimeout = Date.now() - cacheData.saveTime < 60 * 1000 * 20;
+    cacheData = JSON.parse(fs.readFileSync(cacheFile, "utf-8"));
+    const isNotTimeout = Date.now() - cacheData.saveTime < 60 * 1000 * 30;
     if (isNotTimeout) {
       return cacheData;
     }
+  } else {
+    firstRun = true;
   }
   // const newDomains = await getNewDomains(lastId);
   // const allAttackers = await getRecentScamActivity();
@@ -86,7 +90,8 @@ async function genLinkerAddressList(lastId = 1) {
   //     allAttackers.push(historyWatch);
   //   }
   // }
-  const allList = await getRecentScamActivity();
+  const limit = firstRun ? 1000 : 50
+  const allList = await getRecentScamActivity(limit);
   // const allList = Array.from(
   //   allAttackers.reduce((all, item) => {
   //     item.approve.forEach((addr) => {
@@ -101,8 +106,15 @@ async function genLinkerAddressList(lastId = 1) {
   // const allAttackersFiles = __dirname + "/allAttackers.json";
   // fs.writeFileSync(allAttackersFiles, JSON.stringify(allAttackers, null, 2));
   const listData = await getLinkedAddress(allList);
+  if (cacheData) {
+    console.log('merge with last')
+    listData.linkers = Object.assign({}, listData.linkers, cacheData.linkers);
+    listData.allReceivers = Array.from(
+      new Set([].concat(listData.allReceivers, cacheData.allReceivers))
+    );
+  }
   listData.saveTime = Date.now();
-  console.log("listData", listData);
+  console.log("listData", listData.allReceivers.length);
   fs.writeFileSync(cacheFile, JSON.stringify(listData, null, 2));
   return listData;
 }

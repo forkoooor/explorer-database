@@ -148,6 +148,10 @@ async function getLinkedAddress(linkAddressList) {
       allReceivers.add(_);
     });
 
+    await new Promise((resolve) => {
+      setTimeout(resolve, 2000);
+    })
+
     allReceivers.add(linkAddress.toLowerCase().replace('0x', '\\x'));
     console.log(linkAddress, receivers);
   }

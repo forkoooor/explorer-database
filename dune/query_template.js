@@ -372,7 +372,7 @@ WHERE
     COLLETION_LIST
 )
 
-and "evt_block_time" > now() - interval '70s days'
+and "evt_block_time" > now() - interval '70 days'
 group by
   1,
   2`;

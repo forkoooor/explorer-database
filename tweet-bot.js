@@ -98,7 +98,7 @@ async function sendPost(token, image, type = 'ifttt') {
       Status: token.totalValue > 10 ? 'Publish' : "Draft",
     },
   });
-  await base("Table 1").create([
+  await base("ScamList").create([
     {
       fields: {
         id: token.id,
@@ -172,4 +172,5 @@ async function getNeedPostTweet() {
     await wait(30 * 1000);
   }
 })();
+
 

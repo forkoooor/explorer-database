@@ -84,20 +84,20 @@ function wait(ms) {
 }
 
 async function sendPost(token, image, type = 'ifttt') {
-  console.log({
-    fields: {
-      id: token.id,
-      tweet: token.tweet,
-      image: token.images.map((_) => ({
-        url: _,
-        // type: "image/jpeg",
-      })),
-      price: token.totalValue,
-      time: token.time,
-      collection: token.collection,
-      Status: token.totalValue > 10 ? 'Publish' : "Draft",
-    },
-  });
+  // console.log({
+  //   fields: {
+  //     id: token.id,
+  //     tweet: token.tweet,
+  //     image: token.images.map((_) => ({
+  //       url: _,
+  //       // type: "image/jpeg",
+  //     })),
+  //     price: token.totalValue,
+  //     time: token.time,
+  //     collection: token.collection,
+  //     Status: token.totalValue > 10 ? 'Publish' : "Draft",
+  //   },
+  // });
   await base("ScamList").create([
     {
       fields: {
@@ -109,7 +109,7 @@ async function sendPost(token, image, type = 'ifttt') {
         })),
         price: token.totalValue,
         time: token.time,
-        collection: token.slug,
+        // collection: token.slug,
         Status: token.totalValue > 1.5 ? "Publish" : "Draft",
       },
     },

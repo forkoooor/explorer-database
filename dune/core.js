@@ -156,7 +156,7 @@ async function findByJoob(job_id = "") {
     console.log("jobs_by_pk", job_id, req.data.jobs_by_pk);
     if (!req.data.jobs_by_pk) break;
     await new Promise((resolve) => {
-      setTimeout(resolve, 600);
+      setTimeout(resolve, 2 * 1000);
     });
   }
   const req = await fetch("https://core-hsr.duneanalytics.com/v1/graphql", {

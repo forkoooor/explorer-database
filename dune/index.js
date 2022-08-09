@@ -120,7 +120,7 @@ async function lookupRecentAttack(receivers, linkers, query_id = 896859) {
   return summary;
 }
 
-async function getLinkReceivers(attackerAddress, query_id = 968129) {
+async function getLinkReceivers(attackerAddress, query_id = 1150766) {
   await reqSession();
   const result = await excuteQuery(query_id, [
     {
@@ -129,7 +129,8 @@ async function getLinkReceivers(attackerAddress, query_id = 968129) {
       value: attackerAddress,
     },
   ]);
-  console.log(result.errors);
+  console.log(result.errors, attackerAddress);
+  if (result.errors) return [];
   const rows = result.data.get_result_by_job_id.map((_) => _.data.receiver);
   //   console.log(rows);
   return rows;

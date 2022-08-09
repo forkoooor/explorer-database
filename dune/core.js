@@ -146,6 +146,7 @@ async function reqSession() {
   const json = await req.json();
   authorization = "Bearer " + json["token"];
   accessToken = json["accessToken"];
+  console.log("json", json);
   // return json
 }
 

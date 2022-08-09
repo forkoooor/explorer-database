@@ -4,8 +4,6 @@ const { cookie } = require("./cookie.json");
 let authorization = null
 let accessToken = null
 
-
-
 async function updateQuery(
   query,
   query_id = 897811
@@ -146,7 +144,7 @@ async function reqSession() {
   const json = await req.json();
   authorization = "Bearer " + json["token"];
   accessToken = json["accessToken"];
-  console.log("json", json);
+  // console.log("json", json);
   // return json
 }
 
@@ -181,8 +179,31 @@ async function findByJoob(job_id = "") {
       variables: {
         job_id: job_id,
       },
-      query:
-        "query FindResultDataByJob($job_id: uuid!) {\n  query_results(where: {job_id: {_eq: $job_id}, error: {_is_null: true}}) {\n    id\n    job_id\n    runtime\n    generated_at\n    columns\n    __typename\n  }\n  query_errors(where: {job_id: {_eq: $job_id}}) {\n    id\n    job_id\n    runtime\n    message\n    metadata\n    type\n    generated_at\n    __typename\n  }\n  get_result_by_job_id(args: {want_job_id: $job_id}) {\n    data\n    __typename\n  }\n}\n",
+      query: `query FindResultDataByJob($job_id: uuid!) {
+  query_results(where: {job_id: {_eq: $job_id}}) {
+    id
+    job_id
+    runtime
+    generated_at
+    columns
+    __typename
+  }
+  query_errors(where: {job_id: {_eq: $job_id}}) {
+    id
+    job_id
+    runtime
+    message
+    metadata
+    type
+    generated_at
+    __typename
+  }
+  get_result_by_job_id(args: {want_job_id: $job_id}) {
+    data
+    __typename
+  }
+}
+`,
     }),
     method: "POST",
     mode: "cors",

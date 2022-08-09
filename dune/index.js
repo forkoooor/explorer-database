@@ -129,6 +129,7 @@ async function getLinkReceivers(attackerAddress, query_id = 968129) {
       value: attackerAddress,
     },
   ]);
+  console.log(result);
   const rows = result.data.get_result_by_job_id.map((_) => _.data.receiver);
   //   console.log(rows);
   return rows;

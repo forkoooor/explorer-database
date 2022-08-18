@@ -158,7 +158,7 @@ async function reqSession() {
 async function findByJoob(job_id = "") {
   for (let index = 0; index < 5000; index++) {
     const req = await getPos(job_id);
-    console.log("jobs_by_pk", job_id, req.data.jobs_by_pk);
+    // console.log("jobs_by_pk", job_id, req.data.jobs_by_pk);
     if (!req.data.jobs_by_pk) break;
     await new Promise((resolve) => {
       setTimeout(resolve, 2 * 1000);

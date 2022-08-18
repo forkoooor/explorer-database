@@ -14,7 +14,7 @@ const topCollectionsList = topCollections
 
 
 async function lookupRecentTokensByQuery(receivers, query_id, query_sql) {
-  console.log("lookupRecentTokens", receivers.length);
+  console.log("lookupRecentTokensByQuery", receivers.length);
   await reqSession();
   const querySql = query_sql
   .replace(

@@ -1,4 +1,4 @@
-const { recent_lost_query, recent_tokens } = require("./query_template");
+const { recent_lost_query, recent_tokens, recent_tokens_from } = require("./query_template");
 const { excuteQuery, updateQuery, reqSession } = require("./core");
 const { rankCollections } = require("./rank");
 const fs = require('fs');

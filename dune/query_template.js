@@ -355,7 +355,7 @@ order by counts desc
 
 
 
-const recent_tokens = `
+const recent_tokens_v1 = `
 select
   contract_address,
   "tokenId"::TEXT,
@@ -376,6 +376,35 @@ and "evt_block_time" > now() - interval '70 days'
 group by
   1,
   2`;
+
+
+const recent_tokens = `
+select
+  contract_address,
+  b."tokenId":: TEXT,
+  string_agg(b."to":: TEXT, ';;') as receivers,
+  string_agg(b."from":: TEXT, ';;') as senders,
+  min(b.evt_block_time) as first_time
+from
+  erc721."ERC721_evt_Transfer" b
+  left join ethereum.transactions as a on a.hash = b.evt_tx_hash
+WHERE
+  (
+    b."to" in (
+      ADDRESS_LIST
+    )
+    or a."from" in (
+      ADDRESS_LIST
+    )
+  )
+  and contract_address in (
+    COLLETION_LIST
+  )
+  and "evt_block_time" > now() - interval '70 days'
+group by
+  1,
+  2
+`;
 
 module.exports = {
   link_receiver_query,

@@ -17,11 +17,11 @@ async function lookupRecentTokens(receivers, query_id = 966061) {
   await updateQuery(
     recent_tokens
       .replace(
-        "ADDRESS_LIST",
-        receivers.map((_) => `'${_.trim()}'`).join(",\n")
+        new RegExp('ADDRESS_LIST', 'g'),
+        receivers.filter(c => c).map((_) => `'${_.trim()}'`).join(",\n")
       )
       .replace(
-        "COLLETION_LIST",
+        new RegExp('COLLETION_LIST', 'g'),
         topCollectionsList
           .map((_) => `'${_.replace("0x", "\\x").trim()}'`)
           .join(",\n")

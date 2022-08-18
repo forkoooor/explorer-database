@@ -14,25 +14,26 @@ const topCollectionsList = topCollections
 async function lookupRecentTokens(receivers, query_id = 966061) {
   console.log("lookupRecentTokens", receivers.length);
   await reqSession();
+  const querySql = recent_tokens
+  .replace(
+    new RegExp('ADDRESS_LIST', 'g'),
+    receivers.filter(c => c).map((_) => `'${_.trim()}'`).join(",\n")
+  )
+  .replace(
+    new RegExp('COLLETION_LIST', 'g'),
+    topCollectionsList
+      .map((_) => `'${_.replace("0x", "\\x").trim()}'`)
+      .join(",\n")
+  )
   await updateQuery(
-    recent_tokens
-      .replace(
-        new RegExp('ADDRESS_LIST', 'g'),
-        receivers.filter(c => c).map((_) => `'${_.trim()}'`).join(",\n")
-      )
-      .replace(
-        new RegExp('COLLETION_LIST', 'g'),
-        topCollectionsList
-          .map((_) => `'${_.replace("0x", "\\x").trim()}'`)
-          .join(",\n")
-      ),
+    querySql,
     query_id
   );
   await new Promise((resolve) => {
     setTimeout(resolve, 800);
   });
 
-  console.log("query");
+  console.log("query", querySql);
   const result = await excuteQuery(query_id);
   console.log("query done", result.data);
   const rows = result.data.get_result_by_job_id

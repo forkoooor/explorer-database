@@ -11,10 +11,12 @@ const topCollectionsList = topCollections
     return _.contract.address;
   });
 
-async function lookupRecentTokens(receivers, query_id = 966061) {
+
+
+async function lookupRecentTokensByQuery(receivers, query_id, query_sql) {
   console.log("lookupRecentTokens", receivers.length);
   await reqSession();
-  const querySql = recent_tokens_v2
+  const querySql = query_sql
   .replace(
     new RegExp('ADDRESS_LIST', 'g'),
     receivers.filter(c => c).map((_) => `'${_.trim()}'`).join(",\n")
@@ -25,7 +27,7 @@ async function lookupRecentTokens(receivers, query_id = 966061) {
       .map((_) => `'${_.replace("0x", "\\x").trim()}'`)
       .join(",\n")
   )
-   const upRes = await updateQuery(
+    const upRes = await updateQuery(
     querySql,
     query_id
   );
@@ -47,6 +49,24 @@ async function lookupRecentTokens(receivers, query_id = 966061) {
     });
   console.log('tokens', rows.length);
   return rows;
+}
+
+async function lookupRecentTokens(receivers, query_id = 966061) {
+  console.log("lookupRecentTokens", receivers.length);
+  const allIds = new Set();
+  const toToken = await lookupRecentTokensByQuery(receivers, query_id, recent_tokens)
+  const fromToken = await lookupRecentTokensByQuery(receivers, query_id, recent_tokens_from)
+  const allTokens = [];
+  [toToken, fromToken].forEach(results => {
+    results.forEach(token => {
+      if (!allIds.has(token.tokenId+token.contract_address)) {
+        allTokens.push(token);
+        allIds.add(token.tokenId+token.contract_address)
+      }
+    })
+  })
+  console.log('allTokens', allTokens.length)
+  return allTokens;
 }
 
 async function lookupRecentAttack(receivers, linkers, query_id = 896859) {

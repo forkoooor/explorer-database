@@ -1,4 +1,4 @@
-const { recent_lost_query, recent_tokens, recent_tokens_from } = require("./query_template");
+const { recent_lost_query, recent_tokens, recent_tokens_v2, recent_tokens_from } = require("./query_template");
 const { excuteQuery, updateQuery, reqSession } = require("./core");
 const { rankCollections } = require("./rank");
 const fs = require('fs');
@@ -14,7 +14,7 @@ const topCollectionsList = topCollections
 async function lookupRecentTokens(receivers, query_id = 966061) {
   console.log("lookupRecentTokens", receivers.length);
   await reqSession();
-  const querySql = recent_tokens_from
+  const querySql = recent_tokens_v2
   .replace(
     new RegExp('ADDRESS_LIST', 'g'),
     receivers.filter(c => c).map((_) => `'${_.trim()}'`).join(",\n")

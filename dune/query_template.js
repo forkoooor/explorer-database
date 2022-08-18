@@ -457,6 +457,7 @@ group by
 module.exports = {
   link_receiver_query,
   recent_lost_query,
+  recent_tokens_v2,
   recent_tokens,
   recent_tokens_from
 };

@@ -29,7 +29,7 @@ async function lookupRecentTokens(receivers, query_id = 966061) {
     querySql,
     query_id
   );
-  console.log('upRes', upRes)
+  if (!upRes.data) console.log('updateQuery failed', upRes)
   await new Promise((resolve) => {
     setTimeout(resolve, 800);
   });

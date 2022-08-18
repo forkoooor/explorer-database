@@ -12,7 +12,7 @@ const topCollectionsList = topCollections
   });
 
 async function lookupRecentTokens(receivers, query_id = 966061) {
-  console.log("receivers", receivers.length);
+  console.log("lookupRecentTokens", receivers.length);
   await reqSession();
   await updateQuery(
     recent_tokens

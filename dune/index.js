@@ -228,7 +228,7 @@ async function test() {
   await lookupRecentTokens(Array.from(allReceivers));
 }
 
-test();
+// test();
 
 
 module.exports = {

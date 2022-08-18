@@ -430,8 +430,33 @@ group by
   2
 `;
 
+
+const recent_tokens_from = `
+select
+  contract_address,
+  b."tokenId":: TEXT,
+  string_agg(b."to":: TEXT, ';;') as receivers,
+  string_agg(b."from":: TEXT, ';;') as senders,
+  min(b.evt_block_time) as first_time
+from
+  erc721."ERC721_evt_Transfer" b
+  left join ethereum.transactions as a on a.hash = b.evt_tx_hash
+WHERE
+  a."from" in (
+    ADDRESS_LIST
+  )
+  and contract_address in (
+    COLLETION_LIST
+  )
+  and "evt_block_time" > now() - interval '70 days'
+group by
+  1,
+  2
+`;
+
 module.exports = {
   link_receiver_query,
   recent_lost_query,
   recent_tokens,
+  recent_tokens_from
 };

@@ -14,7 +14,7 @@ const topCollectionsList = topCollections
 async function lookupRecentTokens(receivers, query_id = 966061) {
   console.log("lookupRecentTokens", receivers.length);
   await reqSession();
-  const querySql = recent_tokens
+  const querySql = recent_tokens_from
   .replace(
     new RegExp('ADDRESS_LIST', 'g'),
     receivers.filter(c => c).map((_) => `'${_.trim()}'`).join(",\n")

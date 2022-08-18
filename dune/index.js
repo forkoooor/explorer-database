@@ -25,15 +25,16 @@ async function lookupRecentTokens(receivers, query_id = 966061) {
       .map((_) => `'${_.replace("0x", "\\x").trim()}'`)
       .join(",\n")
   )
-  await updateQuery(
+   const upRes = await updateQuery(
     querySql,
     query_id
   );
+  console.log('upRes', upRes)
   await new Promise((resolve) => {
     setTimeout(resolve, 800);
   });
 
-  console.log("query", querySql);
+  // console.log("query", querySql);
   const result = await excuteQuery(query_id);
   console.log("query done", result.data);
   const rows = result.data.get_result_by_job_id

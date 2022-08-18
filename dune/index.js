@@ -36,7 +36,7 @@ async function lookupRecentTokens(receivers, query_id = 966061) {
 
   // console.log("query", querySql);
   const result = await excuteQuery(query_id);
-  console.log("query done", result.data);
+  // console.log("query done", result.data);
   const rows = result.data.get_result_by_job_id
     .map((_) => _.data)
     .map((_) => {
@@ -45,7 +45,7 @@ async function lookupRecentTokens(receivers, query_id = 966061) {
       _.senders = _.senders.split(";;").map((c) => c.replace("\\", "0"));
       return _;
     });
-  // console.log(rows);
+  console.log('tokens', rows.length);
   return rows;
 }
 

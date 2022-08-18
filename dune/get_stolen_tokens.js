@@ -90,7 +90,8 @@ async function genLinkerAddressList(lastId = 1) {
   //     allAttackers.push(historyWatch);
   //   }
   // }
-  const limit = firstRun ? 1000 : 50
+  const limit = firstRun ? 2000 : 50
+  console.log('getRecentScamActivity', limit)
   const allList = await getRecentScamActivity(limit);
   // const allList = Array.from(
   //   allAttackers.reduce((all, item) => {

@@ -141,6 +141,7 @@ async function getLinkedAddress(linkAddressList) {
   const linkers = {};
   for (let index = 0; index < linkAddressList.length; index++) {
     const linkAddress = linkAddressList[index];
+    console.log('scan', index, linkAddress)
     const receivers = await getLinkReceivers(linkAddress);
     receivers.forEach((_) => {
       if (allReceivers.has(_)) {

@@ -34,7 +34,7 @@ async function lookupRecentTokens(receivers, query_id = 966061) {
 
   console.log("query");
   const result = await excuteQuery(query_id);
-  console.log("query done");
+  console.log("query done", result.data);
   const rows = result.data.get_result_by_job_id
     .map((_) => _.data)
     .map((_) => {

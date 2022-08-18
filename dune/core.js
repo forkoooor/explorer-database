@@ -35,7 +35,7 @@ async function updateQuery(
             "favs_last_30d": false,
             "favs_all_time": true,
             "object": {
-                "id": 1164454,
+                "id": query_id,
                 "schedule": null,
                 "dataset_id": 4,
                 "name": "stolen usdt",

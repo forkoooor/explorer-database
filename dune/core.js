@@ -25,58 +25,65 @@ async function updateQuery(
     },
     referrer: "https://dune.com/",
     referrerPolicy: "strict-origin-when-cross-origin",
-    body: JSON.stringify({
-      operationName: "UpsertQuery",
-      variables: {
-        favs_last_24h: false,
-        favs_last_7d: false,
-        favs_last_30d: false,
-        favs_all_time: true,
-        object: {
-          id: query_id,
-          schedule: null,
-          dataset_id: 4,
-          name: "New Query",
-          query: query,
-          user_id: 117345,
-          description: "",
-          is_archived: false,
-          is_temp: true,
-          tags: [],
-          parameters: [],
-          visualizations: {
-            data: [
-              {
-                id: 1535654,
-                type: "table",
-                name: "Query results",
-                options: {},
-              },
-            ],
-            on_conflict: {
-              constraint: "visualizations_pkey",
-              update_columns: ["name", "options"],
+    body: JSON.stringify(
+
+      {
+        "operationName": "UpsertQuery",
+        "variables": {
+            "favs_last_24h": false,
+            "favs_last_7d": false,
+            "favs_last_30d": false,
+            "favs_all_time": true,
+            "object": {
+                "id": 1164454,
+                "schedule": null,
+                "dataset_id": 4,
+                "name": "stolen usdt",
+                "query": query,
+                "user_id": 57040,
+                "team_id": null,
+                "description": "",
+                "is_archived": false,
+                "is_temp": false,
+                "is_private": false,
+                "tags": [],
+                "parameters": [],
+                "visualizations": {
+                    "data": [
+                        {
+                            "id": 1990098,
+                            "type": "table",
+                            "name": "Query results",
+                            "options": {}
+                        }
+                    ],
+                    "on_conflict": {
+                        "constraint": "visualizations_pkey",
+                        "update_columns": [
+                            "name",
+                            "options"
+                        ]
+                    }
+                }
             },
-          },
+            "on_conflict": {
+                "constraint": "queries_pkey",
+                "update_columns": [
+                    "dataset_id",
+                    "name",
+                    "description",
+                    "query",
+                    "schedule",
+                    "is_archived",
+                    "is_temp",
+                    "is_private",
+                    "tags",
+                    "parameters"
+                ]
+            },
+            "session_id": 57040
         },
-        on_conflict: {
-          constraint: "queries_pkey",
-          update_columns: [
-            "dataset_id",
-            "name",
-            "description",
-            "query",
-            "schedule",
-            "is_archived",
-            "is_temp",
-            "tags",
-            "parameters",
-          ],
-        },
-        session_id: 117345,
-      },
-      query:
-        "mutation UpsertQuery($session_id: Int!, $object: queries_insert_input!, $on_conflict: queries_on_conflict!, $favs_last_24h: Boolean! = false, $favs_last_7d: Boolean! = false, $favs_last_30d: Boolean! = false, $favs_all_time: Boolean! = true) {\n  insert_queries_one(object: $object, on_conflict: $on_conflict) {\n    ...Query\n    favorite_queries(where: {user_id: {_eq: $session_id}}, limit: 1) {\n      created_at\n      __typename\n    }\n    __typename\n  }\n}\n\nfragment Query on queries {\n  ...BaseQuery\n  ...QueryVisualizations\n  ...QueryForked\n  ...QueryUsers\n  ...QueryFavorites\n  __typename\n}\n\nfragment BaseQuery on queries {\n  id\n  dataset_id\n  name\n  description\n  query\n  is_private\n  is_temp\n  is_archived\n  created_at\n  updated_at\n  schedule\n  tags\n  parameters\n  __typename\n}\n\nfragment QueryVisualizations on queries {\n  visualizations {\n    id\n    type\n    name\n    options\n    created_at\n    __typename\n  }\n  __typename\n}\n\nfragment QueryForked on queries {\n  forked_query {\n    id\n    name\n    user {\n      name\n      __typename\n    }\n    __typename\n  }\n  __typename\n}\n\nfragment QueryUsers on queries {\n  user {\n    ...User\n    __typename\n  }\n  __typename\n}\n\nfragment User on users {\n  id\n  name\n  profile_image_url\n  __typename\n}\n\nfragment QueryFavorites on queries {\n  query_favorite_count_all @include(if: $favs_all_time) {\n    favorite_count\n    __typename\n  }\n  query_favorite_count_last_24h @include(if: $favs_last_24h) {\n    favorite_count\n    __typename\n  }\n  query_favorite_count_last_7d @include(if: $favs_last_7d) {\n    favorite_count\n    __typename\n  }\n  query_favorite_count_last_30d @include(if: $favs_last_30d) {\n    favorite_count\n    __typename\n  }\n  __typename\n}\n",
+        "query": "mutation UpsertQuery($session_id: Int!, $object: queries_insert_input!, $on_conflict: queries_on_conflict!, $favs_last_24h: Boolean! = false, $favs_last_7d: Boolean! = false, $favs_last_30d: Boolean! = false, $favs_all_time: Boolean! = true) {\n  insert_queries_one(object: $object, on_conflict: $on_conflict) {\n    ...Query\n    favorite_queries(where: {user_id: {_eq: $session_id}}, limit: 1) {\n      created_at\n      __typename\n    }\n    __typename\n  }\n}\n\nfragment Query on queries {\n  ...BaseQuery\n  ...QueryVisualizations\n  ...QueryForked\n  ...QueryUsers\n  ...QueryTeams\n  ...QueryFavorites\n  __typename\n}\n\nfragment BaseQuery on queries {\n  id\n  dataset_id\n  name\n  description\n  query\n  is_private\n  is_temp\n  is_archived\n  created_at\n  updated_at\n  schedule\n  tags\n  parameters\n  __typename\n}\n\nfragment QueryVisualizations on queries {\n  visualizations {\n    id\n    type\n    name\n    options\n    created_at\n    __typename\n  }\n  __typename\n}\n\nfragment QueryForked on queries {\n  forked_query {\n    id\n    name\n    user {\n      name\n      __typename\n    }\n    team {\n      handle\n      __typename\n    }\n    __typename\n  }\n  __typename\n}\n\nfragment QueryUsers on queries {\n  user {\n    ...User\n    __typename\n  }\n  team {\n    id\n    name\n    handle\n    profile_image_url\n    __typename\n  }\n  __typename\n}\n\nfragment User on users {\n  id\n  name\n  profile_image_url\n  __typename\n}\n\nfragment QueryTeams on queries {\n  team {\n    ...Team\n    __typename\n  }\n  __typename\n}\n\nfragment Team on teams {\n  id\n  name\n  handle\n  profile_image_url\n  __typename\n}\n\nfragment QueryFavorites on queries {\n  query_favorite_count_all @include(if: $favs_all_time) {\n    favorite_count\n    __typename\n  }\n  query_favorite_count_last_24h @include(if: $favs_last_24h) {\n    favorite_count\n    __typename\n  }\n  query_favorite_count_last_7d @include(if: $favs_last_7d) {\n    favorite_count\n    __typename\n  }\n  query_favorite_count_last_30d @include(if: $favs_last_30d) {\n    favorite_count\n    __typename\n  }\n  __typename\n}\n"
     }),
     method: "POST",
     mode: "cors",

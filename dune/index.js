@@ -165,13 +165,18 @@ async function getLinkedAddress(linkAddressList) {
     const linkAddress = linkAddressList[index];
     console.log('scan', index, linkAddress)
     const receivers = await getLinkReceivers(linkAddress);
-    receivers.forEach((_) => {
-      if (allReceivers.has(_)) {
-        console.log("exists", _);
-      }
-      linkers[_] = linkAddress;
-      allReceivers.add(_);
-    });
+
+    if (receivers.length < 30) {
+      receivers.forEach((_) => {
+        if (allReceivers.has(_)) {
+          console.log("exists", _);
+        }
+        linkers[_] = linkAddress;
+        allReceivers.add(_);
+      });
+    } else {
+      console.log('too large')
+    }
 
     await new Promise((resolve) => {
       setTimeout(resolve, 2000);

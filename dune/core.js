@@ -124,6 +124,9 @@ async function getPos(job_id) {
     mode: "cors",
     credentials: "include",
   });
+  console.log('', {
+    accessToken,authorization
+  })
   return req.json();
 }
 

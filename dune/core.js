@@ -3,12 +3,13 @@ const fetch = require("node-fetch");
 const { cookie } = require("./cookie.json");
 let authorization = null
 let accessToken = null
+const graphAPI = 'https://core-hsr.dune.com/v1/graphql'
 
 async function updateQuery(
   query,
   query_id = 897811
 ) {
-  const req = await fetch("https://core-hsr.duneanalytics.com/v1/graphql", {
+  const req = await fetch(graphAPI, {
     headers: {
       accept: "*/*",
       "accept-language": "zh-CN,zh;q=0.9,en-IN;q=0.8,en;q=0.7,ar;q=0.6",
@@ -94,7 +95,7 @@ async function updateQuery(
 }
 
 async function getPos(job_id) {
-  const req = await fetch("https://core-hsr.duneanalytics.com/v1/graphql", {
+  const req = await fetch(graphAPI, {
     headers: {
       accept: "*/*",
       "accept-language": "zh-CN,zh;q=0.9,en-IN;q=0.8,en;q=0.7,ar;q=0.6",
@@ -164,7 +165,7 @@ async function findByJoob(job_id = "") {
       setTimeout(resolve, 2 * 1000);
     });
   }
-  const req = await fetch("https://core-hsr.duneanalytics.com/v1/graphql", {
+  const req = await fetch(graphAPI, {
     headers: {
       accept: "*/*",
       "accept-language": "zh-CN,zh;q=0.9,en-IN;q=0.8,en;q=0.7,ar;q=0.6",
@@ -220,7 +221,7 @@ async function findByJoob(job_id = "") {
 }
 
 async function excuteQuery(query_id = 897811, parameters = []) {
-  const req = await fetch("https://core-hsr.duneanalytics.com/v1/graphql", {
+  const req = await fetch(graphAPI, {
     headers: {
       accept: "*/*",
       "accept-language": "zh-CN,zh;q=0.9,en-IN;q=0.8,en;q=0.7,ar;q=0.6",

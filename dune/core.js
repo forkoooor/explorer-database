@@ -158,7 +158,7 @@ async function reqSession() {
 async function findByJoob(job_id = "") {
   for (let index = 0; index < 5000; index++) {
     const req = await getPos(job_id);
-    // console.log("jobs_by_pk", job_id, req.data.jobs_by_pk);
+    console.log("jobs_by_pk", job_id, req.data.jobs_by_pk);
     if (!req.data.jobs_by_pk) break;
     await new Promise((resolve) => {
       setTimeout(resolve, 2 * 1000);
@@ -187,29 +187,29 @@ async function findByJoob(job_id = "") {
         job_id: job_id,
       },
       query: `query FindResultDataByJob($job_id: uuid!) {
-  query_results(where: {job_id: {_eq: $job_id}}) {
-    id
-    job_id
-    runtime
-    generated_at
-    columns
-    __typename
-  }
-  query_errors(where: {job_id: {_eq: $job_id}}) {
-    id
-    job_id
-    runtime
-    message
-    metadata
-    type
-    generated_at
-    __typename
-  }
-  get_result_by_job_id(args: {want_job_id: $job_id}) {
-    data
-    __typename
-  }
-}
+        query_results(where: {job_id: {_eq: $job_id}}) {
+          id
+          job_id
+          runtime
+          generated_at
+          columns
+          __typename
+        }
+        query_errors(where: {job_id: {_eq: $job_id}}) {
+          id
+          job_id
+          runtime
+          message
+          metadata
+          type
+          generated_at
+          __typename
+        }
+        get_result_by_job_id(args: {want_job_id: $job_id}) {
+          data
+          __typename
+        }
+      }
 `,
     }),
     method: "POST",

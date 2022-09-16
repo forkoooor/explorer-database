@@ -448,7 +448,7 @@ WHERE
   and contract_address in (
     COLLETION_LIST
   )
-  and "evt_block_time" > now() - interval '7 days'
+  and b."evt_block_time" > now() - interval '7 days'
 group by
   1,
   2

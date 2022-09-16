@@ -257,7 +257,7 @@ async function excuteQuery(query_id = 897811, parameters = []) {
     const job_id = res.data.execute_query.job_id;
     jobRes = await findByJoob(job_id);
   } catch (e) {
-    console.log("resText", resText);
+    console.log("resText", resText, e);
   }
 
   

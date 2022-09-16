@@ -114,13 +114,12 @@ async function getPos(job_id) {
     referrer: "https://dune.com/",
     referrerPolicy: "strict-origin-when-cross-origin",
     body: JSON.stringify({
-      operationName: "GetQueuePosition",
-      variables: {
-        job_id: job_id,
+      "operationName": "GetQueuePosition",
+      "variables": {
+          "job_id": job_id
       },
-      query:
-        "query GetQueuePosition($job_id: uuid!) {\n  view_queue_positions(where: {id: {_eq: $job_id}}) {\n    pos\n    __typename\n  }\n  jobs_by_pk(id: $job_id) {\n    id\n    user_id\n    category\n    created_at\n    locked_until\n    __typename\n  }\n}\n",
-    }),
+      "query": "query GetQueuePosition($job_id: uuid!) {\n  get_queue_position(job_id: $job_id) {\n    pos\n    __typename\n  }\n  jobs_by_pk(id: $job_id) {\n    id\n    user_id\n    category\n    created_at\n    locked_until\n    __typename\n  }\n}\n"
+  }),
     method: "POST",
     mode: "cors",
     credentials: "include",

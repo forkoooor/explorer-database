@@ -167,6 +167,9 @@ async function findByJoob(job_id = "") {
     await new Promise((resolve) => {
       setTimeout(resolve, 2 * 1000);
     });
+    if (index > 20) {
+      await reqSession();
+    }
   }
   const req = await fetch(graphAPI, {
     headers: {

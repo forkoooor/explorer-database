@@ -96,19 +96,20 @@ async function updateQuery(
 
 async function getPos(job_id) {
   const req = await fetch(graphAPI, {
-    headers: {
-      accept: "*/*",
-      "accept-language": "zh-CN,zh;q=0.9,en-IN;q=0.8,en;q=0.7,ar;q=0.6",
-      authorization: authorization,
+    "headers": {
+      "accept": "*/*",
+      "accept-language": "zh,en;q=0.9,ar;q=0.8,zh-CN;q=0.7",
+      authorization,
+      "cache-control": "no-cache",
       "content-type": "application/json",
-      "sec-ch-ua":
-        '" Not A;Brand";v="99", "Chromium";v="102", "Google Chrome";v="102"',
+      "pragma": "no-cache",
+      "sec-ch-ua": "\"Google Chrome\";v=\"105\", \"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"105\"",
       "sec-ch-ua-mobile": "?0",
-      "sec-ch-ua-platform": '"macOS"',
+      "sec-ch-ua-platform": "\"macOS\"",
       "sec-fetch-dest": "empty",
       "sec-fetch-mode": "cors",
-      "sec-fetch-site": "cross-site",
-      "x-dune-access-token": accessToken,
+      "sec-fetch-site": "same-site",
+      "x-dune-access-token": accessToken
     },
     referrer: "https://dune.com/",
     referrerPolicy: "strict-origin-when-cross-origin",

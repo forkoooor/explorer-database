@@ -1827,17 +1827,6 @@
   },
   {
     "contract_address": "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
-    "first_time": "2022-09-17T17:19:23+00:00",
-    "receivers": [
-      "0xad445ca90e15d587b1b6182dd47334a5990026b4"
-    ],
-    "senders": [
-      "0x295b828bd9184587f287546c0c24d58aa5c2204b"
-    ],
-    "tokenId": "20103742939104315348748400013007721200657412695543213048353172769480397569498"
-  },
-  {
-    "contract_address": "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
     "first_time": "2022-09-21T03:34:23+00:00",
     "receivers": [
       "0xb531c9fd5cd3119f9e33c4a9ee4844798e0de87a"

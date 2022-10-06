@@ -125,7 +125,13 @@ async function genReport(lastId = 1) {
   const linkerFile = __dirname + "/linkers.json";
   const reportFile = __dirname + "/stolen_tokens_new.json";
   fs.writeFileSync(linkerFile, JSON.stringify(linkers));
-  const report = await getStolenTokensByLinkAddress(allReceivers);
+  const report = await getStolenTokensByLinkAddress(allReceivers.filter(_ => {
+    const notZero = _ != "\\x0000000000000000000000000000000000000000"
+    if (!notZero) {
+      console.log('skip zero')
+    }
+    return notZero
+  }));
   fs.writeFileSync(reportFile, JSON.stringify(report, null, 2));
 }
 

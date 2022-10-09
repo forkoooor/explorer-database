@@ -2410,17 +2410,6 @@
   },
   {
     "contract_address": "0x9378368ba6b85c1fba5b131b530f5f5bedf21a18",
-    "first_time": "2022-10-02T15:48:47+00:00",
-    "receivers": [
-      "0x3b37e90a131d8c531903bf16d005254345677d04"
-    ],
-    "senders": [
-      "0xa31ba506df84a9fce2d0f0c28f846b59d1e79b53"
-    ],
-    "tokenId": "46868"
-  },
-  {
-    "contract_address": "0x9378368ba6b85c1fba5b131b530f5f5bedf21a18",
     "first_time": "2022-10-04T18:47:11+00:00",
     "receivers": [
       "0x0aa7f992dfb485cf9c4fbe9688f1ecdf9e0a15f9"
@@ -2990,17 +2979,6 @@
       "0xe03867d009e9d2eb96fa3952837ed34751b42273"
     ],
     "tokenId": "175"
-  },
-  {
-    "contract_address": "0xc7df86762ba83f2a6197e1ff9bb40ae0f696b9e6",
-    "first_time": "2022-10-02T15:48:47+00:00",
-    "receivers": [
-      "0x3b37e90a131d8c531903bf16d005254345677d04"
-    ],
-    "senders": [
-      "0xa31ba506df84a9fce2d0f0c28f846b59d1e79b53"
-    ],
-    "tokenId": "9574"
   },
   {
     "contract_address": "0xc99c679c50033bbc5321eb88752e89a93e9e83c5",
@@ -3598,17 +3576,6 @@
   },
   {
     "contract_address": "0x3a2096754df385553c4252e5a82dc862e64169bb",
-    "first_time": "2022-10-02T15:54:35+00:00",
-    "receivers": [
-      "0x675fdc3748dbd75321ec389682294bdb5f345af2"
-    ],
-    "senders": [
-      "0xbac0ffc1e838555504215c83f497627c921886a8"
-    ],
-    "tokenId": "2307"
-  },
-  {
-    "contract_address": "0x3a2096754df385553c4252e5a82dc862e64169bb",
     "first_time": "2022-10-02T16:00:35+00:00",
     "receivers": [
       "0x675fdc3748dbd75321ec389682294bdb5f345af2"
@@ -3716,16 +3683,5 @@
       "0x3569563839c4e308f09122126b4fad3ecaa99999"
     ],
     "tokenId": "84828328788823863806030144987084202901265512050012469552268144475954792708797"
-  },
-  {
-    "contract_address": "0xacfa101ece167f1894150e090d9471aee2dd3041",
-    "first_time": "2022-10-02T15:37:47+00:00",
-    "receivers": [
-      "0x181c63a78a3338e9cd2ba8809f0e9761834e47bb"
-    ],
-    "senders": [
-      "0xbac0ffc1e838555504215c83f497627c921886a8"
-    ],
-    "tokenId": "3097"
   }
 ]

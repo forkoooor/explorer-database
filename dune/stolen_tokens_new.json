@@ -815,17 +815,6 @@
   },
   {
     "contract_address": "0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258",
-    "first_time": "2022-10-02T02:09:59+00:00",
-    "receivers": [
-      "0x4461b8ba72c7d65e0fa59e8a448095e1b2e01485"
-    ],
-    "senders": [
-      "0x9758cdeda71e03f37a218381c077a8ab30b2e12c"
-    ],
-    "tokenId": "66089"
-  },
-  {
-    "contract_address": "0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258",
     "first_time": "2022-10-03T07:30:11+00:00",
     "receivers": [
       "0x34f3f4ba979e177a517970e014250cab61a80529"
@@ -859,17 +848,6 @@
   },
   {
     "contract_address": "0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258",
-    "first_time": "2022-10-02T02:10:23+00:00",
-    "receivers": [
-      "0x4461b8ba72c7d65e0fa59e8a448095e1b2e01485"
-    ],
-    "senders": [
-      "0x9758cdeda71e03f37a218381c077a8ab30b2e12c"
-    ],
-    "tokenId": "74864"
-  },
-  {
-    "contract_address": "0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258",
     "first_time": "2022-10-08T12:36:47+00:00",
     "receivers": [
       "0x3a0b33ff2548ebc302d5b14081fda4c52738eb9d"
@@ -889,17 +867,6 @@
       "0x689e9f7ea40732e5c95e8ea72c0ac7fbe5b80384"
     ],
     "tokenId": "82669"
-  },
-  {
-    "contract_address": "0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258",
-    "first_time": "2022-10-02T02:10:35+00:00",
-    "receivers": [
-      "0x4461b8ba72c7d65e0fa59e8a448095e1b2e01485"
-    ],
-    "senders": [
-      "0x9758cdeda71e03f37a218381c077a8ab30b2e12c"
-    ],
-    "tokenId": "98839"
   },
   {
     "contract_address": "0x3a2096754df385553c4252e5a82dc862e64169bb",
@@ -2825,17 +2792,6 @@
       "0xa6568a557e4317fd7a3e4f063b24146e8486b2ef"
     ],
     "tokenId": "7815"
-  },
-  {
-    "contract_address": "0x8a90cab2b38dba80c64b7734e58ee1db38b8992e",
-    "first_time": "2022-10-02T02:09:35+00:00",
-    "receivers": [
-      "0x4461b8ba72c7d65e0fa59e8a448095e1b2e01485"
-    ],
-    "senders": [
-      "0x9758cdeda71e03f37a218381c077a8ab30b2e12c"
-    ],
-    "tokenId": "1690"
   },
   {
     "contract_address": "0x8b634b2ae70e338865bf9741b4ae935adf2b4c55",

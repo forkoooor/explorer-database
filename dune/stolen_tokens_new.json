@@ -995,17 +995,6 @@
   },
   {
     "contract_address": "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
-    "first_time": "2022-10-09T11:36:35+00:00",
-    "receivers": [
-      "0x2603274dd8d851d0015427fbca30cdee77171c05"
-    ],
-    "senders": [
-      "0x841a198f54a6e8985e0e280a8b48d552c5981fee"
-    ],
-    "tokenId": "103550288655631208677171429994158334355201576540155948124085665327608023282862"
-  },
-  {
-    "contract_address": "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
     "first_time": "2022-10-13T20:23:59+00:00",
     "receivers": [
       "0xf3cc7bf7b8cf56bcbe500ff0af063383f97108f1"
@@ -1544,28 +1533,6 @@
       "0x98fbac7995c64aa96a9df915f69e444876f698b8"
     ],
     "tokenId": "5985"
-  },
-  {
-    "contract_address": "0x696115768bbef67be8bd408d760332a7efbee92d",
-    "first_time": "2022-10-09T11:20:23+00:00",
-    "receivers": [
-      "0x85b9ec2787d47b2cfc21445d19aba062cc3ce923"
-    ],
-    "senders": [
-      "0x70979bfc6f6531e0ea5e0d02b985bb0850fc6b73"
-    ],
-    "tokenId": "6374"
-  },
-  {
-    "contract_address": "0x696115768bbef67be8bd408d760332a7efbee92d",
-    "first_time": "2022-10-09T11:20:23+00:00",
-    "receivers": [
-      "0x85b9ec2787d47b2cfc21445d19aba062cc3ce923"
-    ],
-    "senders": [
-      "0x70979bfc6f6531e0ea5e0d02b985bb0850fc6b73"
-    ],
-    "tokenId": "7154"
   },
   {
     "contract_address": "0x6be69b2a9b153737887cfcdca7781ed1511c7e36",

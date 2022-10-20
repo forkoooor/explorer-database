@@ -3513,17 +3513,6 @@
     "tokenId": "8910"
   },
   {
-    "contract_address": "0x2acab3dea77832c09420663b0e1cb386031ba17b",
-    "first_time": "2022-10-13T05:11:35+00:00",
-    "receivers": [
-      "0x4c05eb80e5203363f847258590379810a56b461a"
-    ],
-    "senders": [
-      "0xff92104ffa62db76aa7fc9ec97442dacfe05e99c"
-    ],
-    "tokenId": "4369"
-  },
-  {
     "contract_address": "0x2c4929295042cb95ab1900d323d634ee8def3c7a",
     "first_time": "2022-10-13T15:42:23+00:00",
     "receivers": [

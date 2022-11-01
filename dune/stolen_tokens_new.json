@@ -33,17 +33,6 @@
     "tokenId": "999"
   },
   {
-    "contract_address": "0x0c2e57efddba8c768147d1fdf9176a0a6ebd5d83",
-    "first_time": "2022-10-25T15:10:23+00:00",
-    "receivers": [
-      "0xdcdcf1f321ae47eebbe94f695483529d03e52395"
-    ],
-    "senders": [
-      "0x4cced0b38d79912ea0af48944ffa6cb00e8b378b"
-    ],
-    "tokenId": "6060"
-  },
-  {
     "contract_address": "0x11450058d796b02eb53e65374be59cff65d3fe7f",
     "first_time": "2022-10-27T00:58:47+00:00",
     "receivers": [
@@ -432,10 +421,10 @@
     "senders": [
       "0x2c935db099de8e5f39f4b576b063eeeabac28d56",
       "0xda8ad01f363169f97b8bf33c0a5998f2181af318",
-      "0xda8ad01f363169f97b8bf33c0a5998f2181af318",
       "0x2c935db099de8e5f39f4b576b063eeeabac28d56",
       "0xda8ad01f363169f97b8bf33c0a5998f2181af318",
       "0x2c935db099de8e5f39f4b576b063eeeabac28d56",
+      "0xda8ad01f363169f97b8bf33c0a5998f2181af318",
       "0xda8ad01f363169f97b8bf33c0a5998f2181af318"
     ],
     "tokenId": "12211410707546806386954517179755382526067082728952112477584137164234004490548"
@@ -634,10 +623,10 @@
       "0xda8ad01f363169f97b8bf33c0a5998f2181af318",
       "0xda8ad01f363169f97b8bf33c0a5998f2181af318",
       "0x2c935db099de8e5f39f4b576b063eeeabac28d56",
-      "0x2c935db099de8e5f39f4b576b063eeeabac28d56",
+      "0xda8ad01f363169f97b8bf33c0a5998f2181af318",
       "0x2c935db099de8e5f39f4b576b063eeeabac28d56",
       "0xda8ad01f363169f97b8bf33c0a5998f2181af318",
-      "0xda8ad01f363169f97b8bf33c0a5998f2181af318"
+      "0x2c935db099de8e5f39f4b576b063eeeabac28d56"
     ],
     "tokenId": "85563229663780940512855150764949234757971662407765073937252029921498692662454"
   },
@@ -1135,6 +1124,17 @@
       "0x44ad0308a8e7d37b9412e94f090ab10bdc7a586d"
     ],
     "tokenId": "4811"
+  },
+  {
+    "contract_address": "0x0c2e57efddba8c768147d1fdf9176a0a6ebd5d83",
+    "first_time": "2022-10-25T15:16:47+00:00",
+    "receivers": [
+      "0xe0bf8759462e9a1a3c46b8f6fc2fb229e3163ba9"
+    ],
+    "senders": [
+      "0xdcdcf1f321ae47eebbe94f695483529d03e52395"
+    ],
+    "tokenId": "6060"
   },
   {
     "contract_address": "0x46fdfcb3cd89a1c54d36ee83a4adc184747b40d9",
